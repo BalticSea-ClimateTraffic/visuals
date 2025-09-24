@@ -3,30 +3,33 @@ title: Home
 layout: default
 ---
 
+# Summary
+
 Projections sorted by topic: (insert links to subpages)
 
-# General Weather
+## General Weather
 
 • Type of Precipitation
 
 • Rainfall
 
-• Wind
+• Wind ?
 
 
-# Roads
+## Roads
 
-• Road surface temperature (asphalt)
+• Road surface temperature statistics (asphalt): mean, maximum, minimum
 
-• Water load (storage) on roads
+• Road surface cover (weather condition)
 
-• Snow load (storage) on roads
+• Zero-degree-crossings (freeze-thaw cycles) per day
 
 
-# Ocean
 
-• Wind
+## Ocean
 
-• Waves
+• Wind ?
 
-• Sea ice
+• Waves ?
+
+• Sea ice ?
