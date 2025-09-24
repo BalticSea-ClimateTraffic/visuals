@@ -4,9 +4,10 @@ theme: minima
 header_pages:
   - index.md
   - about.md
-  - rstemp.md
-  - freezethaw.md
   - preciptype.md
-  - waterdepth.md
-  - snowdepth.md
   - precipitation_HCLIM.md
+  - rstemp.md
+  - rscond.md
+  - freezethaw.md
+  #- waterdepth.md
+  #- snowdepth.md
