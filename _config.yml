@@ -1,10 +1,12 @@
-title: Road Surface Model Runs
+title: Climate Change Impacts on Traffic around the Baltic Sea
 description: IBA-Cristal
 theme: minima
 header_pages:
   - index.md
+  - about.md
   - rstemp.md
   - freezethaw.md
+  - preciptype.md
   - waterdepth.md
   - snowdepth.md
-  - precipitation_HCLIM.md
+  - precipitation.md
