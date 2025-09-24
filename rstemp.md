@@ -38,7 +38,7 @@ select { margin: 10px 10px 20px 0; padding: 5px 10px; font-size: 16px; }
   position: relative;
   width: 100%;
   /*max-width: 1000px;*/
-  height: 13000px; /* adjust to your preferred height */
+  /*height: 13000px; /* adjust to your preferred height */
   margin: 0 auto;
   overflow: hidden; /* prevent scrollbars */
 }
