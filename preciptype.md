@@ -3,6 +3,15 @@ layout: page
 title: Precip.Type
 ---
 
+<iframe src="PLOT_GPType_hist_DJF_snow_interactive.html" 
+        width="100%" 
+        height="800px" 
+        style="border:none;">
+</iframe>
+
+
+
+
 
 <div style="margin-bottom: 15px;">
   <label for="period">Period: </label>
