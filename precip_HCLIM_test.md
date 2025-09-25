@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Rain projections
+title: Rain
 ---
 
 Seasonal maximum daily precipitation:  
@@ -29,7 +29,7 @@ Select a season and a future period to compare against the historical baseline.
     <object id="plot-future" type="text/html" data=""></object>
   </div>
   <div class="plot-col">
-    <div class="plot-title">Future − Historical (RCP4.5)</div>
+    <div class="plot-title">Future / Historical (ratio, RCP4.5)</div>
     <object id="plot-diff" type="text/html" data=""></object>
   </div>
 </div>
@@ -73,31 +73,27 @@ const histObj   = document.getElementById('plot-hist');
 const futureObj = document.getElementById('plot-future');
 const diffObj   = document.getElementById('plot-diff');
 
-// Build filenames based on dropdowns
+// Filenames expected:
+// rx1day_<SEASON>_hist.html
+// rx1day_<SEASON>_mid.html
+// rx1day_<SEASON>_late.html
+// rx1day_<SEASON>_ratio_mid.html
+// rx1day_<SEASON>_ratio_late.html
+
 function buildFilenames(season, period) {
-  // Example outputs:
-  // PLOT_mean_maxdaily_Precip_JJA_hist_RCP45.html
-  // PLOT_mean_maxdaily_Precip_JJA_midcentury_RCP45.html
-  // PLOT_mean_maxdaily_Precip_JJA_latecentury_RCP45.html
-  // PLOT_diff_maxdaily_Precip_JJA_midcentury_RCP45.html
-  // PLOT_diff_maxdaily_Precip_JJA_latecentury_RCP45.html
+  const periodShort = (period === 'midcentury') ? 'mid' : 'late';
+  const base = `rx1day_${season}`;
 
-  const base = 'PLOT_';
-  const metric = 'maxdaily_Precip';
-  const scenario = 'RCP45';
-  const meanPrefix = 'mean_' + metric + '_' + season + '_';
-  const diffPrefix = 'diff_' + metric + '_' + season + '_';
-
-  const hist = base + meanPrefix + 'hist_' + scenario + '.html';
-  const fut  = base + meanPrefix + period + '_' + scenario + '.html';
-  const diff = base + diffPrefix + period + '_' + scenario + '.html';
+  const hist = `${base}_hist.html`;
+  const fut  = `${base}_${periodShort}.html`;
+  const diff = `${base}_ratio_${periodShort}.html`;
 
   return { hist, fut, diff };
 }
 
 function updatePlots() {
-  const season = seasonDropdown.value;
-  const period = periodDropdown.value; // "midcentury" or "latecentury"
+  const season = seasonDropdown.value;  // "JJA" or "DJF"
+  const period = periodDropdown.value;  // "midcentury" or "latecentury"
   const { hist, fut, diff } = buildFilenames(season, period);
 
   histObj.setAttribute('data', hist);
