@@ -4,14 +4,12 @@ title: Precipitation-Type
 ---
 
 Average Phase of Precipitation during Season <br><br>
-Interactive & static plots.<br>
-For more explanation, see bottom of the page.
+Interactive & static plots. For more explanation, see bottom of the page.
 
 
 
 
 ## Interactive Plots
-
 
 <div style="margin-bottom: 15px;">
   <label for="period1">Period: </label>
@@ -36,41 +34,35 @@ For more explanation, see bottom of the page.
   </select>
 </div>
 
-
-
-<iframe id="plotFrame" src="PLOT_interactive_GPType_hist_DJF_water.html" 
+<iframe id="plotFrame1" src="PLOT_interactive_GPType_hist_DJF_water.html" 
         width="100%" 
         height="490px" 
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
-
-
 <script>
-  const periodSelect = document.getElementById('period1');
-  const seasonSelect = document.getElementById('season1');
-  const typeSelect = document.getElementById('type1');
-  const iframe = document.getElementById('plotFrame');
+  const periodSelect1 = document.getElementById('period1');
+  const seasonSelect1 = document.getElementById('season1');
+  const typeSelect1   = document.getElementById('type1');
+  const iframe1       = document.getElementById('plotFrame1');
 
-  function updatePlot() {
-    const period = periodSelect.value;
-    const season = seasonSelect.value;
-    const type = typeSelect.value;
+  function updatePlot1() {
+    const period = periodSelect1.value;
+    const season = seasonSelect1.value;
+    const type   = typeSelect1.value;
 
-    const newSrc = `PLOT_interactive_GPType_${period1}_${season1}_${type1}.html`;
+    const newSrc = `PLOT_interactive_GPType_${period}_${season}_${type}.html`;
 
-    // Fade out
-    iframe.style.opacity = 0;
+    iframe1.style.opacity = 0;
     setTimeout(() => {
-      iframe.src = newSrc;
-      // Fade in
-      iframe.onload = () => { iframe.style.opacity = 1; };
+      iframe1.src = newSrc;
+      iframe1.onload = () => { iframe1.style.opacity = 1; };
     }, 400);
   }
 
-  periodSelect.addEventListener('change', updatePlot);
-  seasonSelect.addEventListener('change', updatePlot);
-  typeSelect.addEventListener('change', updatePlot);
+  periodSelect1.addEventListener('change', updatePlot1);
+  seasonSelect1.addEventListener('change', updatePlot1);
+  typeSelect1.addEventListener('change', updatePlot1);
 </script>
 
 <br><br><br>
@@ -78,10 +70,7 @@ For more explanation, see bottom of the page.
 
 
 
-
-
 ## Static Plots
-
 
 <div style="margin-bottom: 15px;">
   <label for="period2">Period: </label>
@@ -106,37 +95,35 @@ For more explanation, see bottom of the page.
   </select>
 </div>
 
-<iframe id="plotFrame" src="PLOT_static_GPType_hist_DJF_water.html" 
+<iframe id="plotFrame2" src="PLOT_static_GPType_hist_DJF_water.html" 
         width="100%" 
         height="900px" 
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
 <script>
-  const periodSelect = document.getElementById('period2');
-  const seasonSelect = document.getElementById('season2');
-  const typeSelect = document.getElementById('typ2e');
-  const iframe = document.getElementById('plotFrame');
+  const periodSelect2 = document.getElementById('period2');
+  const seasonSelect2 = document.getElementById('season2');
+  const typeSelect2   = document.getElementById('type2');
+  const iframe2       = document.getElementById('plotFrame2');
 
-  function updatePlot() {
-    const period = periodSelect.value;
-    const season = seasonSelect.value;
-    const type = typeSelect.value;
+  function updatePlot2() {
+    const period = periodSelect2.value;
+    const season = seasonSelect2.value;
+    const type   = typeSelect2.value;
 
-    const newSrc = `PLOT_static_GPType_${period2}_${season2}_${type2}.html`;
+    const newSrc = `PLOT_static_GPType_${period}_${season}_${type}.html`;
 
-    // Fade out
-    iframe.style.opacity = 0;
+    iframe2.style.opacity = 0;
     setTimeout(() => {
-      iframe.src = newSrc;
-      // Fade in
-      iframe.onload = () => { iframe.style.opacity = 1; };
+      iframe2.src = newSrc;
+      iframe2.onload = () => { iframe2.style.opacity = 1; };
     }, 400);
   }
 
-  periodSelect.addEventListener('change', updatePlot);
-  seasonSelect.addEventListener('change', updatePlot);
-  typeSelect.addEventListener('change', updatePlot);
+  periodSelect2.addEventListener('change', updatePlot2);
+  seasonSelect2.addEventListener('change', updatePlot2);
+  typeSelect2.addEventListener('change', updatePlot2);
 </script>
 
 
