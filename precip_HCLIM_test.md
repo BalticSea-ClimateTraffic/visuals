@@ -1,11 +1,17 @@
 ---
 layout: page
-title: Rain
+title: Rain test
 ---
 
 Seasonal maximum daily precipitation:  
 historical (1986–2005), mid-century (2041–2060), late-century (2081–2100).  
-Select a season and a future period to compare against the historical baseline.
+Select an ID, a season, and a future period to compare against the historical baseline.
+
+<label for="idDropdown">ID:</label>
+<select id="idDropdown">
+  <option value="rx1day" selected>rx1day</option>
+  <!-- Add more IDs if you generate them, e.g. prcptot, r10mm, etc. -->
+</select>
 
 <label for="seasonDropdown">Season:</label>
 <select id="seasonDropdown">
@@ -41,26 +47,27 @@ select { margin: 10px 16px 20px 0; padding: 6px 10px; font-size: 16px; }
 .plots-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 12px;
   align-items: start;
 }
 .plot-col { display: flex; flex-direction: column; align-items: center; }
 .plot-title { font-weight: 600; margin: 6px 0 8px; }
 
-/* Nice, readable size without scrollbars */
 iframe {
   width: 100%;
-  height: 100px;           /* adjust if you want bigger/smaller */
+  height: 520px;        /* adjust to taste */
   border: 1px solid #ccc;
   background: #f7f7f7;
 }
-@media (max-width: 100px) {
+
+@media (max-width: 900px) {
   .plots-row { grid-template-columns: 1fr; }
-  iframe { height: 100px; } /* same height on mobile, full width */
+  iframe { height: 520px; }
 }
 </style>
 
 <script>
+const idDropdown     = document.getElementById('idDropdown');
 const seasonDropdown = document.getElementById('seasonDropdown');
 const periodDropdown = document.getElementById('periodDropdown');
 
@@ -68,13 +75,13 @@ const histFrame   = document.getElementById('plot-hist');
 const futureFrame = document.getElementById('plot-future');
 const diffFrame   = document.getElementById('plot-diff');
 
-// If the plot HTMLs are in a subfolder, set it here (e.g., 'figs/'); else leave ''.
-const PATH_PREFIX = '';
+/* Your plot HTMLs live in PLOTs_HCLIM/ */
+const PATH_PREFIX = 'PLOTs_HCLIM/';
 
-function buildFilenames(season, period) {
-  // Using your PLOT_ prefix + names
+function buildFilenames(id, season, period) {
+  // Map mid/late labels to short tokens in filenames
   const periodShort = (period === 'midcentury') ? 'mid' : 'late';
-  const base = `PLOT_rx1day_${season}`;
+  const base = `PLOT_${id}_${season}`;
   return {
     hist: `${base}_hist.html`,
     fut:  `${base}_${periodShort}.html`,
@@ -83,16 +90,22 @@ function buildFilenames(season, period) {
 }
 
 function updatePlots() {
+  const id     = idDropdown.value;
   const season = seasonDropdown.value;
   const period = periodDropdown.value;
-  const { hist, fut, diff } = buildFilenames(season, period);
+
+  const { hist, fut, diff } = buildFilenames(id, season, period);
 
   histFrame.src   = PATH_PREFIX + hist;
   futureFrame.src = PATH_PREFIX + fut;
   diffFrame.src   = PATH_PREFIX + diff;
 }
 
-seasonDropdown.addEventListener('change', updatePlots);
-periodDropdown.addEventListener('change', updatePlots);
+// Update on any change
+[idDropdown, seasonDropdown, periodDropdown].forEach(el =>
+  el.addEventListener('change', updatePlots)
+);
+
+// Initial load
 updatePlots();
 </script>
