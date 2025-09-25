@@ -3,7 +3,7 @@ layout: page
 title: Precipitation-Type
 ---
 
-# Average Phase of Precipitation during Season
+Average Phase of Precipitation during Season
 
 ## Interactive Plots
 
@@ -23,16 +23,16 @@ title: Precipitation-Type
     <option value="SON">SON</option>
   </select>
 
-  <label for="type" style="margin-left: 15px;">Type: </label>
+  <label for="type" style="margin-left: 15px;">Precipitation Phase: </label>
   <select id="type">
     <option value="water">Water</option>
     <option value="snow">Snow</option>
   </select>
 </div>
 
-<iframe id="plotFrame" src="PLOT_interactive_GPType_hist_DJF_snow.html" 
+<iframe id="plotFrame" src="PLOT_interactive_GPType_hist_DJF_water.html" 
         width="100%" 
-        height="900px" 
+        height="600px" 
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
