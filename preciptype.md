@@ -3,9 +3,28 @@ layout: page
 title: Precipitation-Type
 ---
 
-Average Phase of Precipitation during Season
+Average Phase of Precipitation during Season <br><br>
+
+Periods: <br>
+- "Historical": 1986-2005, <br>
+- "Recent": 1999-2018, <br>
+- "Mid-Century": 2041-2060<br><br>
+
+Seasons: <br>
+- "DJF": meteorological Winter (December-February), <br>
+- "MAM": meteorological Spring (March-May), <br>
+- "JJA": meteorological Summer (June-August), <br>
+- "SON": meteorological Autumn (September-November)<br><br>
+
+Precipitation Phase/Type:
+- "water": rain, <br>
+- "sleet": rain containing some ice, <br>
+- "snow": snow<br><br>
+
+
 
 ## Interactive Plots
+
 
 <div style="margin-bottom: 15px;">
   <label for="period">Period: </label>
@@ -30,11 +49,15 @@ Average Phase of Precipitation during Season
   </select>
 </div>
 
+
+
 <iframe id="plotFrame" src="PLOT_interactive_GPType_hist_DJF_water.html" 
         width="100%" 
-        height="600px" 
+        height="490px" 
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
+
+
 
 <script>
   const periodSelect = document.getElementById('period');
@@ -65,8 +88,12 @@ Average Phase of Precipitation during Season
 
 <br><br><br>
 
-## Static Plots
 
+
+
+
+
+## Static Plots
 
 
 <div style="margin-bottom: 15px;">
@@ -124,3 +151,12 @@ Average Phase of Precipitation during Season
   seasonSelect.addEventListener('change', updatePlot);
   typeSelect.addEventListener('change', updatePlot);
 </script>
+
+
+
+
+<br><br><br>
+## Further information
+
+Used scenario: RCP 8.5 (worst-case climate change scenario)
+Used models: EC-Earth3/Era-Interim, HCLIM ALADIN cy38, FMI-RoadSurf 
