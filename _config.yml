@@ -5,8 +5,8 @@ header_pages:
   - index.md
   - about.md
   - preciptype.md
-  #- precipitation_HCLIM.md
-  - precip_HCLIM_test.md
+  - precipitation_HCLIM.md
+  #- precip_HCLIM_test.md
   - rstemp.md
   - rscond.md
   - freezethaw.md
