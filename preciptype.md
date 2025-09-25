@@ -5,7 +5,7 @@ title: Precip.Type
 
 <iframe src="PLOT_GPType_hist_DJF_snow_interactive.html" 
         width="100%" 
-        height="200px" 
+        height="250px" 
         style="border:none;">
 </iframe>
 
