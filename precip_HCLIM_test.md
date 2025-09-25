@@ -41,7 +41,7 @@ select { margin: 10px 16px 20px 0; padding: 6px 10px; font-size: 16px; }
 .plots-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 14px;
+  gap: 10px;
   align-items: start;
 }
 .plot-col { display: flex; flex-direction: column; align-items: center; }
@@ -50,13 +50,13 @@ select { margin: 10px 16px 20px 0; padding: 6px 10px; font-size: 16px; }
 /* Nice, readable size without scrollbars */
 iframe {
   width: 100%;
-  height: 420px;           /* adjust if you want bigger/smaller */
+  height: 100px;           /* adjust if you want bigger/smaller */
   border: 1px solid #ccc;
   background: #f7f7f7;
 }
-@media (max-width: 1000px) {
+@media (max-width: 100px) {
   .plots-row { grid-template-columns: 1fr; }
-  iframe { height: 420px; } /* same height on mobile, full width */
+  iframe { height: 100px; } /* same height on mobile, full width */
 }
 </style>
 
