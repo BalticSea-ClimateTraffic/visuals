@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Rain test
+title: Precipitation
 ---
 
 Projected precipitation changes on daily scale for two seasons: summer (JJA) and winter (DJF).
