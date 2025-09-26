@@ -16,7 +16,7 @@ R20mm  = Days when precipitation intensity is 20 mm or more
 SDII   = Mean precipitation amount on wet days. A wet day is defined as a day  
          with precipitation 1 mm or more.
 
-<label for="idDropdown">ID:</label>
+<label for="idDropdown">Index:</label>
 <select id="idDropdown">
   <option value="rx1day" selected>rx1day</option>
   <!-- Add more IDs if you generate them, e.g. prcptot, r10mm, etc. -->
@@ -48,6 +48,21 @@ SDII   = Mean precipitation amount on wet days. A wet day is defined as a day
     <option value="off" selected>Off</option>
     <option value="on">On</option>
   </select>
+</div>
+
+<div class="plots-row" id="plotsRow">
+  <div class="plot-col" id="col-hist">
+    <div class="plot-title">Historical mean (1986–2005)</div>
+    <iframe id="plot-hist" src="" loading="lazy" scrolling="no"></iframe>
+  </div>
+  <div class="plot-col" id="col-future">
+    <div class="plot-title">Future mean (RCP4.5)</div>
+    <iframe id="plot-future" src="" loading="lazy" scrolling="no"></iframe>
+  </div>
+  <div class="plot-col" id="col-diff">
+    <div class="plot-title">Future / Historical</div>
+    <iframe id="plot-diff" src="" loading="lazy" scrolling="no"></iframe>
+  </div>
 </div>
 
 <style>
