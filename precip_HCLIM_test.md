@@ -35,7 +35,7 @@ Select an ID, a season, and a future period to compare against the historical ba
     <iframe id="plot-future" src="" loading="lazy" scrolling="no"></iframe>
   </div>
   <div class="plot-col">
-    <div class="plot-title">Future / Historical (ratio, RCP4.5)</div>
+    <div class="plot-title">Future / Historical</div>
     <iframe id="plot-diff" src="" loading="lazy" scrolling="no"></iframe>
   </div>
 </div>
