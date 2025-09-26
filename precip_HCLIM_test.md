@@ -33,8 +33,9 @@ SDII = Mean precipitation amount on wet days. A wet day is defined as a day with
   <option value="boxplots">Boxplots</option>
 </select>
 
+
 <!-- Map-specific options (shown only when Plot style = Maps) -->
-<span id="mapOptions">
+<div id="mapOptions" hidden>
   <label for="periodDropdown">Future period:</label>
   <select id="periodDropdown">
     <option value="midcentury" selected>Mid-century (2041–2060)</option>
@@ -46,21 +47,6 @@ SDII = Mean precipitation amount on wet days. A wet day is defined as a day with
     <option value="off" selected>Off</option>
     <option value="on">On</option>
   </select>
-</span>
-
-<div class="plots-row" id="plotsRow">
-  <div class="plot-col" id="col-hist">
-    <div class="plot-title">Historical mean (1986–2005)</div>
-    <iframe id="plot-hist" src="" loading="lazy" scrolling="no"></iframe>
-  </div>
-  <div class="plot-col" id="col-future">
-    <div class="plot-title">Future mean (RCP4.5)</div>
-    <iframe id="plot-future" src="" loading="lazy" scrolling="no"></iframe>
-  </div>
-  <div class="plot-col" id="col-diff">
-    <div class="plot-title">Future / Historical</div>
-    <iframe id="plot-diff" src="" loading="lazy" scrolling="no"></iframe>
-  </div>
 </div>
 
 <style>
@@ -97,8 +83,8 @@ const plotStyleDropdown = document.getElementById('plotStyleDropdown');
 const periodDropdown    = document.getElementById('periodDropdown');
 const diffDropdown      = document.getElementById('diffDropdown');
 
-const mapOptionsSpan = document.getElementById('mapOptions');
-const plotsRow       = document.getElementById('plotsRow');
+const mapOptions = document.getElementById('mapOptions');
+const plotsRow   = document.getElementById('plotsRow');
 
 const colHist   = document.getElementById('col-hist');
 const colFuture = document.getElementById('col-future');
@@ -142,9 +128,8 @@ function updatePlots() {
 
   const isMaps     = (plotStyle === 'maps');
   const isBoxplots = (plotStyle === 'boxplots');
-
-  // Toggle map-only controls
-  mapOptionsSpan.classList.toggle('hidden', !isMaps);
+  
+  mapOptions.toggleAttribute('hidden', !isMaps);
 
   if (isMaps) {
     plotsRow.classList.remove('hidden');
