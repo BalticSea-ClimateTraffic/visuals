@@ -28,15 +28,15 @@ Select an ID, a season, and a future period to compare against the historical ba
 <div class="plots-row">
   <div class="plot-col">
     <div class="plot-title">Historical mean (1986–2005)</div>
-    <iframe id="plot-hist" src="" loading="lazy"></iframe>
+    <iframe id="plot-hist" src="" loading="lazy" scrolling="no"></iframe>
   </div>
   <div class="plot-col">
     <div class="plot-title">Future mean (RCP4.5)</div>
-    <iframe id="plot-future" src="" loading="lazy"></iframe>
+    <iframe id="plot-future" src="" loading="lazy" scrolling="no"></iframe>
   </div>
   <div class="plot-col">
     <div class="plot-title">Future / Historical (ratio, RCP4.5)</div>
-    <iframe id="plot-diff" src="" loading="lazy"></iframe>
+    <iframe id="plot-diff" src="" loading="lazy" scrolling="no"></iframe>
   </div>
 </div>
 
@@ -74,7 +74,6 @@ const histFrame   = document.getElementById('plot-hist');
 const futureFrame = document.getElementById('plot-future');
 const diffFrame   = document.getElementById('plot-diff');
 
-/* Your plot HTMLs live in PLOTs_HCLIM/ */
 const PATH_PREFIX = 'PLOTs_HCLIM/';
 
 function buildFilenames(id, season, period) {
@@ -93,32 +92,62 @@ function updatePlots() {
   const period = periodDropdown.value;
 
   const { hist, fut, diff } = buildFilenames(id, season, period);
-
   histFrame.src   = PATH_PREFIX + hist;
   futureFrame.src = PATH_PREFIX + fut;
   diffFrame.src   = PATH_PREFIX + diff;
 }
 
-// Auto-resize each iframe after it loads
-function resizeIframe(iframe) {
-  iframe.addEventListener("load", () => {
+/* -------- Auto-resize + make inner content responsive -------- */
+function attachAutosize(iframe) {
+  const resize = () => {
     try {
-      iframe.style.height =
-        iframe.contentWindow.document.body.scrollHeight + "px";
+      const doc = iframe.contentDocument || iframe.contentWindow.document;
+      if (!doc) return;
+
+      // Hide internal scrollbars & margins inside the iframe document
+      doc.documentElement.style.overflow = 'hidden';
+      doc.body.style.overflow = 'hidden';
+      doc.body.style.margin = '0';
+
+      // Make common plot elements responsive
+      doc.querySelectorAll('img, svg, canvas').forEach(el => {
+        el.style.maxWidth = '100%';
+        el.style.height = 'auto';
+      });
+
+      // Compute height
+      const h = Math.max(
+        doc.body.scrollHeight,
+        doc.documentElement.scrollHeight
+      );
+      iframe.style.height = h + 'px';
     } catch (e) {
-      console.warn("Cannot resize iframe (cross-origin?)", e);
+      // Cross-origin would land here; shouldn’t happen if same site
+      console.warn('Autosize failed:', e);
     }
+  };
+
+  // Resize on load and again after images render
+  iframe.addEventListener('load', () => {
+    resize();
+    setTimeout(resize, 50);
+    setTimeout(resize, 300);
+    setTimeout(resize, 1000);
   });
+
+  // Also adjust if the outer window resizes
+  window.addEventListener('resize', resize);
 }
 
-[histFrame, futureFrame, diffFrame].forEach(resizeIframe);
+[histFrame, futureFrame, diffFrame].forEach(attachAutosize);
 
-// Update on dropdown change
+/* Re-load plots when user changes selections */
 [idDropdown, seasonDropdown, periodDropdown].forEach(el =>
   el.addEventListener('change', updatePlots)
 );
 
-// Initial load
+/* Initial load */
 updatePlots();
 </script>
+
 
