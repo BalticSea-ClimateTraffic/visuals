@@ -27,22 +27,37 @@ SDII = Mean precipitation amount on wet days. A wet day is defined as a day with
   <option value="DJF">DJF (Dec–Feb)</option>
 </select>
 
-<label for="periodDropdown">Future period:</label>
-<select id="periodDropdown">
-  <option value="midcentury" selected>Mid-century (2041–2060)</option>
-  <option value="latecentury">Late-century (2081–2100)</option>
+<label for="plotStyleDropdown">Plot style:</label>
+<select id="plotStyleDropdown">
+  <option value="maps" selected>Maps</option>
+  <option value="boxplots">Boxplots</option>
 </select>
 
-<div class="plots-row">
-  <div class="plot-col">
+<!-- Map-specific options (shown only when Plot style = Maps) -->
+<span id="mapOptions">
+  <label for="periodDropdown">Future period:</label>
+  <select id="periodDropdown">
+    <option value="midcentury" selected>Mid-century (2041–2060)</option>
+    <option value="latecentury">Late-century (2081–2100)</option>
+  </select>
+
+  <label for="diffDropdown">Difference map:</label>
+  <select id="diffDropdown">
+    <option value="off" selected>Off</option>
+    <option value="on">On</option>
+  </select>
+</span>
+
+<div class="plots-row" id="plotsRow">
+  <div class="plot-col" id="col-hist">
     <div class="plot-title">Historical mean (1986–2005)</div>
     <iframe id="plot-hist" src="" loading="lazy" scrolling="no"></iframe>
   </div>
-  <div class="plot-col">
+  <div class="plot-col" id="col-future">
     <div class="plot-title">Future mean (RCP4.5)</div>
     <iframe id="plot-future" src="" loading="lazy" scrolling="no"></iframe>
   </div>
-  <div class="plot-col">
+  <div class="plot-col" id="col-diff">
     <div class="plot-title">Future / Historical</div>
     <iframe id="plot-diff" src="" loading="lazy" scrolling="no"></iframe>
   </div>
@@ -67,6 +82,8 @@ iframe {
   background: #f7f7f7;
 }
 
+.hidden { display: none !important; }
+
 @media (max-width: 900px) {
   .plots-row { grid-template-columns: 1fr; }
   iframe { height: 520px; }
@@ -74,9 +91,22 @@ iframe {
 </style>
 
 <script>
-const idDropdown     = document.getElementById('idDropdown');
-const seasonDropdown = document.getElementById('seasonDropdown');
-const periodDropdown = document.getElementById('periodDropdown');
+const idDropdown        = document.getElementById('idDropdown');
+const seasonDropdown    = document.getElementById('seasonDropdown');
+const plotStyleDropdown = document.getElementById('plotStyleDropdown');
+const periodDropdown    = document.getElementById('periodDropdown');
+const diffDropdown      = document.getElementById('diffDropdown');
+
+const mapOptionsSpan = document.getElementById('mapOptions');
+const plotsRow       = document.getElementById('plotsRow');
+
+const colHist   = document.getElementById('col-hist');
+const colFuture = document.getElementById('col-future');
+const colDiff   = document.getElementById('col-diff');
+
+const histTitle   = colHist.querySelector('.plot-title');
+const futureTitle = colFuture.querySelector('.plot-title');
+const diffTitle   = colDiff.querySelector('.plot-title');
 
 const histFrame   = document.getElementById('plot-hist');
 const futureFrame = document.getElementById('plot-future');
@@ -84,7 +114,7 @@ const diffFrame   = document.getElementById('plot-diff');
 
 const PATH_PREFIX = 'PLOTs_HCLIM/';
 
-function buildFilenames(id, season, period) {
+function buildMapFilenames(id, season, period) {
   const periodShort = (period === 'midcentury') ? 'mid' : 'late';
   const base = `PLOT_${id}_${season}`;
   return {
@@ -94,15 +124,65 @@ function buildFilenames(id, season, period) {
   };
 }
 
-function updatePlots() {
-  const id     = idDropdown.value;
-  const season = seasonDropdown.value;
-  const period = periodDropdown.value;
+function buildBoxplotFilename(id, season) {
+  return `PLOT_${id}_${season}_boxplots.html`;
+}
 
-  const { hist, fut, diff } = buildFilenames(id, season, period);
-  histFrame.src   = PATH_PREFIX + hist;
-  futureFrame.src = PATH_PREFIX + fut;
-  diffFrame.src   = PATH_PREFIX + diff;
+function setColumns(count) {
+  plotsRow.style.gridTemplateColumns = `repeat(${count}, 1fr)`;
+  colHist.style.display   = (count >= 2) ? '' : 'none';  // used in Maps
+  colDiff.style.display   = (count === 3) ? '' : 'none';
+  colFuture.style.display = ''; // always used for single/center panel
+}
+
+function updatePlots() {
+  const id        = idDropdown.value;
+  const season    = seasonDropdown.value;
+  const plotStyle = plotStyleDropdown.value;
+
+  const isMaps     = (plotStyle === 'maps');
+  const isBoxplots = (plotStyle === 'boxplots');
+
+  // Toggle map-only controls
+  mapOptionsSpan.classList.toggle('hidden', !isMaps);
+
+  if (isMaps) {
+    plotsRow.classList.remove('hidden');
+
+    // Titles for maps
+    histTitle.textContent   = 'Historical mean (1986–2005)';
+    futureTitle.textContent = 'Future mean (RCP4.5)';
+    diffTitle.textContent   = 'Future / Historical';
+
+    const period = periodDropdown.value;
+    const diffOn = (diffDropdown.value === 'on');
+
+    const { hist, fut, diff } = buildMapFilenames(id, season, period);
+    histFrame.src   = PATH_PREFIX + hist;
+    futureFrame.src = PATH_PREFIX + fut;
+    diffFrame.src   = diffOn ? (PATH_PREFIX + diff) : '';
+
+    setColumns(diffOn ? 3 : 2);
+    return;
+  }
+
+  if (isBoxplots) {
+    plotsRow.classList.remove('hidden');
+
+    // Single center panel with boxplots
+    setColumns(1);
+    futureTitle.textContent = 'Boxplots';
+    futureFrame.src = PATH_PREFIX + buildBoxplotFilename(id, season);
+
+    // Clear any map frames that might linger
+    histFrame.src = '';
+    diffFrame.src = '';
+    return;
+  }
+
+  // Fallback (no style selected)
+  histFrame.src = futureFrame.src = diffFrame.src = '';
+  plotsRow.classList.add('hidden');
 }
 
 /* -------- Auto-resize + make inner content responsive -------- */
@@ -111,51 +191,39 @@ function attachAutosize(iframe) {
     try {
       const doc = iframe.contentDocument || iframe.contentWindow.document;
       if (!doc) return;
-
-      // Hide internal scrollbars & margins inside the iframe document
       doc.documentElement.style.overflow = 'hidden';
       doc.body.style.overflow = 'hidden';
       doc.body.style.margin = '0';
-
-      // Make common plot elements responsive
       doc.querySelectorAll('img, svg, canvas').forEach(el => {
         el.style.maxWidth = '100%';
         el.style.height = 'auto';
       });
-
-      // Compute height
-      const h = Math.max(
-        doc.body.scrollHeight,
-        doc.documentElement.scrollHeight
-      );
+      const h = Math.max(doc.body.scrollHeight, doc.documentElement.scrollHeight);
       iframe.style.height = h + 'px';
     } catch (e) {
-      // Cross-origin would land here; shouldn’t happen if same site
       console.warn('Autosize failed:', e);
     }
   };
-
-  // Resize on load and again after images render
   iframe.addEventListener('load', () => {
     resize();
     setTimeout(resize, 50);
     setTimeout(resize, 300);
     setTimeout(resize, 1000);
   });
-
-  // Also adjust if the outer window resizes
   window.addEventListener('resize', resize);
 }
 
 [histFrame, futureFrame, diffFrame].forEach(attachAutosize);
 
 /* Re-load plots when user changes selections */
-[idDropdown, seasonDropdown, periodDropdown].forEach(el =>
+[idDropdown, seasonDropdown, plotStyleDropdown, periodDropdown, diffDropdown].forEach(el =>
   el.addEventListener('change', updatePlots)
 );
 
 /* Initial load */
 updatePlots();
 </script>
+
+
 
 
