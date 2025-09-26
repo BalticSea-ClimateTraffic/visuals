@@ -3,9 +3,17 @@ layout: page
 title: Rain test
 ---
 
-Seasonal maximum daily precipitation:  
-historical (1986–2005), mid-century (2041–2060), late-century (2081–2100).  
-Select an ID, a season, and a future period to compare against the historical baseline.
+Projected precipitation changes on daily scale for two seasons: summer (JJA) and winter (DJF).
+The spatial means are calculated for periods: historical (1986–2005), mid-century (2041–2060), late-century (2081–2100)
+using the data from high resolution regional climate model HARMONIE-Climate. The data was produced in a Nordic collaboration project 2020.
+
+Select a precipitation index, a season, a plot style, and a future period to compare against the historical baseline.
+
+Indices:
+Rx1day = Seasonal maximum daily precipitation
+Rx5day = Seasonal maximum 5-day precipitation
+R20mm = Days when precipitation intensity is 20 mm or more
+SDII = Mean precipitation amount on wet days. A wet day is defined as a day with precipitation 1 mm or more.
 
 <label for="idDropdown">ID:</label>
 <select id="idDropdown">
