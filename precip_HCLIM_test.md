@@ -9,7 +9,7 @@ using the data from high resolution regional climate model HARMONIE-Climate. The
 
 Select a precipitation index, a season, a plot style, and a future period to compare against the historical baseline.
 
-Indices:
+Indices:\\
 Rx1day = Seasonal maximum daily precipitation
 Rx5day = Seasonal maximum 5-day precipitation
 R20mm = Days when precipitation intensity is 20 mm or more
