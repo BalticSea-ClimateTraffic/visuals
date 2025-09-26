@@ -71,10 +71,11 @@ select { margin: 10px 16px 20px 0; padding: 6px 10px; font-size: 16px; }
 
 .plots-row {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);  /* two columns for the blue maps */
   gap: 12px;
   align-items: start;
 }
+#col-diff { grid-column: 1 / -1; }
 .plot-col { display: flex; flex-direction: column; align-items: center; }
 .plot-title { font-weight: 600; margin: 6px 0 8px; }
 
@@ -130,11 +131,17 @@ function buildBoxplotFilename(id, season) {
   return `PLOT_${id}_${season}_boxplots.html`;
 }
 
-function setColumns(count) {
+function setColumns(count, diffOn = false) {
+  // count: 2 for Maps, 1 for Boxplots
   plotsRow.style.gridTemplateColumns = `repeat(${count}, 1fr)`;
-  colHist.style.display   = (count >= 2) ? '' : 'none';  // used in Maps
-  colDiff.style.display   = (count === 3) ? '' : 'none';
-  colFuture.style.display = ''; // always used for single/center panel
+
+  // Show/hide columns
+  colHist.classList.toggle('hidden', count === 1); // hide for boxplots
+  colFuture.classList.remove('hidden');            // always visible
+  colDiff.classList.toggle('hidden', !diffOn);     // only when diff is ON
+
+  // If diff is visible under the two maps, span across both columns
+  colDiff.style.gridColumn = diffOn ? '1 / -1' : '';
 }
 
 function updatePlots() {
@@ -163,7 +170,7 @@ function updatePlots() {
     futureFrame.src = PATH_PREFIX + fut;
     diffFrame.src   = diffOn ? (PATH_PREFIX + diff) : '';
 
-    setColumns(diffOn ? 3 : 2);
+    setColumns(2, diffOn);
     return;
   }
 
@@ -171,7 +178,7 @@ function updatePlots() {
     plotsRow.classList.remove('hidden');
 
     // Single center panel with boxplots
-    setColumns(1);
+    setColumns(1, false);
     futureTitle.textContent = 'Boxplots';
     futureFrame.src = PATH_PREFIX + buildBoxplotFilename(id, season);
 
