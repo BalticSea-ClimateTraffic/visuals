@@ -55,7 +55,6 @@ select { margin: 10px 16px 20px 0; padding: 6px 10px; font-size: 16px; }
 
 iframe {
   width: 100%;
-  height: 520px;        /* adjust to taste */
   border: 1px solid #ccc;
   background: #f7f7f7;
 }
@@ -79,7 +78,6 @@ const diffFrame   = document.getElementById('plot-diff');
 const PATH_PREFIX = 'PLOTs_HCLIM/';
 
 function buildFilenames(id, season, period) {
-  // Map mid/late labels to short tokens in filenames
   const periodShort = (period === 'midcentury') ? 'mid' : 'late';
   const base = `PLOT_${id}_${season}`;
   return {
@@ -101,7 +99,21 @@ function updatePlots() {
   diffFrame.src   = PATH_PREFIX + diff;
 }
 
-// Update on any change
+// Auto-resize each iframe after it loads
+function resizeIframe(iframe) {
+  iframe.addEventListener("load", () => {
+    try {
+      iframe.style.height =
+        iframe.contentWindow.document.body.scrollHeight + "px";
+    } catch (e) {
+      console.warn("Cannot resize iframe (cross-origin?)", e);
+    }
+  });
+}
+
+[histFrame, futureFrame, diffFrame].forEach(resizeIframe);
+
+// Update on dropdown change
 [idDropdown, seasonDropdown, periodDropdown].forEach(el =>
   el.addEventListener('change', updatePlots)
 );
@@ -109,3 +121,4 @@ function updatePlots() {
 // Initial load
 updatePlots();
 </script>
+
