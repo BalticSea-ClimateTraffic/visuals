@@ -12,8 +12,9 @@ Select a precipitation index, a season, a plot style, and a future period to com
 Indices:  
 Rx1day = Seasonal maximum daily precipitation  
 Rx5day = Seasonal maximum 5-day precipitation  
-R20mm = Days when precipitation intensity is 20 mm or more  
-SDII = Mean precipitation amount on wet days. A wet day is defined as a day with precipitation 1 mm or more.
+R20mm  = Days when precipitation intensity is 20 mm or more  
+SDII   = Mean precipitation amount on wet days. A wet day is defined as a day  
+         with precipitation 1 mm or more.
 
 <label for="idDropdown">ID:</label>
 <select id="idDropdown">
