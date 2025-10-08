@@ -15,6 +15,7 @@ This is a description text lalala.
 <select id="period" onchange="updatePlot()">
   <option value="historical">Historical</option>
   <option value="mid-century">Mid-century</option>
+  <option value="late-century">Late-century</option>
 </select>
 
 <label for="season">Select season:</label>
