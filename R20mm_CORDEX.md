@@ -30,7 +30,7 @@ This is a description text lalala.
 
 <!-- Iframe for plot -->
 <iframe id="plotFrame" 
-        src="CORDEX_PR/PLOT_historical_DJF.png" 
+        src="CORDEX_PR/PLOT_R20mm_sum_Europe_timmean_historical_DJF.png" 
         width="100%" 
         height="600" 
         style="border:none;">
@@ -42,8 +42,8 @@ function updatePlot() {
   const period = document.getElementById("period").value;
   const season = document.getElementById("season").value;
 
-  // construct file name based on convention
-  const filename = `PLOT_${period}_${season}.png`;
+  // construct filename (for R20mm case)
+  const filename = `CORDEX_PR/PLOT_R20mm_sum_Europe_timmean_${period}_${season}.png`;
 
   // update iframe
   document.getElementById("plotFrame").src = filename;
