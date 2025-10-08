@@ -95,7 +95,7 @@ function updatePlot() {
   // In case the image fails to load
   plotImg.onerror = () => {
     spinner.style.display = "none";
-    alert("⚠️ Plot not found for this combination.");
+    alert("Plot not found for this combination.");
   };
 
   // Update the image source and alt text
