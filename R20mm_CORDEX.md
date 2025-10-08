@@ -15,7 +15,7 @@ Rx1day = Seasonal maximum daily precipitation
 Rx5day = Seasonal maximum 5-day precipitation
 R20mm = Days when precipitation intensity is 20 mm or more
 
-<br><br>
+<h3>Climate plot</h3>
 
 <!-- Dropdown controls -->
 <label for="period">Select period:</label>
@@ -98,13 +98,14 @@ function updatePlot() {
     alert("⚠️ Plot not found for this combination.");
   };
 
-  // Update the image source
+  // Update the image source and alt text
   plotImg.src = filename;
   plotImg.alt = `Plot for ${period} - ${season}`;
 }
 </script>
 
 <br><br><br>
+
 Further description about the data, model used etc. <br>
 
 Page Author: me, myself and I  
