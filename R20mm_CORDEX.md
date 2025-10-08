@@ -1,10 +1,10 @@
 ---
 layout: page 
-title: Heavy Precipitation
+title: Heavy Precipitation Days
 ---
 
 
-# Summer-time Precipitation
+# Heavy Precipitation days
 
 This is a description text lalala. 
 
