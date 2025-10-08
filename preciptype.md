@@ -3,8 +3,7 @@ layout: page
 title: Precipitation-Type
 ---
 
-Average Phase of Precipitation during Season <br><br>
-Interactive & static plots. For more explanation, see bottom of the page.
+Average Phase of Precipitation during seasons, interactive & static plots. For more explanation, see bottom of the page.
 
 
 
@@ -97,7 +96,7 @@ Interactive & static plots. For more explanation, see bottom of the page.
 
 <iframe id="plotFrame2" src="PLOT_static_GPType_hist_DJF_water.html" 
         width="100%" 
-        height="900px" 
+        height="550px" 
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
