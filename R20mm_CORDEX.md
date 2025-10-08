@@ -36,23 +36,23 @@ R20mm = Days when precipitation intensity is 20 mm or more
 <br><br>
 
 <!-- Iframe for plot -->
-<iframe id="plotFrame" 
-        src="CORDEX_PR/PLOT_R20mm_sum_Europe_timmean_historical_DJF.png" 
-        width="100%" 
-        height="600" 
-        style="border:none;">
+<iframe 
+  id="plotFrame"
+  src="{{ '/CORDEX_PR/PLOT_R20mm_sum_Europe_timmean_historical_DJF.png' | relative_url }}"
+  width="100%"
+  height="600"
+  style="border:none;">
 </iframe>
 
 <script>
 function updatePlot() {
-  // get dropdown values
   const period = document.getElementById("period").value;
   const season = document.getElementById("season").value;
 
-  // construct filename (for R20mm case)
-  const filename = `CORDEX_PR/PLOT_R20mm_sum_Europe_timmean_${period}_${season}.png`;
+  // Build the filename dynamically
+  const filename = `{{ '/CORDEX_PR/' | relative_url }}PLOT_R20mm_sum_Europe_timmean_${period}_${season}.png`;
 
-  // update iframe
+  // Update iframe source
   document.getElementById("plotFrame").src = filename;
 }
 </script>
