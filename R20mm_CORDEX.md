@@ -29,7 +29,7 @@ This is a description text lalala.
 
 <!-- Iframe for plot -->
 <iframe id="plotFrame" 
-        src="PLOT_historical_DJF.png" 
+        src="CORDEX_PR/PLOT_historical_DJF.png" 
         width="100%" 
         height="600" 
         style="border:none;">
