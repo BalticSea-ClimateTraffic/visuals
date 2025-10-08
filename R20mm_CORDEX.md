@@ -6,7 +6,14 @@ title: Heavy Precipitation Days
 
 # Heavy Precipitation days
 
-This is a description text lalala. 
+Projected precipitation changes on daily scale for two seasons: summer (JJA) and winter (DJF). The spatial means are calculated for periods: historical (1986–2005), mid-century (2041–2060), late-century (2081–2100) using the data from high resolution regional climate model HARMONIE-Climate. The data was produced in a Nordic collaboration project 2020.
+
+Select a precipitation index, a season, a plot style, and a future period to compare against the historical baseline.
+
+Indices:
+Rx1day = Seasonal maximum daily precipitation
+Rx5day = Seasonal maximum 5-day precipitation
+R20mm = Days when precipitation intensity is 20 mm or more
 
 <br><br>
 
