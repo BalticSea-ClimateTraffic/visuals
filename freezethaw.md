@@ -27,7 +27,7 @@ Interactive plots about freeze-thaw cycles (zero-degree crossings) per day
 
 <iframe id="plotFrame1" src="PLOTS_Nadine/PLOT_interactive_ZDCs_perDay_hist_DJF.html" 
         width="100%" 
-        height="490px" 
+        height="550px" 
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
@@ -58,7 +58,7 @@ Interactive plots about freeze-thaw cycles (zero-degree crossings) per day
 <br><br><br>
 ## Further information
 
-Used scenario: RCP 8.5 (worst-case climate change scenario)
+Used scenario: RCP 8.5 (worst-case climate change scenario)<br>
 Used models: EC-Earth3/Era-Interim, HCLIM ALADIN cy38, FMI-RoadSurf <br><br>
 
 Periods: <br>
@@ -73,5 +73,5 @@ Seasons: <br>
 - "SON": meteorological Autumn (September-November)<br><br>
 
 
-Page Author: Nadine-Cyra Freistetter
+Page Author: Nadine-Cyra Freistetter<br>
 Sources: model runs for paper https://doi.org/10.1007/s10113-022-01920-4

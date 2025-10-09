@@ -30,7 +30,7 @@ title: Road Cover
   </select>
 </div>
 
-<iframe id="plotFrame1" src="PLOTS_Nadine/PLOT_interactive_GSCond_hist_DJF_water.html" 
+<iframe id="plotFrame1" src="PLOTS_Nadine/PLOT_interactive_GSCond_hist_DJF_dry.html" 
         width="100%" 
         height="490px" 
         style="border:none; opacity:1; transition: opacity 0.5s;">
@@ -66,7 +66,7 @@ title: Road Cover
 <br><br><br>
 ## Further information
 
-Used scenario: RCP 8.5 (worst-case climate change scenario)
+Used scenario: RCP 8.5 (worst-case climate change scenario)<br>
 Used models: EC-Earth3/Era-Interim, HCLIM ALADIN cy38, FMI-RoadSurf <br><br>
 
 Periods: <br>
@@ -84,5 +84,5 @@ Surface condition on the road (asphalt)<br>
 1=dry, 2=moist, 3=wet, 4=slush, 5=frost, 6=partly icy, 7=icy, 8=snow
 
 
-Page Author: Nadine-Cyra Freistetter
+Page Author: Nadine-Cyra Freistetter <br>
 Sources: model runs for paper https://doi.org/10.1007/s10113-022-01920-4

@@ -131,7 +131,7 @@ Average Phase of Precipitation during seasons, interactive & static plots. For m
 <br><br><br>
 ## Further information
 
-Used scenario: RCP 8.5 (worst-case climate change scenario)
+Used scenario: RCP 8.5 (worst-case climate change scenario)<br>
 Used models: EC-Earth3/Era-Interim, HCLIM ALADIN cy38, FMI-RoadSurf <br><br>
 
 Periods: <br>
