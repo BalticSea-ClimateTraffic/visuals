@@ -3,7 +3,7 @@ layout: page
 title: Precipitation-Type
 ---
 
-Average Phase of Precipitation during seasons, interactive & static plots. For more explanation, see bottom of the page.
+Average Phase of Precipitation during seasons, interactive & static plots. For more explanation, see the bottom of the page.
 
 
 
@@ -33,7 +33,7 @@ Average Phase of Precipitation during seasons, interactive & static plots. For m
   </select>
 </div>
 
-<iframe id="plotFrame1" src="PLOT_interactive_GPType_hist_DJF_water.html" 
+<iframe id="plotFrame1" src="PLOTS_Nadine/PLOT_interactive_GPType_hist_DJF_water.html" 
         width="100%" 
         height="490px" 
         style="border:none; opacity:1; transition: opacity 0.5s;">
@@ -50,7 +50,7 @@ Average Phase of Precipitation during seasons, interactive & static plots. For m
     const season = seasonSelect1.value;
     const type   = typeSelect1.value;
 
-    const newSrc = `PLOT_interactive_GPType_${period}_${season}_${type}.html`;
+    const newSrc = `PLOTS_Nadine/PLOT_interactive_GPType_${period}_${season}_${type}.html`;
 
     iframe1.style.opacity = 0;
     setTimeout(() => {
@@ -94,7 +94,7 @@ Average Phase of Precipitation during seasons, interactive & static plots. For m
   </select>
 </div>
 
-<iframe id="plotFrame2" src="PLOT_static_GPType_hist_DJF_water.html" 
+<iframe id="plotFrame2" src="PLOTS_Nadine/PLOT_static_GPType_hist_DJF_water.html" 
         width="100%" 
         height="550px" 
         style="border:none; opacity:1; transition: opacity 0.5s;">
@@ -111,7 +111,7 @@ Average Phase of Precipitation during seasons, interactive & static plots. For m
     const season = seasonSelect2.value;
     const type   = typeSelect2.value;
 
-    const newSrc = `PLOT_static_GPType_${period}_${season}_${type}.html`;
+    const newSrc = `PLOTS_Nadine/PLOT_static_GPType_${period}_${season}_${type}.html`;
 
     iframe2.style.opacity = 0;
     setTimeout(() => {
@@ -149,3 +149,7 @@ Precipitation Phase/Type:
 - "water": rain, <br>
 - "sleet": rain containing some ice, <br>
 - "snow": snow<br><br>
+
+
+Page Author: Nadine-Cyra Freistetter
+Sources: model runs for paper https://doi.org/10.1007/s10113-022-01920-4

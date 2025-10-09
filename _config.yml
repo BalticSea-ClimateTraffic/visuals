@@ -6,9 +6,9 @@ header_pages:
   - about.md
   - preciptype.md
   - precip_HCLIM.md
+  - R20mm_CORDEX.md
   - rstemp.md
   - rscond.md
   - freezethaw.md
-  - R20mm_CORDEX.md
   #- waterdepth.md
   #- snowdepth.md
