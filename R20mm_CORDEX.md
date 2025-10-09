@@ -6,7 +6,7 @@ title: Heavy Precipitation Days
 <h1>Heavy Precipitation days</h1>
 
 <p>
-Projected precipitation changes on daily scale for two seasons: summer (JJA) and winter (DJF)...
+Projected precipitation changes on daily scale for two seasons: summer (JJA) and winter (DJF).
 </p>
 
 <label for="period">Select period:</label>
