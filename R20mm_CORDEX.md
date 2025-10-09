@@ -4,7 +4,7 @@ title: Heavy Precipitation Days
 ---
 
 <h1> R20mm from CORDEX</h1>
-
+Average number of days in any given season when accumulated precipitation is equal or more than 20mm. 
 <p>
 <b>Seasons:</b> summer (JJA), winter (DJF), Autumn (SON) and Spring (MAM).
 </p>
@@ -78,7 +78,7 @@ title: Heavy Precipitation Days
     base = base.replace(/\/+$/, "") + "/";
 
     
-    const periodToken = PERIOD_MAP[periodUI] || periodUI; // fallback to UI if no map
+    const periodToken = PERIOD_MAP[periodUI] || periodUI;
 
     
     const filename = `PLOT_R20mm_sum_Europe_timmean_${periodToken}_${season}.png`;
@@ -110,4 +110,4 @@ title: Heavy Precipitation Days
 Further description about the CORDEX project can be found on following link:
 <a href="https://euro-cordex.net/060378/index.php.en"> EURO-CORDEX data </a>
 
-  
+<marquee>  Finnish Meteorological Institute </marquee> 
