@@ -30,7 +30,7 @@ title: Road Cover
   </select>
 </div>
 
-<iframe id="plotFrame1" src="PLOTS_Nadine/PLOT_interactive_GPType_hist_DJF_water.html" 
+<iframe id="plotFrame1" src="PLOTS_Nadine/PLOT_interactive_GSCond_hist_DJF_water.html" 
         width="100%" 
         height="490px" 
         style="border:none; opacity:1; transition: opacity 0.5s;">
