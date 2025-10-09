@@ -108,6 +108,6 @@ title: Heavy Precipitation Days
 <br><br><br>
 
 Further description about the CORDEX project can be found on following link:
-<a href="<a href="https://www.openai.com">Visit OpenAI</a>">CORDEX</a>
+<a href="https://euro-cordex.net/060378/index.php.en"> EURO-CORDEX data </a>
 
   
