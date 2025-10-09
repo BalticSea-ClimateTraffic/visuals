@@ -3,10 +3,13 @@ layout: page
 title: Heavy Precipitation Days
 ---
 
-<h1>Heavy Precipitation days</h1>
+<h1> R20mm from CORDEX</h1>
 
 <p>
-Projected precipitation changes on daily scale for two seasons: summer (JJA) and winter (DJF).
+<b>Seasons:</b> summer (JJA), winter (DJF), Autumn (SON) and Spring (MAM).
+</p>
+<p>
+<b>Periods: </b> Historical (1986–2005), Mid-century (2041–2060), Late-century (2081–2100).
 </p>
 
 <label for="period">Select period:</label>
