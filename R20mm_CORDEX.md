@@ -73,14 +73,14 @@ title: Heavy Precipitation Days
     const img = document.getElementById("plotImage");
     const spinner = document.getElementById("spinner");
 
-    // Normalize base so it ends with a single slash
+    
     let base = img.dataset.base || "";
     base = base.replace(/\/+$/, "") + "/";
 
-    // Translate UI to actual filename token
+    
     const periodToken = PERIOD_MAP[periodUI] || periodUI; // fallback to UI if no map
 
-    // Build filename EXACTLY like your stored files
+    
     const filename = `PLOT_R20mm_sum_Europe_timmean_${periodToken}_${season}.png`;
     const newSrc = base + filename;
 
@@ -88,7 +88,7 @@ title: Heavy Precipitation Days
 
     spinner.style.display = "block";
 
-    // Preload first so we don't flash an error on slow networks
+    
     const testImg = new Image();
     testImg.onload = function() {
       img.src = newSrc;
