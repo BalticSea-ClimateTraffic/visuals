@@ -3,6 +3,9 @@ layout: page
 title: About
 ---
 
+# Climate knowledge for resilient transport and logistics in the Baltic Region (IBA-CRISTAL) 
+
+
 The projections found on these pages were designed to inform stakeholders from traffic & transportation sectors in countries adjacent to the Baltic sea, guided by one stakeholder survey and two stakeholder workshops. 
 
 
@@ -10,13 +13,20 @@ The projections found on these pages were designed to inform stakeholders from t
 This stakeholder-focused research was funded by ...
 
 
-# Team of Experts
+# Primary Team of Experts (alphabetically)
 
-• ...
+• Akash Deshmukh<br>
+• Nadine-Cyra Freistetter<br>
+• Hilppa Gregow<br>
+• Mira Hulkkonen<br>
+• Saara Korjonen<br>
+• Thomas Kühn<br>
+• Anton Laakso<br>
+'• Sanna Luhtala<br>
+• Joonas Merikanto (Principal Investigator)<br>
+• Tero Mielonen (Project Coordinator)<br>
+• Laura Utriainen<br>
 
-• ...
-
-• ...
 
 
 

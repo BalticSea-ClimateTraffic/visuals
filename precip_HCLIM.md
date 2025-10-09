@@ -233,5 +233,6 @@ updatePlots();
 </script>
 
 
-
+<br><br>
+Page author: Laura Utriainen
 

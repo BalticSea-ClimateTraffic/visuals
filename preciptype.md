@@ -151,5 +151,5 @@ Precipitation Phase/Type:
 - "snow": snow<br><br>
 
 
-Page Author: Nadine-Cyra Freistetter
+Page Author: Nadine-Cyra Freistetter<br>
 Sources: model runs for paper https://doi.org/10.1007/s10113-022-01920-4
