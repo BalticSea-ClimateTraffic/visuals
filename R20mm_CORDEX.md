@@ -51,31 +51,56 @@ Projected precipitation changes on daily scale for two seasons: summer (JJA) and
 </style>
 
 <script>
-function updatePlot() {
-  const period = document.getElementById("period").value;  // "historical" | "mid-century" | "late-century"
-  const season = document.getElementById("season").value;  // "DJF" | "MAM" | "JJA" | "SON"
-
-  const img = document.getElementById("plotImage");
-  const spinner = document.getElementById("spinner");
-  const base = img.dataset.base.replace(/\/+$/, '') + '/';
-
-  // Build filename EXACTLY like your stored files
-  const filename = `PLOT_R20mm_sum_Europe_timmean_${period}_${season}.png`;
-  const newSrc = base + filename;
-
-  spinner.style.display = "block";
-
-  // Set handlers BEFORE changing src
-  img.onload = () => { spinner.style.display = "none"; };
-  img.onerror = () => {
-    spinner.style.display = "none";
-    alert(`Plot not found: ${newSrc}`);
+(function() {
+  // Map UI values -> exact filename tokens
+  const PERIOD_MAP = {
+    "historical": "historical",
+    "mid-century": "mid-century",   // <-- change to match your actual files (mid-century, mid_century, midcentury)
+    "late-century": "late-century"  // <-- change to match your actual files
   };
 
-  img.src = newSrc;
-  img.alt = `Plot for ${period} - ${season}`;
-}
+  // If your real filenames actually use hyphens, use:
+  // "mid-century": "mid-century",
+  // "late-century": "late-century",
+
+  window.updatePlot = function updatePlot() {
+    const periodUI = document.getElementById("period").value;  // "historical" | "mid-century" | "late-century"
+    const season = document.getElementById("season").value;    // "DJF" | "MAM" | "JJA" | "SON"
+
+    const img = document.getElementById("plotImage");
+    const spinner = document.getElementById("spinner");
+
+    // Normalize base so it ends with a single slash
+    let base = img.dataset.base || "";
+    base = base.replace(/\/+$/, "") + "/";
+
+    // Translate UI to actual filename token
+    const periodToken = PERIOD_MAP[periodUI] || periodUI; // fallback to UI if no map
+
+    // Build filename EXACTLY like your stored files
+    const filename = `PLOT_R20mm_sum_Europe_timmean_${periodToken}_${season}.png`;
+    const newSrc = base + filename;
+
+    console.log("Loading plot:", newSrc);
+
+    spinner.style.display = "block";
+
+    // Preload first so we don't flash an error on slow networks
+    const testImg = new Image();
+    testImg.onload = function() {
+      img.src = newSrc;
+      img.alt = `Plot for ${periodUI} - ${season}`;
+      spinner.style.display = "none";
+    };
+    testImg.onerror = function() {
+      spinner.style.display = "none";
+      alert(`Plot not found:\n${newSrc}\n\nCheck that the file exists with EXACT casing.`);
+    };
+    testImg.src = newSrc;
+  };
+})();
 </script>
+
 
 <br><br><br>
 
