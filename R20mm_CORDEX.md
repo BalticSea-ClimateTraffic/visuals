@@ -107,7 +107,7 @@ Average number of days in any given season when accumulated precipitation is equ
 
 <br><br><br>
 
-Further description about the CORDEX project can be found on following link:
+Further description about the CORDEX project can be found on following link:<br>
 <a href="https://euro-cordex.net/060378/index.php.en"> EURO-CORDEX data </a>
 
 <marquee>  Finnish Meteorological Institute </marquee> 
