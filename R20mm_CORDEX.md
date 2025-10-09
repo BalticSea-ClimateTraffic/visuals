@@ -107,6 +107,7 @@ title: Heavy Precipitation Days
 
 <br><br><br>
 
-Further description about the data, model used etc. <br>
+Further description about the CORDEX project can be found on following link:
+<a href="<a href="https://www.openai.com">Visit OpenAI</a>">CORDEX</a>
 
-Page Author: me, myself and I  
+  
