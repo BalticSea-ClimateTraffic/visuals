@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Maximum Daily Precipitation & Heavy Precipitation Days
+title: Precipitation Indices
 ---
 
 <h1> CORDEX: Maximum Daily Precipitation & Heavy Precipitation Days </h1>
