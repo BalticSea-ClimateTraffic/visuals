@@ -3,10 +3,13 @@ layout: page
 title: Freeze-Thaw Cycles
 ---
 
-Interactive plots about freeze-thaw cycles (zero-degree crossings) per day
+Number of zero-degree crossings (freeze-thaw cycles relating to road surface temperature) per day.<br>
+More information on the bottom of the page.
 
 
 ## Interactive Plots
+
+Average number and minimum and maximum observed in that period:
 
 <div style="margin-bottom: 15px;">
   <label for="period1">Period: </label>

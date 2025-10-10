@@ -3,6 +3,8 @@ layout: page
 title: Road Cover
 ---
 
+Seasonal average road surface cover/condition (on asphalt) ranging from dry, moist, or wet, to slush, frost, partly icy or icy, and snow.<br>
+More information on the bottom of the page.
 
 ## Interactive Plots
 
@@ -22,7 +24,7 @@ title: Road Cover
     <option value="SON">SON</option>
   </select>
 
-  <label for="type1" style="margin-left: 15px;">Precipitation Phase: </label>
+  <label for="type1" style="margin-left: 15px;">Road Surface Condition: </label>
   <select id="type1">
     <option value="dry">Dry road</option>
     <option value="snowy">Snow on road</option>

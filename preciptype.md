@@ -3,9 +3,8 @@ layout: page
 title: Precipitation-Type
 ---
 
-Average Phase of Precipitation during seasons, interactive & static plots. For more explanation, see the bottom of the page.
-
-
+Average phase of precipitation <br>
+More information on the bottom of the page.
 
 
 ## Interactive Plots
