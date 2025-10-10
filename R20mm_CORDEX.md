@@ -3,7 +3,7 @@ layout: page
 title: Maximum Wind Speed (sfcWindmax)
 ---
 
-<h1> sfcWindmax from CORDEX</h1>
+<h1>sfcWindmax from CORDEX</h1>
 Average seasonal maximum near-surface wind speed.
 <p>
 <b>Seasons:</b> summer (JJA), winter (DJF), autumn (SON), spring (MAM).
@@ -39,18 +39,17 @@ Average seasonal maximum near-surface wind speed.
 <br><br>
 
 <div style="position: relative; width: 100%; height: 600px; text-align: center;">
-
   <div id="spinner" 
        style="display:none; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
               border:8px solid #f3f3f3; border-top:8px solid #3498db; border-radius:50%;
               width:60px; height:60px; animation:spin 1s linear infinite;">
   </div>
 
-  <!-- Store the resolved base path in data-base -->
+  <!-- Base path now points to CORDEX_PR -->
   <img
     id="plotImage"
-    data-base="{{ '/CORDEX_WIND/' | relative_url }}"
-    src="{{ '/CORDEX_WIND/PLOT_sfcWindmax_Europe_timmean_historical_DJF.png' | relative_url }}"
+    data-base="{{ '/CORDEX_PR/' | relative_url }}"
+    src="{{ '/CORDEX_PR/PLOT_sfcWindmax_Europe_timmean_historical_DJF.png' | relative_url }}"
     alt="Wind plot"
     width="100%"
     height="600"
@@ -64,33 +63,32 @@ Average seasonal maximum near-surface wind speed.
 
 <script>
 (function() {
-  // Map UI period values -> exact filename tokens you use on disk
+  // Map UI period values -> exact tokens used in filenames
   const PERIOD_MAP = {
     "historical":   "historical",
-    "mid-century":  "mid-century",   // adjust if your files use a different spelling (e.g., mid_century)
+    "mid-century":  "mid-century",   // change if your files use e.g. "mid_century"
     "late-century": "late-century"
   };
 
-  // Helper: show/hide period selector when mode changes
+  // Show/hide period selector depending on "Mode"
   window.updateUI = function updateUI() {
     const mode = document.getElementById("mode").value;
     const periodRow = document.getElementById("periodRow");
-    // Hide period for difference modes; show for absolute
     periodRow.style.display = (mode === "absolute") ? "inline-block" : "none";
   };
 
-  // Build filename based on UI
+  // Build filename for the current selection
   function buildFilename(basePath, mode, periodUI, season) {
     const seasonTok = season; // "DJF" | "MAM" | "JJA" | "SON"
 
     if (mode === "absolute") {
       const periodTok = PERIOD_MAP[periodUI] || periodUI;
-      // Absolute filename pattern:
+      // Absolute file pattern (from CORDEX_PR):
       // PLOT_sfcWindmax_Europe_timmean_<period>_<season>.png
       return basePath + `PLOT_sfcWindmax_Europe_timmean_${periodTok}_${seasonTok}.png`;
     }
 
-    // Difference filename patterns (choose one future vs historical)
+    // Difference file pattern (from CORDEX_PR):
     // diff_sfcWindmax_<season>_<future>-minus-hist.png
     if (mode === "diff-mid") {
       return basePath + `diff_sfcWindmax_${seasonTok}_mid-minus-hist.png`;
@@ -99,13 +97,13 @@ Average seasonal maximum near-surface wind speed.
       return basePath + `diff_sfcWindmax_${seasonTok}_late-minus-hist.png`;
     }
 
-    // Fallback to absolute historical if something unexpected happens
+    // Fallback
     return basePath + `PLOT_sfcWindmax_Europe_timmean_historical_${seasonTok}.png`;
   }
 
   window.updatePlot = function updatePlot() {
-    const mode    = document.getElementById("mode").value;      // absolute | diff-mid | diff-late
-    const period  = document.getElementById("period").value;    // only used for absolute
+    const mode    = document.getElementById("mode").value;
+    const period  = document.getElementById("period").value;
     const season  = document.getElementById("season").value;
 
     const img     = document.getElementById("plotImage");
@@ -116,10 +114,8 @@ Average seasonal maximum near-surface wind speed.
 
     const newSrc = buildFilename(base, mode, period, season);
 
-    console.log("Loading plot:", newSrc);
     spinner.style.display = "block";
 
-    // Preload to avoid flicker / broken images
     const testImg = new Image();
     testImg.onload = function() {
       img.src = newSrc;
@@ -134,12 +130,12 @@ Average seasonal maximum near-surface wind speed.
     };
     testImg.onerror = function() {
       spinner.style.display = "none";
-      alert(`Plot not found:\n${newSrc}\n\nCheck that the file exists with EXACT casing.`);
+      alert(`Plot not found:\n${newSrc}\n\nCheck that the file exists with EXACT spelling and casing.`);
     };
     testImg.src = newSrc;
   };
 
-  // Initialize UI state on load
+  // Initialize controls
   updateUI();
 })();
 </script>
