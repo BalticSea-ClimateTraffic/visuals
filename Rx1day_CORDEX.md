@@ -6,7 +6,7 @@ title: Precipitation Indices
 <h1> CORDEX: Maximum Daily Precipitation & Heavy Precipitation Days </h1>
 
 <p id="metricDesc" style="margin-top:0.5rem;">
-  <b>Metric:</b> <br><b><i>Rx1day</i></b> — Maximum daily precipitation.  
+  <b>Metrics:</b> <br><b><i>Rx1day</i></b> — Maximum daily precipitation.  
   Average (time mean) of the seasonal maximum 1-day precipitation over Europe.
 </p>
 <p id="metricDesc" style="margin-top:0.5rem;">
