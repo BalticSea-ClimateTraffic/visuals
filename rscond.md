@@ -81,7 +81,7 @@ Seasons: <br>
 - "SON": meteorological Autumn (September-November)<br><br>
 
 Surface condition on the road (asphalt)<br>
-1=dry, 2=moist, 3=wet, 4=slush, 5=frost, 6=partly icy, 7=icy, 8=snow
+1=dry, 2=moist, 3=wet, 4=slush, 5=frost, 6=partly icy, 7=icy, 8=snow<br><br>
 
 
 Page Author: Nadine-Cyra Freistetter <br>

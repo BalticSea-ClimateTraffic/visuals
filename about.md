@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-# Climate knowledge for resilient transport and logistics in the Baltic Region (IBA-CRISTAL) 
+# The impact of climate change on land and maritime transport in the Baltic Sea Region
 
 
 The projections found on these pages were designed to inform stakeholders from traffic & transportation sectors in countries adjacent to the Baltic sea, guided by one stakeholder survey and two stakeholder workshops. 
@@ -22,7 +22,7 @@ This stakeholder-focused research was funded by ...
 • Saara Korjonen<br>
 • Thomas Kühn<br>
 • Anton Laakso<br>
-'• Sanna Luhtala<br>
+• Sanna Luhtala<br>
 • Joonas Merikanto (Principal Investigator)<br>
 • Tero Mielonen (Project Coordinator)<br>
 • Laura Utriainen<br>
