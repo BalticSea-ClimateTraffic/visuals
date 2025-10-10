@@ -79,7 +79,7 @@ Average seasonal maximum near-surface wind speed (m/s).
 
   // Build filename based on your actual patterns
   function buildFilename(basePath, mode, periodKey, season) {
-    const seasonTok = season; // DJF | MAM | JJA | SON
+    const seasonTok = season; // DJF | JJA 
 
     if (mode === "absolute") {
       // <scenario>_<SEASON>_mean_<years>_subset_map.png
