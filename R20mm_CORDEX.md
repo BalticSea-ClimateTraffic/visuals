@@ -6,7 +6,7 @@ title: Wind Speed
 <h1>Maximum surface wind speed from CORDEX</h1>
 Average seasonal maximum near-surface wind speed (m/s).
 <p>
-<b>Seasons:</b> summer (JJA), winter (DJF), autumn (SON), spring (MAM).
+<b>Seasons:</b> summer (JJA) and winter (DJF)
 </p>
 <p>
 <b>Periods:</b> Historical (1986–2005), Mid-century (2041–2060), Late-century (2081–2100).
