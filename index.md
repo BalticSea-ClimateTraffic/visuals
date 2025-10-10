@@ -4,32 +4,19 @@ layout: default
 ---
 
 # Summary
-
-Projections sorted by topic: (insert links to subpages)
+Projections sorted by topic: (insert links to subpages)<br>
 
 ## General Weather
-
-• Type of Precipitation
-
-• Rainfall
-
-• Wind ?
-
+• Precipitation Type<br>
+• Rain<br>
+• Wind<br>
 
 ## Roads
-
-• Road surface temperature statistics (asphalt): mean, maximum, minimum
-
-• Road surface cover (weather condition)
-
-• Zero-degree-crossings (freeze-thaw cycles) per day
-
-
+• Road surface temperature (asphalt) <br>
+• Road surface cover <br>
+• Zero-degree-crossings (freeze-thaw cycles)<br>
 
 ## Ocean
-
 • Wind ?
-
 • Waves ?
-
 • Sea ice ?
