@@ -3,7 +3,7 @@ layout: page
 title: Wind Speed
 ---
 
-<h1>Maximum wind surface wind speed from CORDEX</h1>
+<h1>Maximum surface wind speed from CORDEX</h1>
 Average seasonal maximum near-surface wind speed (m/s).
 <p>
 <b>Seasons:</b> summer (JJA), winter (DJF), autumn (SON), spring (MAM).
@@ -12,7 +12,7 @@ Average seasonal maximum near-surface wind speed (m/s).
 <b>Periods:</b> Historical (1986–2005), Mid-century (2041–2060), Late-century (2081–2100).
 </p>
 
-<label for="mode">Mode:</label>
+<b><label for="mode">Mode:</label></b> 
 <select id="mode" onchange="updateUI(); updatePlot();">
   <option value="absolute" selected>Absolute</option>
   <option value="diff-mid">Difference (mid − historical)</option>
@@ -20,7 +20,7 @@ Average seasonal maximum near-surface wind speed (m/s).
 </select>
 
 <span id="periodRow">
-  <label for="period">Select period:</label>
+ <b> <label for="period">Select period:</label></b> 
   <select id="period" onchange="updatePlot()">
     <option value="hist">Historical</option>
     <option value="mid">Mid-century</option>
@@ -28,7 +28,7 @@ Average seasonal maximum near-surface wind speed (m/s).
   </select>
 </span>
 
-<label for="season">Select season:</label>
+<b><label for="season">Select season:</label></b> 
 <select id="season" onchange="updatePlot()">
   <option value="DJF">DJF</option>
   <option value="MAM">MAM</option>
@@ -155,4 +155,4 @@ Further description about the CORDEX project can be found on the following link:
 <marquee>Finnish Meteorological Institute</marquee>
 
 <br><br>
-Page author: Akash Deshmukh
+
