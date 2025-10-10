@@ -6,9 +6,15 @@ title: Precipitation Indices
 <h1> CORDEX: Maximum Daily Precipitation & Heavy Precipitation Days </h1>
 
 <p id="metricDesc" style="margin-top:0.5rem;">
-  <b>Metric:</b> <i>Rx1day</i> — Maximum daily precipitation.  
+  <b>Metric:</b> <br><i>Rx1day</i> — Maximum daily precipitation.  
   Average (time mean) of the seasonal maximum 1-day precipitation over Europe.
 </p>
+<p id="metricDesc" style="margin-top:0.5rem;">
+  <b>Metric:</b><br> <i>R20mm</i> — Heavy Precipitation days.  
+  Average number of days in any given season when accumulated precipitation is equal or more than 20mm.
+</p>
+
+
 <p>
   <b>Seasons:</b> summer (JJA), winter (DJF), autumn (SON), spring (MAM).<br>
   <b>Periods:</b> Historical (1986–2005), Mid-century (2041–2060), Late-century (2081–2100).
