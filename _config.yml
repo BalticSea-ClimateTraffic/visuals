@@ -7,6 +7,7 @@ header_pages:
   - preciptype.md
   - precip_HCLIM.md
   - R20mm_CORDEX.md
+  - Rx1day_CORDEX.md  
   - rstemp.md
   - rscond.md
   - freezethaw.md
