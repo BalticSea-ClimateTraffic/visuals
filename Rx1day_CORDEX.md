@@ -49,7 +49,7 @@ title: Maximum Daily Precipitation & Heavy Precipitation Days
   <img
     id="plotImage"
     data-base="{{ '/CORDEX_PR/' | relative_url }}"
-    src="{{ '/CORDEX_PR/PLOT_Rx1day_mean_Europe_timmean_historical_DJF.png' | relative_url }}"
+    src="{{ '/CORDEX_PR/PLOT_R20mm_sum_Europe_timmean_late-century_JJA.png' | relative_url }}"
     alt="Climate plot"
     width="100%"
     height="600"
