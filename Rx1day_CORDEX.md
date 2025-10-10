@@ -178,66 +178,106 @@ title: Maximum Daily Precipitation & Heavy Precipitation Days
 
 <script>
 (function() {
-  // Map UI values -> filename bits + human-friendly text
+  // Known filename variants (handles small naming differences)
   const METRIC_MAP = {
-    "rx1day": {
-      prefix: "PLOT_Rx1day_mean_Europe_timmean",
-      label: "Rx1day — Maximum daily precipitation",
+    rx1day: {
+      prefixes: [
+        "PLOT_Rx1day_mean_Europe_timmean",
+        "PLOT_Rx1day_Europe_timmean"
+      ],
       desc: "<b>Metric:</b> <i>Rx1day</i> — Maximum daily precipitation. Average (time mean) of the seasonal maximum 1-day precipitation over Europe."
     },
-    "r20mm": {
-      prefix: "PLOT_R20mm_sum_Europe_timmean",
-      label: "R20mm — Heavy precipitation days (≥20 mm)",
+    r20mm: {
+      prefixes: [
+        "PLOT_R20mm_sum_Europe_timmean",
+        "PLOT_R20mm_mean_Europe_timmean",
+        "PLOT_R20mm_count_Europe_timmean"
+      ],
       desc: "<b>Metric:</b> <i>R20mm</i> — Average number of days per season with daily precipitation ≥ 20 mm."
     }
   };
 
+  // Allow hyphen/underscore/no-hyphen period tokens
   const PERIOD_MAP = {
-    "historical": "historical",
-    "mid-century": "mid-century",
-    "late-century": "late-century"
+    "historical": ["historical"],
+    "mid-century": ["mid-century","mid_century","midcentury"],
+    "late-century": ["late-century","late_century","latecentury"]
   };
 
-  window.updatePlot = function updatePlot() {
-    const metricKey = document.getElementById("metric").value;   // "rx1day" | "r20mm"
-    const periodUI = document.getElementById("period").value;    // "historical" | "mid-century" | "late-century"
-    const season = document.getElementById("season").value;      // "DJF" | "MAM" | "JJA" | "SON"
+  function buildCandidates(metricKey, periodUI, season, base) {
+    const prefixes = METRIC_MAP[metricKey].prefixes;
+    const periodTokens = PERIOD_MAP[periodUI] || [periodUI];
+    const candidates = [];
+    for (const pfx of prefixes) {
+      for (const per of periodTokens) {
+        candidates.push(base + `${pfx}_${per}_${season}.png`);
+      }
+    }
+    return candidates;
+  }
+
+  function tryLoadSequential(urls, onSuccess, onFail) {
+    if (!urls.length) return onFail();
+    const url = urls.shift();
+
+    const test = new Image();
+    test.onload = () => onSuccess(url);
+    test.onerror = () => tryLoadSequential(urls, onSuccess, onFail);
+
+    // Cache-buster so the browser doesn't reuse the old image
+    test.src = url + (url.includes("?") ? "&" : "?") + "cb=" + Date.now();
+  }
+
+  window.updatePlot = function() {
+    const metricKey = document.getElementById("metric")?.value || "rx1day";
+    const periodUI = document.getElementById("period")?.value || "historical";
+    const season = document.getElementById("season")?.value || "DJF";
 
     const img = document.getElementById("plotImage");
     const spinner = document.getElementById("spinner");
     const metricDesc = document.getElementById("metricDesc");
 
-    // Base path normalization
-    let base = img.dataset.base || "";
+    // Update description (guarded so a missing element won't break switching)
+    if (metricDesc && METRIC_MAP[metricKey]?.desc) {
+      metricDesc.innerHTML = METRIC_MAP[metricKey].desc;
+    }
+
+    // Base path (from data-base) normalized to have exactly one trailing slash
+    let base = img?.dataset?.base || "";
     base = base.replace(/\/+$/, "") + "/";
 
-    const metric = METRIC_MAP[metricKey];
-    const periodToken = PERIOD_MAP[periodUI] || periodUI;
+    const candidates = buildCandidates(metricKey, periodUI, season, base);
 
-    // Build filename for the chosen metric/period/season
-    const filename = `${metric.prefix}_${periodToken}_${season}.png`;
-    const newSrc = base + filename;
+    if (spinner) spinner.style.display = "block";
 
-    // Update description
-    metricDesc.innerHTML = metric.desc;
-
-    console.log("Loading plot:", newSrc);
-    spinner.style.display = "block";
-
-    const testImg = new Image();
-    testImg.onload = function() {
-      img.src = newSrc;
-      img.alt = `${metric.label} | ${periodUI} | ${season}`;
-      spinner.style.display = "none";
-    };
-    testImg.onerror = function() {
-      spinner.style.display = "none";
-      alert(`Plot not found:\n${newSrc}\n\nCheck that the file exists with EXACT casing.`);
-    };
-    testImg.src = newSrc;
+    tryLoadSequential(
+      [...candidates],
+      (goodUrl) => {
+        // Set final src (with a light cache-buster to force repaint)
+        const finalUrl = goodUrl + (goodUrl.includes("?") ? "&" : "?") + "v=" + Date.now();
+        img.src = finalUrl;
+        img.alt = `${metricKey.toUpperCase()} | ${periodUI} | ${season}`;
+        if (spinner) spinner.style.display = "none";
+      },
+      () => {
+        if (spinner) spinner.style.display = "none";
+        alert(
+          "Plot not found for: " + metricKey + " / " + periodUI + " / " + season +
+          "\n\nTried:\n- " + candidates.join("\n- ")
+        );
+      }
+    );
   };
+
+  // Initialize once DOM is ready
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", updatePlot);
+  } else {
+    updatePlot();
+  }
 })();
 </script>
+
 
 <br><br><br>
 
