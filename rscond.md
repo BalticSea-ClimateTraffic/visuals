@@ -32,7 +32,7 @@ title: Road Cover
 
 <iframe id="plotFrame1" src="PLOTS_Nadine/PLOT_interactive_GSCond_hist_DJF_dry.html" 
         width="100%" 
-        height="490px" 
+        height="550px" 
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
@@ -63,7 +63,7 @@ title: Road Cover
 
 
 
-<br><br><br>
+<br>
 ## Further information
 
 Used scenario: RCP 8.5 (worst-case climate change scenario)<br>
