@@ -31,9 +31,9 @@ Average seasonal maximum near-surface wind speed (m/s).
 <b><label for="season">Select season:</label></b> 
 <select id="season" onchange="updatePlot()">
   <option value="DJF">DJF</option>
-  //<option value="MAM">MAM</option>
+  <! <option value="MAM">MAM</option>>
   <option value="JJA">JJA</option>
-  //<option value="SON">SON</option>
+  <!--//<option value="SON">SON</option>-->
 </select>
 
 <br><br>
