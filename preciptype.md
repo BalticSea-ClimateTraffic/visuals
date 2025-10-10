@@ -35,7 +35,7 @@ Average Phase of Precipitation during seasons, interactive & static plots. For m
 
 <iframe id="plotFrame1" src="PLOTS_Nadine/PLOT_interactive_GPType_hist_DJF_water.html" 
         width="100%" 
-        height="490px" 
+        height="550px" 
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
@@ -96,7 +96,7 @@ Average Phase of Precipitation during seasons, interactive & static plots. For m
 
 <iframe id="plotFrame2" src="PLOTS_Nadine/PLOT_static_GPType_hist_DJF_water.html" 
         width="100%" 
-        height="550px" 
+        height="510px" 
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
