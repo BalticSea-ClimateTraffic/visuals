@@ -32,7 +32,7 @@ title: Road Cover
 
 <iframe id="plotFrame1" src="PLOTS_Nadine/PLOT_interactive_GSCond_hist_DJF_dry.html" 
         width="100%" 
-        height="550px" 
+        height="600px" 
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
