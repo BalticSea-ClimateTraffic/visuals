@@ -20,6 +20,8 @@ SDII   = Mean precipitation amount on wet days. A wet day is defined as a day
 <select id="idDropdown">
   <option value="rx1day" selected>rx1day</option>
   <option value="rx5day" selected>rx5day</option>
+  <option value="r20mm" selected>r20mm</option>
+  <option value="sdii" selected>sdii</option>
   <!-- Add more IDs if you generate them, e.g. prcptot, r10mm, etc. -->
 </select>
 
