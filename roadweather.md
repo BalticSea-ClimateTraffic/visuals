@@ -4,35 +4,64 @@ title: Roads
 ---
 
 <style>
-/* Floating table of contents box */
+/* Floating table of contents box on the right side */
 #toc-box {
-  position: sticky;
-  top: 10px;
+  position: fixed;          /* stick to viewport instead of page flow */
+  top: 100px;               /* distance from top */
+  right: 20px;              /* distance from right edge */
+  width: 220px;             /* adjust width as needed */
   background-color: #f9f9f9;
-  border-left: 3px solid #ccc;
-  padding: 10px 15px;
-  margin-bottom: 30px;
+  border: 1px solid #ccc;
   border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  padding: 12px 16px;
   font-size: 0.95em;
+  z-index: 1000;            /* keep it above other elements */
 }
+
+#toc-box strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1em;
+}
+
 #toc-box a {
   text-decoration: underline;
   color: #0055aa;
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
+  transition: color 0.2s ease;
 }
+
+#toc-box a:hover {
+  color: #003d80;
+}
+
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth;  /* enables nice smooth scrolling */
+}
+
+/* Make sure content doesn’t get hidden under the TOC on narrow screens */
+@media (max-width: 900px) {
+  #toc-box {
+    position: static;
+    width: auto;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    margin-bottom: 20px;
+  }
 }
 </style>
 
 <div id="toc-box">
   <strong>Jump to:</strong>
-  <a href="#road-temperature">Road Surface Temperature (Asphalt)</a>
+  <a href="#road-temperature">Road Surface Temperature (Asphalt)</a>  
   <a href="#freeze-thaw-cycles">Freeze-Thaw Cycles on Road</a>
   <a href="#road-cover">Road Cover/Condition</a>
   <a href="#further-info">Further Information</a>
 </div>
+
 
 ---
 
