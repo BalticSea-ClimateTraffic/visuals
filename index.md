@@ -8,7 +8,7 @@ layout: default
   • Precipitation Type<br>
   • Rain<br>
   • Wind<br>
-  • Precipitation Index <a href="{{ https://balticsea-climatetraffic.github.io/visuals/Rx1day_CORDEX.html}}">{{ Precipitation Index }}</a><br>
+  • [Precipitation Index](Rx1day_CORDEX.md) <br>
 
 ###   Roads
   • Road surface temperature (asphalt) <br>
