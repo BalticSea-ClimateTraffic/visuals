@@ -3,11 +3,9 @@ layout: page
 title: Road Temperature
 ---
 
-Seasonal avergae road surface temperature.<br>
-More information on the bottom of the page.
 
 
-## Interactive Plots
+## Road Surface Temperature (Asphalt)
 
 <div style="margin-bottom: 15px;">
   <label for="period1">Period: </label>

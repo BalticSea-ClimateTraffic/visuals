@@ -4,6 +4,7 @@ theme: minima
 header_pages:
   - index.md
   - about.md
+  - roadweather.md
   - preciptype.md
   - precip_HCLIM.md
   - R20mm_CORDEX.md

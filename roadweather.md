@@ -1,0 +1,229 @@
+---
+layout: page
+title: Roads
+---
+
+<style>
+/* Floating table of contents box */
+#toc-box {
+  position: sticky;
+  top: 10px;
+  background-color: #f9f9f9;
+  border-left: 3px solid #ccc;
+  padding: 10px 15px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  font-size: 0.95em;
+}
+#toc-box a {
+  text-decoration: underline;
+  color: #0055aa;
+  display: block;
+  margin-bottom: 5px;
+}
+html {
+  scroll-behavior: smooth;
+}
+</style>
+
+<div id="toc-box">
+  <strong>Jump to:</strong>
+  <a href="#road-temperature">Road Surface Temperature (Asphalt)</a>
+  <a href="#freeze-thaw-cycles">Freeze-Thaw Cycles on Road</a>
+  <a href="#road-cover">Road Cover/Condition</a>
+  <a href="#further-info">Further Information</a>
+</div>
+
+---
+
+# Road Surface Temperature (Asphalt)
+{:#road-temperature}
+
+<div style="margin-bottom: 15px;">
+  <label for="period1">Period: </label>
+  <select id="period1">
+    <option value="hist">Historical</option>
+    <option value="rect">Recent</option>
+    <option value="midc">Mid-Century</option>
+  </select>
+
+  <label for="season1" style="margin-left: 15px;">Season: </label>
+  <select id="season1">
+    <option value="DJF">DJF</option>
+    <option value="MAM">MAM</option>
+    <option value="JJA">JJA</option>
+    <option value="SON">SON</option>
+  </select>
+</div>
+
+<iframe id="plotFrame1" src="PLOTS_Nadine/PLOT_interactive_GTSurf_avgmean_hist_DJF.html"
+        width="100%"
+        height="550px"
+        style="border:none; opacity:1; transition: opacity 0.5s;">
+</iframe>
+
+<script>
+const periodSelect1 = document.getElementById('period1');
+const seasonSelect1 = document.getElementById('season1');
+const iframe1       = document.getElementById('plotFrame1');
+
+function updatePlot1() {
+  const period = periodSelect1.value;
+  const season = seasonSelect1.value;
+  const newSrc = `PLOTS_Nadine/PLOT_interactive_GTSurf_avgmean_${period}_${season}.html`;
+
+  iframe1.style.opacity = 0;
+  setTimeout(() => {
+    iframe1.src = newSrc;
+    iframe1.onload = () => { iframe1.style.opacity = 1; };
+  }, 400);
+}
+periodSelect1.addEventListener('change', updatePlot1);
+seasonSelect1.addEventListener('change', updatePlot1);
+</script>
+
+<br><br><br>
+
+
+
+
+# Freeze-Thaw Cycles
+{:#freeze-thaw-cycles}
+
+Average number and minimum and maximum observed in that period:
+
+<div style="margin-bottom: 15px;">
+  <label for="period2">Period: </label>
+  <select id="period2">
+    <option value="hist">Historical</option>
+    <option value="rect">Recent</option>
+    <option value="midc">Mid-Century</option>
+  </select>
+
+  <label for="season2" style="margin-left: 15px;">Season: </label>
+  <select id="season2">
+    <option value="DJF">DJF</option>
+    <option value="MAM">MAM</option>
+    <option value="JJA">JJA</option>
+    <option value="SON">SON</option>
+  </select>
+</div>
+
+<iframe id="plotFrame2" src="PLOTS_Nadine/PLOT_interactive_ZDCs_perDay_hist_DJF.html"
+        width="100%"
+        height="550px"
+        style="border:none; opacity:1; transition: opacity 0.5s;">
+</iframe>
+
+<script>
+const periodSelect2 = document.getElementById('period2');
+const seasonSelect2 = document.getElementById('season2');
+const iframe2       = document.getElementById('plotFrame2');
+
+function updatePlot2() {
+  const period = periodSelect2.value;
+  const season = seasonSelect2.value;
+  const newSrc = `PLOTS_Nadine/PLOT_interactive_ZDCs_perDay_${period}_${season}.html`;
+
+  iframe2.style.opacity = 0;
+  setTimeout(() => {
+    iframe2.src = newSrc;
+    iframe2.onload = () => { iframe2.style.opacity = 1; };
+  }, 400);
+}
+periodSelect2.addEventListener('change', updatePlot2);
+seasonSelect2.addEventListener('change', updatePlot2);
+</script>
+
+<br><br><br>
+
+
+
+
+# Road Cover/Condition
+{:#road-cover}
+
+Seasonal average road surface condition (on asphalt) ranging from dry, moist, or wet, to slush, frost, partly icy or icy, and snow.
+
+<div style="margin-bottom: 15px;">
+  <label for="period3">Period: </label>
+  <select id="period3">
+    <option value="hist">Historical</option>
+    <option value="rect">Recent</option>
+    <option value="midc">Mid-Century</option>
+  </select>
+
+  <label for="season3" style="margin-left: 15px;">Season: </label>
+  <select id="season3">
+    <option value="DJF">DJF</option>
+    <option value="MAM">MAM</option>
+    <option value="JJA">JJA</option>
+    <option value="SON">SON</option>
+  </select>
+
+  <label for="type3" style="margin-left: 15px;">Road Surface Condition: </label>
+  <select id="type3">
+    <option value="dry">Dry road</option>
+    <option value="snowy">Snow on road</option>
+    <option value="icy">Icy or partly icy road</option>
+  </select>
+</div>
+
+<iframe id="plotFrame3" src="PLOTS_Nadine/PLOT_interactive_GSCond_hist_DJF_dry.html"
+        width="100%"
+        height="600px"
+        style="border:none; opacity:1; transition: opacity 0.5s;">
+</iframe>
+
+<script>
+const periodSelect3 = document.getElementById('period3');
+const seasonSelect3 = document.getElementById('season3');
+const typeSelect3   = document.getElementById('type3');
+const iframe3       = document.getElementById('plotFrame3');
+
+function updatePlot3() {
+  const period = periodSelect3.value;
+  const season = seasonSelect3.value;
+  const type   = typeSelect3.value;
+  const newSrc = `PLOTS_Nadine/PLOT_interactive_GSCond_${period}_${season}_${type}.html`;
+
+  iframe3.style.opacity = 0;
+  setTimeout(() => {
+    iframe3.src = newSrc;
+    iframe3.onload = () => { iframe3.style.opacity = 1; };
+  }, 400);
+}
+periodSelect3.addEventListener('change', updatePlot3);
+seasonSelect3.addEventListener('change', updatePlot3);
+typeSelect3.addEventListener('change', updatePlot3);
+</script>
+
+<br><br><br>
+
+
+
+
+# Further Information
+{:#further-info}
+Used scenario: RCP 8.5 (worst-case climate change scenario)  
+Used models: EC-Earth3/Era-Interim, HCLIM ALADIN cy38, FMI-RoadSurf  
+
+Periods:  
+- Historical: 1986–2005  
+- Recent: 1999–2018  
+- Mid-Century: 2041–2060  
+
+Seasons:  
+- DJF: Winter  
+- MAM: Spring  
+- JJA: Summer  
+- SON: Autumn  
+
+Page Author: Nadine-Cyra Freistetter  
+Sources: [model runs for paper](https://doi.org/10.1007/s10113-022-01920-4)
+
+---
+
+
+
+
