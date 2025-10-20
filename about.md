@@ -16,12 +16,12 @@ This stakeholder-focused research was funded by ...
 • <a href="https://en.ilmatieteenlaitos.fi/cv-nadine-cyra-freistetter"> Nadine-Cyra Freistetter </a><br>
 • <a href="https://en.ilmatieteenlaitos.fi/cv-nadine-cyra-freistetter"> Hilppa Gregow </a><br>
 • <a href="https://en.ilmatieteenlaitos.fi/cv-mira-hulkkonen"> Mira Hulkkonen </a><br>
-• Saara Korjonen
+• Saara Korjonen<br>
 • <a href="https://en.ilmatieteenlaitos.fi/cv-thomas-kuhn"> Thomas Kühn </a><br>
 • <a href="https://en.ilmatieteenlaitos.fi/cv-anton-laakso"> Anton Laakso </a><br>
 • <a href="https://en.ilmatieteenlaitos.fi/cv-sanna-luhtala"> Sanna Luhtala </a><br>
-• <a href="https://en.ilmatieteenlaitos.fi/cv-joonas-merikanto"> Joonas Merikanto (Principal Investigator) </a><br>
-• <a href="https://en.ilmatieteenlaitos.fi/cv-tero-mielonen"> Tero Mielonen (Project Coordinator) </a><br>
+• <a href="https://en.ilmatieteenlaitos.fi/cv-joonas-merikanto"> Joonas Merikanto </a>(Principal Investigator) <br>
+• <a href="https://en.ilmatieteenlaitos.fi/cv-tero-mielonen"> Tero Mielonen </a>(Project Coordinator) <br>
 • Laura Utriainen
 <br><br>
 

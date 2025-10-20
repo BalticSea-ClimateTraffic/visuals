@@ -2,6 +2,8 @@
 layout: page
 title: Road-Weather
 ---
+<br>
+
 
 <style>
 /* Floating table of contents box on the right side */
@@ -110,7 +112,8 @@ function updatePlot1() {
 periodSelect1.addEventListener('change', updatePlot1);
 seasonSelect1.addEventListener('change', updatePlot1);
 </script>
-
+<br><br>
+Average road surface temperatures are expected to increase in Europe with progressing climate change.
 <br><br><br>
 
 
@@ -163,7 +166,8 @@ function updatePlot2() {
 periodSelect2.addEventListener('change', updatePlot2);
 seasonSelect2.addEventListener('change', updatePlot2);
 </script>
-
+<br><br>
+The winter-time temperature increases higher north (higher than 60 degrees north) causes more freeze-thaw cycles (zero-degree-crossings) to happen, as asphalt temperatures don't stay stably below 0°C anymore. Further south, freeze-thaw cycles decrease as road temperatures hardly reach freezing temperatures ever.
 <br><br><br>
 
 
@@ -226,15 +230,15 @@ periodSelect3.addEventListener('change', updatePlot3);
 seasonSelect3.addEventListener('change', updatePlot3);
 typeSelect3.addEventListener('change', updatePlot3);
 </script>
-
+<br><br>
+Snowy and icy road conditions are expected to decrease with progressing climate change. 
 <br><br><br>
 
 
 
 
 # Further Information
-{:#further-info}
-Average road surface temperatures are expected to increase in Europe with progressing climate change. The winter-time increase in temperatures in northern latitudes (higher than 60 degrees north) causes more freeze-thaw cycles (zero-degree-crossings) to occur, as asphalt temperatures don't stay stably below 0°C anymore. 
+{:#further-info} 
 
 Used scenario: RCP 8.5 (worst-case climate change scenario)  
 Used models: EC-Earth3/Era-Interim, HCLIM ALADIN cy38, FMI-RoadSurf  
@@ -249,11 +253,13 @@ Seasons:
 - Spring: March, April, May (MAM)
 - Summer: June, July, August (JJA)
 - Autumn: September, October, November (SON)
+<br><br><br>
 
+---
 Page Author: Nadine-Cyra Freistetter  
 Sources: [model runs for paper](https://doi.org/10.1007/s10113-022-01920-4)
 
----
+
 
 
 
