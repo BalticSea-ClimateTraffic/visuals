@@ -3,19 +3,19 @@ title: Home
 layout: default
 ---
 
-## Summary
-###   General Weather
-  • Precipitation Type<br>
-  • Rain<br>
+
+
+###   Maritime
+  • [Precipitation Type](preciptype.md)<br>
+  • Rainfall<br>
   • Wind<br>
   • [Precipitation Index](Rx1day_CORDEX.md) <br>
+    • Sea ice ?<br>
 
 ###   Roads
-  • Road surface temperature (asphalt) <br>
-  • Road surface cover <br>
-  • Zero-degree-crossings (freeze-thaw cycles)<br>
+  • [Road surface temperature, freeze-thaw cycles & surface cover](roadweather.md)<br>
 
-###   Ocean
+###   Rail
   • Wind ?<br>
   • Waves ?<br>
-  • Sea ice ?<br>
+

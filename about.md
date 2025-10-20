@@ -11,7 +11,7 @@ The projections found on these pages were designed to inform stakeholders from t
 This stakeholder-focused research was funded by ...
 <br><br>
 
-### Primary Team of Experts (alphabetically)
+### Primary Team of Experts (alphabetical order)
 • Akash Deshmukh<br>
 • Nadine-Cyra Freistetter<br>
 • Hilppa Gregow<br>
@@ -35,6 +35,6 @@ Information coming soon.
 
 
 ------------------------------------------------------------------------------------------------
-Admin of these github pages: Nadine-Cyra Freistetter<br>
+Page Admin: Nadine-Cyra Freistetter<br>
 Page created: 09-2025<br>
 Page last updated: 10-2025<br>

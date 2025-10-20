@@ -1,16 +1,16 @@
-title: Climate Change Impacts on Traffic around the Baltic Sea
-description: IBA-Cristal
+title: Climate Change & Traffic
+description: Climate change impacts on traffic around the Baltic sea
 theme: minima
 header_pages:
   - index.md
   - about.md
-  - roadweather.md
   - preciptype.md
   - precip_HCLIM.md
   - R20mm_CORDEX.md
-  - Rx1day_CORDEX.md  
-  - rstemp.md
-  - rscond.md
-  - freezethaw.md
+  - Rx1day_CORDEX.md
+  - roadweather.md
+  #- rstemp.md
+  #- rscond.md
+  #- freezethaw.md
   #- waterdepth.md
   #- snowdepth.md

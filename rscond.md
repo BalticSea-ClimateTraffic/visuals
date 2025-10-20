@@ -18,10 +18,10 @@ More information on the bottom of the page.
 
   <label for="season1" style="margin-left: 15px;">Season: </label>
   <select id="season1">
-    <option value="DJF">DJF</option>
-    <option value="MAM">MAM</option>
-    <option value="JJA">JJA</option>
-    <option value="SON">SON</option>
+    <option value="DJF">Winter</option>
+    <option value="MAM">Spring</option>
+    <option value="JJA">Summer</option>
+    <option value="SON">Autumn</option>
   </select>
 
   <label for="type1" style="margin-left: 15px;">Road Surface Condition: </label>

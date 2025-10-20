@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Roads
+title: Road-Weather
 ---
 
 <style>
 /* Floating table of contents box on the right side */
 #toc-box {
   position: fixed;          /* stick to viewport instead of page flow */
-  top: 150px;               /* distance from top */
+  top: 200px;               /* distance from top */
   right: 20px;              /* distance from right edge */
   width: 220px;             /* adjust width as needed */
   background-color: #f9f9f9;
@@ -78,10 +78,10 @@ html {
 
   <label for="season1" style="margin-left: 15px;">Season: </label>
   <select id="season1">
-    <option value="DJF">DJF</option>
-    <option value="MAM">MAM</option>
-    <option value="JJA">JJA</option>
-    <option value="SON">SON</option>
+    <option value="DJF">Winter</option>
+    <option value="MAM">Spring</option>
+    <option value="JJA">Summer</option>
+    <option value="SON">Autumn</option>
   </select>
 </div>
 
@@ -131,10 +131,10 @@ Average number and minimum and maximum observed in that period:
 
   <label for="season2" style="margin-left: 15px;">Season: </label>
   <select id="season2">
-    <option value="DJF">DJF</option>
-    <option value="MAM">MAM</option>
-    <option value="JJA">JJA</option>
-    <option value="SON">SON</option>
+    <option value="DJF">Winter</option>
+    <option value="MAM">Spring</option>
+    <option value="JJA">Summer</option>
+    <option value="SON">Autumn</option>
   </select>
 </div>
 
@@ -184,10 +184,10 @@ Seasonal average road surface condition (on asphalt) ranging from dry, moist, or
 
   <label for="season3" style="margin-left: 15px;">Season: </label>
   <select id="season3">
-    <option value="DJF">DJF</option>
-    <option value="MAM">MAM</option>
-    <option value="JJA">JJA</option>
-    <option value="SON">SON</option>
+    <option value="DJF">Winter</option>
+    <option value="MAM">Spring</option>
+    <option value="JJA">Summer</option>
+    <option value="SON">Autumn</option>
   </select>
 
   <label for="type3" style="margin-left: 15px;">Road Surface Condition: </label>
@@ -234,6 +234,8 @@ typeSelect3.addEventListener('change', updatePlot3);
 
 # Further Information
 {:#further-info}
+Average road surface temperatures are expected to increase in Europe with progressing climate change. The winter-time increase in temperatures in northern latitudes (higher than 60 degrees north) causes more freeze-thaw cycles (zero-degree-crossings) to occur, as asphalt temperatures don't stay stably below 0°C anymore. 
+
 Used scenario: RCP 8.5 (worst-case climate change scenario)  
 Used models: EC-Earth3/Era-Interim, HCLIM ALADIN cy38, FMI-RoadSurf  
 
@@ -243,10 +245,10 @@ Periods:
 - Mid-Century: 2041–2060  
 
 Seasons:  
-- DJF: Winter  
-- MAM: Spring  
-- JJA: Summer  
-- SON: Autumn  
+- Winter: December, January, February (DJF)
+- Spring: March, April, May (MAM)
+- Summer: June, July, August (JJA)
+- Autumn: September, October, November (SON)
 
 Page Author: Nadine-Cyra Freistetter  
 Sources: [model runs for paper](https://doi.org/10.1007/s10113-022-01920-4)
