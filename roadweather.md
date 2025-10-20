@@ -87,7 +87,7 @@ html {
   </select>
 </div>
 
-<iframe id="plotFrame1" src="PLOTS_Nadine/PLOT_interactive_GTSurf_avgmean_hist_DJF.html"
+<iframe id="plotFrame1" src="PLOTS_Nadine/PLOT_interactive_Heatmap_GTSurf_avgmean_hist_DJF.html"
         width="100%"
         height="550px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
@@ -101,7 +101,7 @@ const iframe1       = document.getElementById('plotFrame1');
 function updatePlot1() {
   const period = periodSelect1.value;
   const season = seasonSelect1.value;
-  const newSrc = `PLOTS_Nadine/PLOT_interactive_GTSurf_avgmean_${period}_${season}.html`;
+  const newSrc = `PLOTS_Nadine/PLOT_interactive_Heatmap_GTSurf_avgmean_${period}_${season}.html`;
 
   iframe1.style.opacity = 0;
   setTimeout(() => {
