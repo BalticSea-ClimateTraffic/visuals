@@ -12,16 +12,16 @@ This stakeholder-focused research was funded by ...
 <br><br>
 
 ### Primary Team of Experts (alphabetical order)
-• Akash Deshmukh<br>
-• Nadine-Cyra Freistetter<br>
-• Hilppa Gregow<br>
-• Mira Hulkkonen<br>
-• Saara Korjonen<br>
-• Thomas Kühn<br>
-• Anton Laakso<br>
-• Sanna Luhtala<br>
-• Joonas Merikanto (Principal Investigator)<br>
-• Tero Mielonen (Project Coordinator)<br>
+• <a href="https://en.ilmatieteenlaitos.fi/cv-akash-deshmukh"> Akash Deshmukh </a><br>
+• <a href="https://en.ilmatieteenlaitos.fi/cv-nadine-cyra-freistetter"> Nadine-Cyra Freistetter </a><br>
+• <a href="https://en.ilmatieteenlaitos.fi/cv-nadine-cyra-freistetter"> Hilppa Gregow </a><br>
+• <a href="https://en.ilmatieteenlaitos.fi/cv-mira-hulkkonen"> Mira Hulkkonen </a><br>
+• Saara Korjonen
+• <a href="https://en.ilmatieteenlaitos.fi/cv-thomas-kuhn"> Thomas Kühn </a><br>
+• <a href="https://en.ilmatieteenlaitos.fi/cv-anton-laakso"> Anton Laakso </a><br>
+• <a href="https://en.ilmatieteenlaitos.fi/cv-sanna-luhtala"> Sanna Luhtala </a><br>
+• <a href="https://en.ilmatieteenlaitos.fi/cv-joonas-merikanto"> Joonas Merikanto (Principal Investigator) </a><br>
+• <a href="https://en.ilmatieteenlaitos.fi/cv-tero-mielonen"> Tero Mielonen (Project Coordinator) </a><br>
 • Laura Utriainen
 <br><br>
 
