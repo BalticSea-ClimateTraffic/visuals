@@ -7,7 +7,7 @@ title: Roads
 /* Floating table of contents box on the right side */
 #toc-box {
   position: fixed;          /* stick to viewport instead of page flow */
-  top: 100px;               /* distance from top */
+  top: 150px;               /* distance from top */
   right: 20px;              /* distance from right edge */
   width: 220px;             /* adjust width as needed */
   background-color: #f9f9f9;
@@ -56,7 +56,7 @@ html {
 
 <div id="toc-box">
   <strong>Jump to:</strong>
-  <a href="#road-temperature">Road Surface Temperature (Asphalt)</a>  
+  <a href="#road-temperature">Road Surface Temperature</a>  
   <a href="#freeze-thaw-cycles">Freeze-Thaw Cycles on Road</a>
   <a href="#road-cover">Road Cover/Condition</a>
   <a href="#further-info">Further Information</a>
