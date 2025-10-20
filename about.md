@@ -12,7 +12,7 @@ This stakeholder-focused research was funded by ...
 <br><br>
 
 ### Primary Team of Experts (alphabetically)
-• Akash Deshmukh<br>
+• <a href="https://en.ilmatieteenlaitos.fi/cv-akash-deshmukh"> Akash Deshmukh </a><br>
 • Nadine-Cyra Freistetter<br>
 • Hilppa Gregow<br>
 • Mira Hulkkonen<br>
