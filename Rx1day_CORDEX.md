@@ -71,13 +71,14 @@ html {
 
 <div id="toc-box">
   <strong><span class="blinking-text">Jump to:</span> </strong>
-  • [Road surface temperature, freeze-thaw cycles & surface cover](roadweather.md)<br>  
-  • [Precipitation Type](preciptype.md)<br>
-  • Rainfall<br>
-  • [Wind](R20mm_CORDEX.md)<br>
-  • [Precipitation Index](Rx1day_CORDEX.md) <br>
-  • [HOME](index.md)
-  • [About us](about.md)
+  • [Road surface temperature, freeze-thaw cycles & surface cover](roadweather.md) <br> <br> 
+  • [Precipitation Type](preciptype.md) <br><br>
+  • Rainfall<br><br>
+  • [Wind](R20mm_CORDEX.md) <br><br>
+  • [Precipitation Index](Rx1day_CORDEX.md) <br><br>
+  • [HOME](index.md) <br><br>
+  • [About us](about.md) <br><br>
+
 </div>
 
 
