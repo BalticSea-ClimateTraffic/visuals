@@ -71,10 +71,13 @@ html {
 
 <div id="toc-box">
   <strong><span class="blinking-text">Jump to:</span> </strong>
-  <a href="#rortwqqqqe">Rafddesfsfe</a>  
-  <a href="#frrrwres">Fwefwrfwedws on Road</a>
-  <a href="#rcccrrrr">Rrrrrrver/Condition</a>
-  <a href="#further-info">Further Information</a>
+  • [Road surface temperature, freeze-thaw cycles & surface cover](roadweather.md)<br>  
+  • [Precipitation Type](preciptype.md)<br>
+  • Rainfall<br>
+  • [Wind](R20mm_CORDEX.md)<br>
+  • [Precipitation Index](Rx1day_CORDEX.md) <br>
+  • [HOME](index.md)
+  • [About us](about.md)
 </div>
 
 
