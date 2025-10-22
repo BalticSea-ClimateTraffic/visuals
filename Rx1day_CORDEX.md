@@ -77,6 +77,7 @@ html {
   • [Wind](R20mm_CORDEX.md) <br><br>
   • [Precipitation Index](Rx1day_CORDEX.md) <br><br>
   • [HOME](index.md) <br><br>
+  <a href="https://balticsea-climatetraffic.github.io/visuals/"> Home </a>
   • [About us](about.md) <br><br>
 
 </div>
