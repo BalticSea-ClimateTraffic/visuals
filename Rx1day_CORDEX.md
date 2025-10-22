@@ -10,7 +10,7 @@ title: Precipitation Indices
   position: fixed;          /* stick to viewport instead of page flow */
   top: 200px;               /* distance from top */
   right: 20px;              /* distance from right edge */
-  width: 220px;             /* adjust width as needed */
+  width: 320px;             /* adjust width as needed */
   background-color: #e6f3ff; /* light blue background */
   border: 1px solid #99ccee;
   border-radius: 8px;
