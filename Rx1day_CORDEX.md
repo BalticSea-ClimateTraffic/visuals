@@ -10,7 +10,7 @@ title: Precipitation Indices
   position: fixed;          /* stick to viewport instead of page flow */
   top: 200px;               /* distance from top */
   right: 20px;              /* distance from right edge */
-  width: 420px;             /* adjust width as needed */
+  width: 220px;             /* adjust width as needed */
   background-color: #e6f3ff; /* light blue background */
   border: 1px solid #99ccee;
   border-radius: 8px;
@@ -71,7 +71,7 @@ html {
 
 <div id="toc-box">
   <strong><span class="blinking-text">Jump to:</span> </strong>
-  <a href="https://balticsea-climatetraffic.github.io/visuals/roadweather.md"> Road surface temperature, freeze-thaw cycles & surface cover </a> <br>
+  <a href="https://balticsea-climatetraffic.github.io/visuals/roadweather.md"> Road Weather </a> <br>
   <a href="https://balticsea-climatetraffic.github.io/visuals/preciptype.md"> Precipitation Type </a>  <br>
   <a href="https://balticsea-climatetraffic.github.io/visuals/R20mm_CORDEX.md"> Wind </a>  <br>
   <a href="https://balticsea-climatetraffic.github.io/visuals/Rx1day_CORDEX.md"> Precipitation Index </a> <br>
