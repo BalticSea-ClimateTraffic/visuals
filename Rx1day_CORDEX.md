@@ -2,6 +2,81 @@
 layout: page
 title: Precipitation Indices
 ---
+<br>
+
+<style>
+/* Floating table of contents box on the right side */
+#toc-box {
+  position: fixed;          /* stick to viewport instead of page flow */
+  top: 200px;               /* distance from top */
+  right: 20px;              /* distance from right edge */
+  width: 220px;             /* adjust width as needed */
+  background-color: #e6f3ff; /* light blue background */
+  border: 1px solid #99ccee;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  padding: 12px 16px;
+  font-size: 0.95em;
+  z-index: 1000;            /* keep it above other elements */
+}
+
+#toc-box strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1em;
+}
+
+/* Blinking and color-changing "Just to" text */
+.blinking-text {
+  font-weight: bold;
+  animation: blinkColor 1.2s infinite;
+}
+
+@keyframes blinkColor {
+  0%   { color: #ff0000; opacity: 1; }
+  25%  { color: #ff9900; opacity: 0.8; }
+  50%  { color: #0088ff; opacity: 1; }
+  75%  { color: #33cc33; opacity: 0.8; }
+  100% { color: #ff0000; opacity: 1; }
+}
+
+#toc-box a {
+  text-decoration: underline;
+  color: #0055aa;
+  display: block;
+  margin-bottom: 6px;
+  transition: color 0.2s ease;
+}
+
+#toc-box a:hover {
+  color: #003d80;
+}
+
+html {
+  scroll-behavior: smooth;  /* enables nice smooth scrolling */
+}
+
+/* Make sure content doesn’t get hidden under the TOC on narrow screens */
+@media (max-width: 900px) {
+  #toc-box {
+    position: static;
+    width: auto;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    margin-bottom: 20px;
+  }
+}
+</style>
+
+<div id="toc-box">
+  <strong><span class="blinking-text">Jump to</span> Jump to:</strong>
+  <a href="#rortwqqqqe">Rafddesfsfe</a>  
+  <a href="#frrrwres">Fwefwrfwedws on Road</a>
+  <a href="#rcccrrrr">Rrrrrrver/Condition</a>
+  <a href="#further-info">Further Information</a>
+</div>
+
 
 <h1> CORDEX: Maximum Daily Precipitation & Heavy Precipitation Days </h1>
 
