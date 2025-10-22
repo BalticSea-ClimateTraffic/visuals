@@ -71,15 +71,12 @@ html {
 
 <div id="toc-box">
   <strong><span class="blinking-text">Jump to:</span> </strong>
-  • [Road surface temperature, freeze-thaw cycles & surface cover](roadweather.md) <br> <br> 
-  • [Precipitation Type](preciptype.md) <br><br>
-  • Rainfall<br><br>
-  • [Wind](R20mm_CORDEX.md) <br><br>
-  • [Precipitation Index](Rx1day_CORDEX.md) <br><br>
-  • [HOME](index.md) <br><br>
-  <a href="https://balticsea-climatetraffic.github.io/visuals/"> Home </a>
-  • [About us](about.md) <br><br>
-
+  • <a href="https://balticsea-climatetraffic.github.io/visuals/roadweather.md"> Road surface temperature, freeze-thaw cycles & surface cover </a>  <br><br>
+  • <a href="https://balticsea-climatetraffic.github.io/visuals/preciptype.md"> Precipitation Type </a>  <br><br>
+  • <a href="https://balticsea-climatetraffic.github.io/visuals/R20mm_CORDEX.md"> Wind </a>  <br><br>
+  • <a href="https://balticsea-climatetraffic.github.io/visuals/Rx1day_CORDEX.md"> Precipitation Index </a>  <br><br>
+  • <a href="https://balticsea-climatetraffic.github.io/visuals/"> Home </a>  <br><br>
+  • <a href="https://balticsea-climatetraffic.github.io/visuals/about.md"> About </a>  <br><br>
 </div>
 
 
