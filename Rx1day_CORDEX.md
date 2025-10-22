@@ -71,12 +71,12 @@ html {
 
 <div id="toc-box">
   <strong><span class="blinking-text">Jump to:</span> </strong>
-  • <a href="https://balticsea-climatetraffic.github.io/visuals/roadweather.md"> Road surface temperature, freeze-thaw cycles & surface cover </a>  <br><br>
-  • <a href="https://balticsea-climatetraffic.github.io/visuals/preciptype.md"> Precipitation Type </a>  <br><br>
-  • <a href="https://balticsea-climatetraffic.github.io/visuals/R20mm_CORDEX.md"> Wind </a>  <br><br>
-  • <a href="https://balticsea-climatetraffic.github.io/visuals/Rx1day_CORDEX.md"> Precipitation Index </a>  <br><br>
-  • <a href="https://balticsea-climatetraffic.github.io/visuals/"> Home </a>  <br><br>
-  • <a href="https://balticsea-climatetraffic.github.io/visuals/about.md"> About </a>  <br><br>
+  • <a href="https://balticsea-climatetraffic.github.io/visuals/roadweather.md"> Road surface temperature, freeze-thaw cycles & surface cover </a> <br>
+  • <a href="https://balticsea-climatetraffic.github.io/visuals/preciptype.md"> Precipitation Type </a>  <br>
+  • <a href="https://balticsea-climatetraffic.github.io/visuals/R20mm_CORDEX.md"> Wind </a>  <br>
+  • <a href="https://balticsea-climatetraffic.github.io/visuals/Rx1day_CORDEX.md"> Precipitation Index </a> <br>
+  • <a href="https://balticsea-climatetraffic.github.io/visuals/"> Home </a>  <br>
+  • <a href="https://balticsea-climatetraffic.github.io/visuals/about.md"> About </a> <br>
 </div>
 
 
