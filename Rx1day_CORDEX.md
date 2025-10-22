@@ -70,7 +70,7 @@ html {
 </style>
 
 <div id="toc-box">
-  <strong><span class="blinking-text">Jump to</span> Jump to:</strong>
+  <strong><span class="blinking-text">Jump to:</span> </strong>
   <a href="#rortwqqqqe">Rafddesfsfe</a>  
   <a href="#frrrwres">Fwefwrfwedws on Road</a>
   <a href="#rcccrrrr">Rrrrrrver/Condition</a>
