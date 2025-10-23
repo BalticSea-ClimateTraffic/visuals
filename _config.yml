@@ -1,6 +1,6 @@
 title: Climate Change & Traffic
 description: Climate change impacts on traffic around the Baltic sea
-theme: jekyll-theme-modernist
+theme: minima
 header_pages:
   - index.md
   - about.md
