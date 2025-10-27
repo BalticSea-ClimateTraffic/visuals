@@ -19,8 +19,8 @@ layout: default
     <a href="preciptype.md">Precipitation Type</a>
   </li>
   <li>
-    <a href="Rx1day_CORDEX.md">Precipitation Index</a>
-    <img src="Home_icons/maritime-icon-5.jpg" alt="All icon" width="80" height="80" style="vertical-align:middle; margin-centre:6px;">
+    <a href="Rx1day_CORDEX.md">Precipitation Index <br>
+    <img src="Home_icons/maritime-icon-5.jpg" alt="All icon" width="80" height="80" style="vertical-align:middle; margin-centre:6px;"></a>
     
   </li>
 </ul>
