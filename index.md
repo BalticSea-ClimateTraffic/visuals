@@ -6,7 +6,8 @@ layout: default
 
 ![Type icon](Home_icons/maritime-icon-5.jpg)
 ###   Maritime <br>
-  • ![Type icon](Home_icons/maritime-icon-5.jpg) [Precipitation Type](preciptype.md)<br>
+  ![Type icon](Home_icons/maritime-icon-5.jpg) <br>
+  • [Precipitation Type](preciptype.md)<br>
   • Rainfall<br>
   • Wind<br>
   • [Precipitation Index](Rx1day_CORDEX.md) <br>
