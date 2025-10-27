@@ -4,8 +4,8 @@ layout: default
 ---
 
 
-
-###   ![Maritime icon][Home_icons/maritime-icon-5.jpg] Maritime
+![Type icon](Home_icons/maritime-icon-5.jpg)
+###   Maritime <br>
   • ![Type icon](Home_icons/maritime-icon-5.jpg) [Precipitation Type](preciptype.md)<br>
   • Rainfall<br>
   • Wind<br>
