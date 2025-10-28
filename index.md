@@ -15,8 +15,10 @@ layout: default
 
 <ul>
   <li>
-    <img src="Home_icons/maritime-icon-5.jpg" alt="Type icon" width="20" height="20" style="vertical-align:middle; margin-right:6px;">
-    <a href="preciptype.md">Precipitation Type</a>
+    <a href="preciptype.html">
+      <img src="Home_icons/maritime-icon-5.jpg" alt="Type icon" width="20" height="20" class="blink-on-hover" style="vertical-align:middle; margin-right:6px;">
+      Precipitation Type
+    </a>
   </li>
   <li>
     <a href="preciptype.html">
@@ -24,6 +26,24 @@ layout: default
       Precipitation Type
     </a>
   </li>
+  <li>
+    <a href="preciptype.html">
+      <img src="Home_icons/png-transparent-computer-icons-wind-weather-forecasting-high-resolution-windy-icon-miscellaneous-text-cloud-thumbnail.png" alt="Type icon" width="20" height="20" class="blink-on-hover" style="vertical-align:middle; margin-right:6px;">
+      Wind
+    </a>
+  </li>
+    <li>
+    <a href="Rx1day_CORDEX.html">
+      <img src="Home_icons/maritime-icon-5.jpg" alt="Type icon" width="20" height="20" class="blink-on-hover" style="vertical-align:middle; margin-right:6px;">
+      Precipitation Index
+    </a>
+  </li>
+    <li>
+    <a href="Rx1day_CORDEX.html">
+      <img src="Home_icons/maritime-icon-5.jpg" alt="Type icon" width="20" height="20" class="blink-on-hover" style="vertical-align:middle; margin-right:6px;">
+      sea-ice
+    </a>
+  </li>  
 </ul>
     
 
