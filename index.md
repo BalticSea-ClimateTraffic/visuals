@@ -4,16 +4,16 @@ layout: default
 ---
 
 
-%![Type icon](Home_icons/maritime-icon-5.jpg)<br>
+<!-- ![Type icon](Home_icons/maritime-icon-5.jpg)<br>-->
 <img src="Home_icons/maritime-icon-5.jpg" width="100" height="100" alt="Type icon">
 ###   Maritime <br>
-  
+  <!--
   • [Precipitation Type](preciptype.md)<br>
   • Rainfall<br>
   • Wind<br>
   • [Precipitation Index](Rx1day_CORDEX.md) <br>
     • Sea ice ?<br>
-
+-->
 <ul>
   <li>
     <a href="preciptype.html">
