@@ -4,7 +4,7 @@ layout: default
 ---
 
 
-![Type icon](Home_icons/maritime-icon-5.jpg)<br>
+%![Type icon](Home_icons/maritime-icon-5.jpg)<br>
 <img src="Home_icons/maritime-icon-5.jpg" width="100" height="100" alt="Type icon">
 ###   Maritime <br>
   
