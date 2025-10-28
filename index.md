@@ -19,7 +19,7 @@ layout: default
     <a href="preciptype.md">Precipitation Type</a>
   </li>
   <li>
-    <a href="preciptype.md">
+    <a href="preciptype.html">
       <img src="Home_icons/maritime-icon-5.jpg" alt="Type icon" width="20" height="20" class="blink-on-hover" style="vertical-align:middle; margin-right:6px;">
       Precipitation Type
     </a>
