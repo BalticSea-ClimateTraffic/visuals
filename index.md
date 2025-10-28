@@ -4,7 +4,8 @@ layout: default
 ---
 
 
-![Type icon](Home_icons/maritime-icon-5.jpg)
+![Type icon](Home_icons/maritime-icon-5.jpg)<br>
+<img src="Home_icons/maritime-icon-5.jpg" width="50" height="50" alt="Type icon">
 ###   Maritime <br>
   
   • [Precipitation Type](preciptype.md)<br>
