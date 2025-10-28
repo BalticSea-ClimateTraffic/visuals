@@ -40,7 +40,7 @@ layout: default
   </li>
     <li>
     <a href="Rx1day_CORDEX.html">
-      <img src="Home_icons/maritime-icon-5.jpg" alt="Type icon" width="20" height="20" class="blink-on-hover" style="vertical-align:middle; margin-right:6px;">
+      <img src="Home_icons/2301.i518.032.F.m005.c9.frozen arctic cracked ice iceberg set.jpg" alt="Type icon" width="20" height="20" class="blink-on-hover" style="vertical-align:middle; margin-right:6px;">
       Sea-ice
     </a>
   </li>  
