@@ -16,7 +16,7 @@ layout: default
 <ul>
   <li>
     <a href="preciptype.html">
-      <img src="Home_icons/maritime-icon-5.jpg" alt="Type icon" width="20" height="20" class="blink-on-hover" style="vertical-align:middle; margin-right:6px;">
+      <img src="Home_icons/weather-showers-scattered.svg" alt="Type icon" width="20" height="20" class="blink-on-hover" style="vertical-align:middle; margin-right:6px;">
       Precipitation Type
     </a>
   </li>
