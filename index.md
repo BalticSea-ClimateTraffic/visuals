@@ -5,7 +5,7 @@ layout: default
 
 
 <!-- ![Type icon](Home_icons/maritime-icon-5.jpg)<br> -->
-<img src="Home_icons/maritime-icon-5.jpg" width="100" height="100" alt="Type icon" style="border: 1px solid black;">
+<img src="Home_icons/maritime-icon-5.jpg" width="100" height="100" alt="Type icon" style="border: 3px solid black;">
 
 ###   Maritime 
 
@@ -51,14 +51,14 @@ layout: default
 <br>
 <br>
     
-<img src="Home_icons/IMG_3355.jpg" width="100" height="100" alt="Type icon" style="border: 1px solid black;">
+<img src="Home_icons/IMG_3355.jpg" width="100" height="100" alt="Type icon" style="border: 3px solid black;">
 
 ###   Roads
   • [Road surface temperature, freeze-thaw cycles & surface cover](roadweather.md)<br>
 <br>
 <br>
 
-<img src="Home_icons/icons8-train-100.png" width="100" height="100" alt="Type icon" style="border: 1px solid black;">
+<img src="Home_icons/icons8-train-100.png" width="100" height="100" alt="Type icon" style="border: 3px solid black;">
 
 ###   Rail
   • Wind ?<br>
