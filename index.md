@@ -30,7 +30,7 @@ layout: default
     </a>
   </li>
   <li>
-    <a href="preciptype.html">
+    <a href="R20mm_CORDEX.html">
       <img src="Home_icons/png-transparent-computer-icons-wind-weather-forecasting-high-resolution-windy-icon-miscellaneous-text-cloud-thumbnail.png" alt="Type icon" width="20" height="20" class="blink-on-hover" style="vertical-align:middle; margin-right:6px;">
       Wind
     </a>
@@ -61,6 +61,24 @@ layout: default
 <img src="Home_icons/icons8-train-100.png" width="100" height="100" alt="Type icon" >
 
 ###   Rail
-  • Wind ?<br>
+  • Wind ?<br> 
   • Waves ?<br>
+
+  <ul>
+  <li>
+    <a href="preciptype.html">
+      <img src="Home_icons/18157058.jpg" alt="Type icon" width="20" height="20" class="blink-on-hover" style="vertical-align:middle; margin-right:6px;">
+      Waves
+    </a>
+  </li>
+  <li>
+    <a href="R20mm_CORDEX.html">
+      <img src="Home_icons/png-transparent-computer-icons-wind-weather-forecasting-high-resolution-windy-icon-miscellaneous-text-cloud-thumbnail.png" alt="Type icon" width="20" height="20" class="blink-on-hover" style="vertical-align:middle; margin-right:6px;">
+      Wind
+    </a>
+  </li>
+ 
+</ul>
+<br>
+<br>
 
