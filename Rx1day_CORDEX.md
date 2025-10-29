@@ -11,7 +11,7 @@ title: Precipitation Indices
   top: 200px;               /* distance from top */
   right: 20px;              /* distance from right edge */
   width: 220px;             /* adjust width as needed */
-  background-color: #e6f3ff; /* light blue background */
+  background-color: #ffffff; /* light blue background */
   border: 1px solid #99ccee;
   border-radius: 8px;
   box-shadow: 0 0 6px rgba(0,0,0,0.1);
