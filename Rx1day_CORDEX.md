@@ -26,19 +26,7 @@ title: Precipitation Indices
   font-size: 1em;
 }
 
-/* Blinking and color-changing "Just to" text */
-.blinking-text {
-  font-weight: bold;
-  animation: blinkColor 1.2s infinite;
-}
 
-@keyframes blinkColor {
-  0%   { color: #ff0000; opacity: 1; }
-  25%  { color: #ff9900; opacity: 0.8; }
-  50%  { color: #0088ff; opacity: 1; }
-  75%  { color: #33cc33; opacity: 0.8; }
-  100% { color: #ff0000; opacity: 1; }
-}
 
 #toc-box a {
   text-decoration: underline;
