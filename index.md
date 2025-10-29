@@ -61,8 +61,8 @@ layout: default
 <img src="Home_icons/icons8-train-100.png" width="100" height="100" alt="Type icon" >
 
 ###   Rail
-  • Wind ?<br> 
-  • Waves ?<br>
+ <!-- • Wind ?<br> 
+  • Waves ?<br> -->
 
   <ul>
   <li>
