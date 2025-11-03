@@ -29,12 +29,14 @@ layout: default
       <img src="Home_icons/sivvus_weather_symbols_4.svg" alt="Type icon" width="20" height="20" class="blink-on-hover" style="vertical-align:middle; margin-right:6px;">
       Rainfall
     </a>
+    Rainfall is a meteorological variable measured by its accumulated depth (in millimeters or inches) over a specific time period, or by its intensity (e.g., millimeters per hour).
   </li>
   <li>
     <a href="R20mm_CORDEX.html">
       <img src="Home_icons/png-transparent-computer-icons-wind-weather-forecasting-high-resolution-windy-icon-miscellaneous-text-cloud-thumbnail.png" alt="Type icon" width="20" height="20" class="blink-on-hover" style="vertical-align:middle; margin-right:6px;">
       Wind
     </a>
+    Surface winds drive the exchange of momentum between the atmosphere and ocean, producing ocean waves and provides a key forcing of the ocean circulation responsible for the global transport of important amounts of heat and carbon. Extreme winds have huge social and economic impacts, most obviously during hurricanes and tropical cyclones, leading to loss of human life, damage to ecosystems, the destruction of infrastructure and loss of shipping.
   </li>
     <li>
     <a href="Rx1day_CORDEX.html">
@@ -47,7 +49,13 @@ layout: default
       <img src="Home_icons/2301.i518.032.F.m005.c9.frozen arctic cracked ice iceberg set.jpg" alt="Type icon" width="20" height="20" class="blink-on-hover" style="vertical-align:middle; margin-right:6px;">
       Sea-ice
     </a>
-  </li>  
+  </li> 
+  <li>
+    <a href="preciptype.html">
+      <img src="Home_icons/18157058.jpg" alt="Type icon" width="20" height="20" class="blink-on-hover" style="vertical-align:middle; margin-right:6px;">
+      Waves
+    </a>
+  </li>
 </ul>
 <br>
 <br>
@@ -66,12 +74,7 @@ layout: default
   • Waves ?<br> -->
 
   <ul>
-  <li>
-    <a href="preciptype.html">
-      <img src="Home_icons/18157058.jpg" alt="Type icon" width="20" height="20" class="blink-on-hover" style="vertical-align:middle; margin-right:6px;">
-      Waves
-    </a>
-  </li>
+
   <li>
     <a href="R20mm_CORDEX.html">
       <img src="Home_icons/png-transparent-computer-icons-wind-weather-forecasting-high-resolution-windy-icon-miscellaneous-text-cloud-thumbnail.png" alt="Type icon" width="20" height="20" class="blink-on-hover" style="vertical-align:middle; margin-right:6px;">
