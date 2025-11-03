@@ -20,8 +20,9 @@ layout: default
   <li>
     <a href="preciptype.html">
       <img src="Home_icons/weather-showers-scattered.svg" alt="Type icon" width="20" height="20" class="blink-on-hover" style="vertical-align:middle; margin-right:6px;">
-      Precipitation Type
-    </a>
+       <b> Precipitation Type </b> 
+    </a> <br> 
+    Precipitation types are forms of water falling from the atmosphere to the Earth's surface, most commonly including rain, snow, sleet, and hail. The specific type   depends on the temperature of the atmosphere, with rain occurring above freezing, while snow and sleet typically fall in colder temperatures. Other types include drizzle, freezing rain, and graupel. 
   </li>
   <li>
     <a href="preciptype.html">
