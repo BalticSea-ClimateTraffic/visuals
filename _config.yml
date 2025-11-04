@@ -10,6 +10,7 @@ header_pages:
   - R20mm_CORDEX.md
   - roadweather.md
   - data.md
+  - references.md
   #- rstemp.md
   #- rscond.md
   #- freezethaw.md
