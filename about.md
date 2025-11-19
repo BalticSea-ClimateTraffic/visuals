@@ -48,13 +48,25 @@ Information coming soon.
   <img
     id="plotImage"
     data-base="{{ '/LOGOS/' | relative_url }}"
-    src="{{ '/LOGOS/il-logo-fi-white-rgb-550x115px.png' | relative_url }}"
+    src="{{ 'LOGOS/il-logo-fi-white-rgb-550x115px.png' | relative_url }}"
+    alt="fmi logo"
+    width="100%"
+    height="600"
+    style="border:none;"
+  />
+    <img
+    id="plotImage"
+    data-base="{{ '/LOGOS/' | relative_url }}"
+    src="{{ 'LOGOS/UM_logo_blue_fi-sv_horizontal_RGB-01.jpg' | relative_url }}"
     alt="fmi logo"
     width="100%"
     height="600"
     style="border:none;"
   />
 </div>
+
+
+
 ------------------------------------------------------------------------------------------------
 Page Admin: Nadine-Cyra Freistetter<br>
 Page created: 09-2025<br>
