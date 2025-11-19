@@ -34,6 +34,27 @@ Information coming soon.
 <br><br><br><br>
 
 
+<br><br>
+
+<div style="position: relative; width: 100%; height: 600px; text-align: center;">
+
+  <div id="spinner" 
+       style="display:none; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+              border:8px solid #f3f3f3; border-top:8px solid #3498db; border-radius:50%;
+              width:60px; height:60px; animation:spin 1s linear infinite;">
+  </div>
+
+  <!-- Store the resolved base path in data-base -->
+  <img
+    id="plotImage"
+    data-base="{{ '/LOGOS/' | relative_url }}"
+    src="{{ '/LOGOS/FMI.png' | relative_url }}"
+    alt="Climate plot"
+    width="100%"
+    height="600"
+    style="border:none;"
+  />
+</div>
 ------------------------------------------------------------------------------------------------
 Page Admin: Nadine-Cyra Freistetter<br>
 Page created: 09-2025<br>
