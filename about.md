@@ -49,7 +49,7 @@ Information coming soon.
     id="plotImage"
     data-base="{{ '/LOGOS/' | relative_url }}"
     src="{{ '/LOGOS/FMI.png' | relative_url }}"
-    alt="Climate plot"
+    alt="fmi logo"
     width="100%"
     height="600"
     style="border:none;"
