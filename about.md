@@ -4,11 +4,11 @@ title: About
 ---
 
 ### The impact of climate change on land and maritime transport in the Baltic Sea Region
-The projections found on these pages were designed to inform stakeholders from traffic & transportation sectors in countries adjacent to the Baltic sea, guided by one stakeholder survey and two stakeholder workshops. 
+The goal of the IBA-CRISTAL project is to produce tailored climate information for the traffic and transport sector operating in the Baltic sea region. The visualizations made for these pages were co-designed together with stakeholders, based on a stakeholder survey and two stakeholder workshops. 
 <br><br>
 
 ### Funding
-This stakeholder-focused research was funded by ...
+This project has received funding from the Ministry for Foreign Affairs of Finland for the years 2025-2026.
 <br><br>
 
 ### Primary Team of Experts (alphabetical order)
@@ -26,7 +26,7 @@ This stakeholder-focused research was funded by ...
 <br><br>
 
 ### Data Sources
-Results shown here are generated with regional climate and energy balance models and standardized future climate change scenarios (representative concentration pathways) at the Finnish Meteorological Institute and its collaborators. Each results page harbours more information on the correpsonding results' specific sources.
+Results shown here are based on regional climate model simulations and statistically downscaled global climate model data. The future conditions follow standardized future climate change scenarios (representative concentration pathways). The analysis of the data products was conducted at the Finnish Meteorological Institute. Each results page harbours more information on the correpsonding results' specific sources.
 <br><br>
 
 ### How to cite
