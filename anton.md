@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Remaining plots
+title: Snow days
 ---
 <br>
 
