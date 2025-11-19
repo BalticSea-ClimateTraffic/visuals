@@ -48,7 +48,7 @@ Information coming soon.
   <img
     id="plotImage"
     data-base="{{ '/LOGOS/' | relative_url }}"
-    src="{{ '/LOGOS/FMI.png' | relative_url }}"
+    src="{{ '/LOGOS/il-logo-fi-white-rgb-550x115px.png' | relative_url }}"
     alt="fmi logo"
     width="100%"
     height="600"
