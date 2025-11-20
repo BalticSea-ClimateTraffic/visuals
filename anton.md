@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Diurnal Temperature Range
+title: Temperature Range
 ---
 ---
 <br>
@@ -74,16 +74,14 @@ html {
   <label for="period1">Period: </label>
   <select id="period1">
     <option value="hist">Historical</option>
-    <option value="rect">Recent</option>
     <option value="midc">Mid-Century</option>
   </select>
 
   <label for="season1" style="margin-left: 15px;">Season: </label>
   <select id="season1">
     <option value="DJF">Winter</option>
-    <option value="MAM">Spring</option>
     <option value="JJA">Summer</option>
-    <option value="SON">Autumn</option>
+    <option value="Year">Yearly average</option>
   </select>
 </div>
 
