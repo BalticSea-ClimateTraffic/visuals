@@ -38,32 +38,41 @@ Information coming soon.
 
 <div style="position: relative; width: 100%; height: 600px; text-align: center;">
 
-  <div id="spinner" 
-       style="display:none; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
-              border:8px solid #f3f3f3; border-top:8px solid #3498db; border-radius:50%;
-              width:60px; height:60px; animation:spin 1s linear infinite;">
+  <div id="spinner"
+       style="
+         display:none;
+         position:absolute;
+         top:50%;
+         left:50%;
+         transform:translate(-50%, -50%);
+         border:8px solid #f3f3f3;
+         border-top:8px solid #3498db;
+         border-radius:50%;
+         width:60px;
+         height:60px;
+         animation:spin 1s linear infinite;
+       ">
   </div>
 
   <!-- Store the resolved base path in data-base -->
   <img
-    id="plotImage"
+    class="plot-image"
     data-base="{{ '/LOGOS/' | relative_url }}"
     src="{{ 'LOGOS/il-logo-fi-white-rgb-550x115px.png' | relative_url }}"
-    alt="fmi logo"
-    width="100%"
-    height="600"
-    style="border:none;"
+    alt="FMI logo"
+    style="width:100%; height:600px; border:none;"
   />
-    <img
-    id="plotImage"
+
+  <img
+    class="plot-image"
     data-base="{{ '/LOGOS/' | relative_url }}"
     src="{{ 'LOGOS/UM_logo_blue_fi-sv_horizontal_RGB-01.jpg' | relative_url }}"
-    alt="fmi logo"
-    width="100%"
-    height="600"
-    style="border:none;"
+    alt="UM logo"
+    style="width:100%; height:600px; border:none;"
   />
+
 </div>
+
 
 
 
