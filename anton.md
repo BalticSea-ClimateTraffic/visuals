@@ -74,14 +74,15 @@ html {
   <label for="period1">Period: </label>
   <select id="period1">
     <option value="hist">Historical</option>
-    <option value="midc">Mid-Century</option>
+    <option value="midc">Mid-Century</option>    
+    <option value=diff">Change between Hist and MidC</option>
   </select>
 
   <label for="season1" style="margin-left: 15px;">Season: </label>
   <select id="season1">
     <option value="DJF">Winter</option>
     <option value="JJA">Summer</option>
-    <option value="Year">Yearly average</option>
+    <option value="Year-mean">Yearly average</option>
   </select>
 </div>
 
@@ -99,7 +100,7 @@ const iframe1       = document.getElementById('plotFrame1');
 function updatePlot1() {
   const period = periodSelect1.value;
   const season = seasonSelect1.value;
-  const newSrc = `PLOTS_Nadine/PLOT_interactive_Heatmap_GTSurf_avgmean_${period}_${season}.html`;
+  const newSrc = `PLOTS_Anton/PLOT_DTR_${period}_${season}.html`;
 
   iframe1.style.opacity = 0;
   setTimeout(() => {
