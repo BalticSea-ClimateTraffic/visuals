@@ -48,7 +48,7 @@ Information coming soon.
     data-base="{{ '/LOGOS/' | relative_url }}"
     src="{{ 'LOGOS/il-logo-fi-se-en-rgb-1860x345px.png' | relative_url }}"
     alt="FMI logo"
-    style="width:100%; height:600px; border:none;"
+    style="width:100%; height:100%; border:none;"
   />
 
   <img
@@ -56,7 +56,7 @@ Information coming soon.
     data-base="{{ '/LOGOS/' | relative_url }}"
     src="{{ 'LOGOS/UM_logo_blue_fi-sv_horizontal_RGB-01.jpg' | relative_url }}"
     alt="UM logo"
-    style="width:100%; height:100%; border:none;"
+    style="width:50%; height:50%; border:none;"
   />
 
 </div>
