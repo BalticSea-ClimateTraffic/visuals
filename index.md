@@ -3,9 +3,10 @@ title: Home
 layout: default
 ---
 
+ The various climatic conditions are described here through the data for the stakeholders. We provide analysis of the extreme events from the data. The descriptions for each variable is given below: 
 
 <!-- ![Type icon](Home_icons/maritime-icon-5.jpg)<br> -->
-<img src="Home_icons/maritime-icon-5.jpg" width="100" height="100" alt="Type icon" >
+<!--<img src="Home_icons/maritime-icon-5.jpg" width="100" height="100" alt="Type icon" >-->
 
 ###   Maritime 
 
