@@ -48,7 +48,7 @@ Information coming soon.
     data-base="{{ '/LOGOS/' | relative_url }}"
     src="{{ 'LOGOS/il-logo-fi-se-en-rgb-1860x345px.png' | relative_url }}"
     alt="FMI logo"
-    style="width:50%; height:50%; border:none;"
+    style="width:70%; height:50%; border:none;"
   />
 
   <img
