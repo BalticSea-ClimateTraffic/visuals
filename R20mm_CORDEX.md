@@ -3,7 +3,7 @@ layout: page
 title: Wind Speed
 ---
 
-<h1>Maximum surface wind speed from CORDEX</h1>
+Maximum surface wind speed from CORDEX
 Average seasonal maximum near-surface wind speed (m/s).
 <p>
 <b>Seasons:</b> summer (JJA) and winter (DJF)
