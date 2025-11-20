@@ -49,7 +49,7 @@ Average seasonal maximum near-surface wind speed (m/s).
   <img
     id="plotImage"
     data-base="{{ '/CORDEX_PR/' | relative_url }}"
-    src="{{ '/CORDEX_PR/hist_DJF_mean_1986-2005_subset_map.png' | relative_url }}"
+    src="{{ '/CORDEX_PR/hist_DJF_mean_1986-2005_subset_map.html' | relative_url }}"
     alt="sfcWindmax — Historical — DJF"
     width="100%"
     height="600"
@@ -82,23 +82,23 @@ Average seasonal maximum near-surface wind speed (m/s).
     const seasonTok = season; // DJF | JJA 
 
     if (mode === "absolute") {
-      // <scenario>_<SEASON>_mean_<years>_subset_map.png
+      // <scenario>_<SEASON>_mean_<years>_subset_map.html
       const yrs = YEARS[periodKey];
       const scen = periodKey; // hist | mid | late
-      return basePath + `${scen}_${seasonTok}_mean_${yrs}_subset_map.png`;
+      return basePath + `${scen}_${seasonTok}_mean_${yrs}_subset_map.html`;
     }
 
     // Differences already match your names:
-    // diff_sfcWindmax_<SEASON>_<future>-minus-hist.png
+    // diff_sfcWindmax_<SEASON>_<future>-minus-hist.html
     if (mode === "diff-mid") {
-      return basePath + `diff_sfcWindmax_${seasonTok}_mid-minus-hist.png`;
+      return basePath + `diff_sfcWindmax_${seasonTok}_mid-minus-hist.html`;
     }
     if (mode === "diff-late") {
-      return basePath + `diff_sfcWindmax_${seasonTok}_late-minus-hist.png`;
+      return basePath + `diff_sfcWindmax_${seasonTok}_late-minus-hist.html`;
     }
 
     // Fallback
-    return basePath + `hist_${seasonTok}_mean_${YEARS.hist}_subset_map.png`;
+    return basePath + `hist_${seasonTok}_mean_${YEARS.hist}_subset_map.html`;
   }
 
   window.updatePlot = function updatePlot() {
