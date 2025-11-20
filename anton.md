@@ -75,7 +75,7 @@ html {
   <select id="period1">
     <option value="hist">Historical</option>
     <option value="midc">Mid-Century</option>    
-    <option value=diff">Change between Hist and MidC</option>
+    <option value="diff">Change between Hist and MidC</option>
   </select>
 
   <label for="season1" style="margin-left: 15px;">Season: </label>
