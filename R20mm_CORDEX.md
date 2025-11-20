@@ -44,7 +44,7 @@ Average seasonal maximum near-surface wind speed (m/s).
   data-base="{{ '/CORDEX_PR/' | relative_url }}"
   src="{{ '/CORDEX_PR/hist_DJF_mean_1986-2005_subset_map.html' | relative_url }}"
   width="100%"
-  height="550px"
+  height="100%"
   style="border:none; opacity:1; transition: opacity 0.5s;"
 ></iframe>
 
