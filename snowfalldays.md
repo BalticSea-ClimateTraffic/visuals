@@ -82,7 +82,7 @@ html {
   <select id="season1">
     <option value="DJF">Winter</option>
     <option value="JJA">Summer</option>
-    <option value="Year-mean">Yearly average</option>
+    <option value="Year">Whole year</option>
   </select>
 </div>
 
@@ -135,7 +135,7 @@ fewfwefwehfiöwehf
   <select id="season2">
     <option value="DJF">Winter</option>
     <option value="JJA">Summer</option>
-    <option value="Year-mean">Yearly average</option>
+    <option value="Year">Whole year</option>
   </select>
 </div>
 
