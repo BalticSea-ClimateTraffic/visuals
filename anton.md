@@ -59,17 +59,16 @@ html {
 
 <div id="toc-box">
   <strong>Jump to:</strong>
-  <a href="#road-temperature">Road Surface Temperature</a>  
-  <a href="#freeze-thaw-cycles">Freeze-Thaw Cycles on Road</a>
-  <a href="#road-cover">Road Cover/Condition</a>
+  <a href="#dtr">DTR</a>  
+  <a href="#dtr10">Days when temperture range > 10C</a>
   <a href="#further-info">Further Information</a>
 </div>
 
 
 ---
 
-# Road Surface Temperature (Asphalt)
-{:#road-temperature}
+# Diurnal Temperature Range
+{:#dtr}
 
 <div style="margin-bottom: 15px;">
   <label for="period1">Period: </label>
@@ -120,8 +119,8 @@ Average road surface temperatures are expected to increase in Europe with progre
 
 
 
-# Freeze-Thaw Cycles
-{:#freeze-thaw-cycles}
+# Days when temperture range > 10C
+{:#dtr10}
 
 Average number and minimum and maximum observed in that period:
 
@@ -174,73 +173,10 @@ The winter-time temperature increases higher north (higher than 60 degrees north
 
 
 
-# Road Cover/Condition
-{:#road-cover}
-
-Seasonal average road surface condition (on asphalt) ranging from dry, moist, or wet, to slush, frost, partly icy or icy, and snow.
-
-<div style="margin-bottom: 15px;">
-  <label for="period3">Period: </label>
-  <select id="period3">
-    <option value="hist">Historical</option>
-    <option value="rect">Recent</option>
-    <option value="midc">Mid-Century</option>
-  </select>
-
-  <label for="season3" style="margin-left: 15px;">Season: </label>
-  <select id="season3">
-    <option value="DJF">Winter</option>
-    <option value="MAM">Spring</option>
-    <option value="JJA">Summer</option>
-    <option value="SON">Autumn</option>
-  </select>
-
-  <label for="type3" style="margin-left: 15px;">Road Surface Condition: </label>
-  <select id="type3">
-    <option value="dry">Dry road</option>
-    <option value="snowy">Snow on road</option>
-    <option value="icy">Icy or partly icy road</option>
-  </select>
-</div>
-
-<iframe id="plotFrame3" src="PLOTS_Nadine/PLOT_interactive_GSCond_hist_DJF_dry.html"
-        width="100%"
-        height="600px"
-        style="border:none; opacity:1; transition: opacity 0.5s;">
-</iframe>
-
-<script>
-const periodSelect3 = document.getElementById('period3');
-const seasonSelect3 = document.getElementById('season3');
-const typeSelect3   = document.getElementById('type3');
-const iframe3       = document.getElementById('plotFrame3');
-
-function updatePlot3() {
-  const period = periodSelect3.value;
-  const season = seasonSelect3.value;
-  const type   = typeSelect3.value;
-  const newSrc = `PLOTS_Nadine/PLOT_interactive_GSCond_${period}_${season}_${type}.html`;
-
-  iframe3.style.opacity = 0;
-  setTimeout(() => {
-    iframe3.src = newSrc;
-    iframe3.onload = () => { iframe3.style.opacity = 1; };
-  }, 400);
-}
-periodSelect3.addEventListener('change', updatePlot3);
-seasonSelect3.addEventListener('change', updatePlot3);
-typeSelect3.addEventListener('change', updatePlot3);
-</script>
-<br><br>
-Snowy and icy road conditions are expected to decrease with progressing climate change. 
-<br><br><br>
-
-
-
 
 # Further Information
 {:#further-info} 
-
+PITTEEE PAIVITTAAA!!
 Used scenario: RCP 8.5 (worst-case climate change scenario)  
 Used models: EC-Earth3/Era-Interim, HCLIM ALADIN cy38, FMI-RoadSurf  
 
