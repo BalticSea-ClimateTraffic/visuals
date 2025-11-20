@@ -56,7 +56,7 @@ Information coming soon.
     data-base="{{ '/LOGOS/' | relative_url }}"
     src="{{ 'LOGOS/UM_logo_blue_fi-sv_horizontal_RGB-01.jpg' | relative_url }}"
     alt="UM logo"
-    style="width:50%; height:50%; border:none;"
+    style="width:50%; height:40%; border:none;"
   />
 
 </div>
