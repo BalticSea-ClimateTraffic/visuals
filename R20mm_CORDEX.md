@@ -147,6 +147,66 @@ Average seasonal maximum near-surface wind speed (m/s).
 })();
 </script>
 
+<div style="margin-bottom: 15px;">
+  <label for="period1">Period: </label>
+  <select id="period1">
+    <option value="hist">Historical</option>
+    <option value="rect">Recent</option>
+    <option value="midc">Mid-Century</option>
+  </select>
+
+  <label for="season1" style="margin-left: 15px;">Season: </label>
+  <select id="season1">
+    <option value="DJF">DJF</option>
+    
+    <option value="JJA">JJA</option>
+    
+  </select>
+
+  <label for="type1" style="margin-left: 15px;">Precipitation Phase: </label>
+  <select id="type1">
+    <option value="water">Water</option>
+    <option value="snow">Snow</option>
+  </select>
+</div>
+
+<iframe id="plotFrame1" src="PLOTS_Nadine/PLOT_interactive_GPType_hist_DJF_water.html" 
+        width="100%" 
+        height="550px" 
+        style="border:none; opacity:1; transition: opacity 0.5s;">
+</iframe>
+
+<script>
+  const periodSelect1 = document.getElementById('period1');
+  const seasonSelect1 = document.getElementById('season1');
+  const typeSelect1   = document.getElementById('type1');
+  const iframe1       = document.getElementById('plotFrame1');
+
+  function updatePlot1() {
+    const period = periodSelect1.value;
+    const season = seasonSelect1.value;
+    const type   = typeSelect1.value;
+
+    const newSrc = `PLOTS_Nadine/PLOT_interactive_GPType_${period}_${season}_${type}.html`;
+
+    iframe1.style.opacity = 0;
+    setTimeout(() => {
+      iframe1.src = newSrc;
+      iframe1.onload = () => { iframe1.style.opacity = 1; };
+    }, 400);
+  }
+
+  periodSelect1.addEventListener('change', updatePlot1);
+  seasonSelect1.addEventListener('change', updatePlot1);
+  typeSelect1.addEventListener('change', updatePlot1);
+</script>
+
+<br>
+
+
+
+
+
 <br><br><br>
 
 Further description about the CORDEX project can be found on the following link:<br>
