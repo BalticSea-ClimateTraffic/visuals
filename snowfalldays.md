@@ -86,7 +86,7 @@ html {
   </select>
 </div>
 
-<iframe id="plotFrame1" src="PLOTS_Anton/PLOT_Snday_1996-2014_JJA.html"
+<iframe id="plotFrame1" src="PLOTS_Anton/PLOT_Snday_1995-2014_DJF.html"
         width="100%"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
