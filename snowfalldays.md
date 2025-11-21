@@ -88,7 +88,6 @@ html {
 
 <iframe id="plotFrame1" src="PLOTS_Anton/PLOT_Snday_1996-2014_JJA.html"
         width="100%"
-        height="700px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
@@ -141,7 +140,6 @@ fewfwefwehfiöwehf
 
 <iframe id="plotFrame2" src="PLOTS_Anton/PLOT_Sndays_1996-2014_JJA.html"
         width="100%"
-        height="550px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
