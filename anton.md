@@ -139,7 +139,7 @@ Number of days per season/year when daily temperature range is larger than 10 °
 
 <iframe id="plotFrame2" src="PLOTS_Anton/PLOT_DTRd10_hist_Year.html"
         width="900px"
-        height="500px"
+        height="700px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
