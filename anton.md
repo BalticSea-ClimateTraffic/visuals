@@ -112,9 +112,7 @@ function updatePlot1() {
 periodSelect1.addEventListener('change', updatePlot1);
 seasonSelect1.addEventListener('change', updatePlot1);
 </script>
-<br><br>
--
-<br><br><br>
+
 
 
 
@@ -163,9 +161,7 @@ function updatePlot2() {
 periodSelect2.addEventListener('change', updatePlot2);
 seasonSelect2.addEventListener('change', updatePlot2);
 </script>
-<br><br>
--
-<br><br><br>
+
 
 
 
@@ -215,8 +211,7 @@ periodSelect3.addEventListener('change', updatePlot3);
 seasonSelect3.addEventListener('change', updatePlot3);
 </script>
 <br><br>
--
-<br><br><br>
+
 
 
 # Further Information
