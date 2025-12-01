@@ -87,8 +87,8 @@ html {
 </div>
 
 <iframe id="plotFrame1" src="PLOTS_Anton/PLOT_DTR_hist_Year-mean.html"
-        width="100%"
-        height="1000px"
+        width="900px"
+        height="700px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
