@@ -3,7 +3,7 @@ title: Home
 layout: default
 ---
 
- The various climatic conditions are described here through the data for the stakeholders. We provide analysis of the extreme events from the data. The descriptions for each variable is given below: 
+How is climate change expected to impact traffic and transport in the Baltic Sea Region? Whether you operate at road, rail, or sea, this website provides information on changes in climatic conditions through variables that are the most relevant for your operations. 
 
 <!-- ![Type icon](Home_icons/maritime-icon-5.jpg)<br> -->
 <img src="Home_icons/maritime-icon-5.jpg" width="100" height="100" alt="Type icon" >
