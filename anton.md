@@ -69,7 +69,7 @@ html {
 
 # Diurnal Temperature Range
 {:#dtr}
-
+Average difference of daily maximum and minimum temperature.
 <div style="margin-bottom: 15px;">
   <label for="period1">Period: </label>
   <select id="period1">
@@ -112,15 +112,15 @@ periodSelect1.addEventListener('change', updatePlot1);
 seasonSelect1.addEventListener('change', updatePlot1);
 </script>
 <br><br>
-KIRJOTA JOTTAI!
+-
 <br><br><br>
 
 
 
 
-# Days when temperture range > 10C
+# Days when temperture range > 10 °C
 {:#dtr10}
-
+Number of days per season/year when daily temperature range is larger than 10 °C per season/year.
 <div style="margin-bottom: 15px;">
   <label for="period2">Period: </label>
   <select id="period2">
@@ -138,7 +138,7 @@ KIRJOTA JOTTAI!
 </div>
 
 <iframe id="plotFrame2" src="PLOTS_Anton/PLOT_DTRd10_hist_Year.html"
-        width="100%"
+        width="900px"
         height="500px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
@@ -163,7 +163,7 @@ periodSelect2.addEventListener('change', updatePlot2);
 seasonSelect2.addEventListener('change', updatePlot2);
 </script>
 <br><br>
-KIRJOTA JOTTAI!
+-
 <br><br><br>
 
 
@@ -172,18 +172,14 @@ KIRJOTA JOTTAI!
 
 # Further Information
 {:#further-info} 
-PITTEEE PAIVITTAAA!!
-Used scenario: RCP 8.5 (worst-case climate change scenario)  
-Used models: EC-Earth3/Era-Interim, HCLIM ALADIN cy38, FMI-RoadSurf  
+Used scenario: Historical until 2015 - SSP245 ("moderate" pathway for future greenhouse gas emissions) for midcentury 
+Used Data: NEX-GDDP-CMIP6, Statistically downscaled climate model dataset made by NASA. Based on 30 CMIP6 climate model simulations, https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-gddp-cmip6 
 
 Periods:  
-- Historical: 1986–2005  
-- Recent: 1999–2018  
+- Historical: 1995–2014  
 - Mid-Century: 2041–2060  
 
 Seasons:  
 - Winter: December, January, February (DJF)
-- Spring: March, April, May (MAM)
 - Summer: June, July, August (JJA)
-- Autumn: September, October, November (SON)
 <br><br><br>
