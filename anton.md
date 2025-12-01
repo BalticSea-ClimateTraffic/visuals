@@ -86,9 +86,9 @@ html {
   </select>
 </div>
 
-<iframe id="plotFrame1" src="PLOTS_Anton/PLOT_DTR_midc_Year-mean.html"
-        width="100%"
-        height="500px"
+<iframe id="plotFrame1" src="PLOTS_Anton/PLOT_DTR_hist_Year-mean.html"
+        width="80%"
+        height="700px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
@@ -137,9 +137,9 @@ KIRJOTA JOTTAI!
   </select>
 </div>
 
-<iframe id="plotFrame2" src="PLOTS_Anton/PLOT_midc_1995-2014_Year.html"
-        width="100%"
-        height="500px"
+<iframe id="plotFrame2" src="PLOTS_Anton/PLOT_DTRd10_hist_Year.html"
+        width="80%"
+        height="700px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
