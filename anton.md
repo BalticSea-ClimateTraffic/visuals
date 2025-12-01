@@ -132,7 +132,7 @@ KIRJOTA JOTTAI!
   <select id="season2">
     <option value="DJF">Winter</option>
     <option value="JJA">Summer</option>
-    <option value="Year-sum">Days per year</option>
+    <option value="Year">Days per year</option>
   </select>
 </div>
 
