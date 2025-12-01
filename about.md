@@ -26,7 +26,7 @@ This project has received funding from the Ministry for Foreign Affairs of Finla
 <br><br>
 
 ### Data Sources
-Results shown here are based on regional climate model simulations and statistically downscaled global climate model data. The future conditions follow standardized future climate change scenarios (Representative Concentration Pathways, RCPs). The analysis of the data products was conducted at the Finnish Meteorological Institute. Each results page harbours more information on the production of correpsonding results'.
+Results shown here are based on regional climate model simulations and statistically downscaled global climate model data. The future conditions follow standardized future climate change scenarios (Representative Concentration Pathways, RCPs). The analysis of the data products was conducted at the Finnish Meteorological Institute. Each results page harbours more information on the production of correpsonding results.
 <br><br>
 
 ### How to cite
