@@ -61,6 +61,7 @@ html {
   <strong>Jump to:</strong>
   <a href="#dtr">DTR</a>  
   <a href="#dtr10">Days when temperture range > 10C</a>
+  <a href="#ZCD">Zero-Crossing-Days</a>
   <a href="#further-info">Further Information</a>
 </div>
 
@@ -168,6 +169,54 @@ seasonSelect2.addEventListener('change', updatePlot2);
 
 
 
+
+# Zero-Crossing-Days
+{:#ZCD}
+A days when the air temperature crosses 0 °C at least once—either rising from below freezing to above, or falling from above freezing to below.
+<div style="margin-bottom: 15px;">
+  <label for="period3">Period: </label>
+  <select id="period3">
+    <option value="hist">Historical</option>
+    <option value="midc">Mid-Century</option>    
+    <option value="diff">Change between Hist and MidC</option>
+  </select>
+
+  <label for="season3" style="margin-left: 15px;">Season: </label>
+  <select id="season3">
+    <option value="DJF">Winter</option>
+    <option value="JJA">Summer</option>
+    <option value="Year">Days per year</option>
+  </select>
+</div>
+
+<iframe id="plotFrame3" src="PLOTS_Anton/PLOT_ZCD_hist_Year.html"
+        width="900px"
+        height="700px"
+        style="border:none; opacity:1; transition: opacity 0.5s;">
+</iframe>
+
+<script>
+const periodSelect3 = document.getElementById('period3');
+const seasonSelect3 = document.getElementById('season3');
+const iframe3       = document.getElementById('plotFrame3');
+
+function updatePlot3() {
+  const period = periodSelect3.value;
+  const season = seasonSelect3.value;
+  const newSrc = `PLOTS_Anton/PLOT_ZCD_${period}_${season}.html`;
+
+  iframe3.style.opacity = 0;
+  setTimeout(() => {
+    iframe3.src = newSrc;
+    iframe3.onload = () => { iframe3.style.opacity = 1; };
+  }, 400);
+}
+periodSelect3.addEventListener('change', updatePlot3);
+seasonSelect3.addEventListener('change', updatePlot3);
+</script>
+<br><br>
+-
+<br><br><br>
 
 
 # Further Information
