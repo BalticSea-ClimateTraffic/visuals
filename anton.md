@@ -88,6 +88,7 @@ html {
 
 <iframe id="plotFrame1" src="PLOTS_Anton/PLOT_DTR_1996-2014_JJA.html"
         width="100%"
+        height="500px
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
@@ -138,7 +139,7 @@ KIRJOTA JOTTAI!
 
 <iframe id="plotFrame2" src="PLOTS_Anton/PLOT_DTRd10_1996-2014_JJA.html"
         width="100%"
-        height="700px"
+        height="500px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
