@@ -118,7 +118,7 @@ seasonSelect1.addEventListener('change', updatePlot1);
 
 
 
-# Days when temperture range > 10 °C
+# Days when temperature range > 10 °C
 {:#dtr10}
 Number of days per season/year when daily temperature range is larger than 10 °C per season/year.
 <div style="margin-bottom: 15px;">
