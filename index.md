@@ -17,7 +17,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
 <div style="display:flex;flex-wrap:wrap;gap:20px;">
 
 <!-- CARD 1 -->
-<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;">
+<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;transition:0.3s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="preciptype.html"><strong>Precipitation Type</strong></a>
   <div>
     <img src="Home_icons/Road.jpg" width="18">
@@ -28,7 +28,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
 </div>
 
 <!-- CARD 2 -->
-<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;">
+<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;transition:0.3s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="preciptype.html"><strong>Rainfall</strong></a>
   <div>
     <img src="Home_icons/Road.jpg" width="18">
@@ -38,7 +38,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
 </div>
 
 <!-- CARD 3 -->
-<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;">
+<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;transition:0.3s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="R20mm_CORDEX.html"><strong>Wind</strong></a>
   <div>
     <img src="Home_icons/Sea.jpg" width="18">
@@ -47,7 +47,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
 </div>
 
 <!-- CARD 4 -->
-<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;">
+<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;transition:0.3s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="Rx1day_CORDEX.html"><strong>Precipitation Index (Rx1day)</strong></a>
   <div>
     <img src="Home_icons/Rail.jpg" width="18">
@@ -56,7 +56,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
 </div>
 
 <!-- CARD 5 -->
-<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;">
+<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;transition:0.3s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="Rx1day_CORDEX.html"><strong>Sea Ice</strong></a>
   <div>
     <img src="Home_icons/Sea.jpg" width="18">
@@ -65,7 +65,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
 </div>
 
 <!-- CARD 6 -->
-<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;">
+<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;transition:0.3s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="preciptype.html"><strong>Waves</strong></a>
   <div>
     <img src="Home_icons/Sea.jpg" width="18">
@@ -74,7 +74,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
 </div>
 
 <!-- CARD 7 -->
-<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;">
+<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;transition:0.3s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="roadweather.md"><strong>Road Surface Temperature</strong></a>
   <div>
     <img src="Home_icons/Road.jpg" width="18">
@@ -83,7 +83,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
 </div>
 
 <!-- CARD 8 -->
-<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;">
+<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;transition:0.3s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="roadweather.md"><strong>Freeze–Thaw Cycles</strong></a>
   <div>
     <img src="Home_icons/Road.jpg" width="18">
@@ -93,7 +93,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
 </div>
 
 <!-- CARD 9 -->
-<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;">
+<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;transition:0.3s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="roadweather.md"><strong>Surface Cover</strong></a>
   <div>
     <img src="Home_icons/Road.jpg" width="18">
