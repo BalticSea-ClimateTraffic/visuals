@@ -112,7 +112,7 @@ periodSelect1.addEventListener('change', updatePlot1);
 seasonSelect1.addEventListener('change', updatePlot1);
 </script>
 <br><br>
-Average road surface temperatures are expected to increase in Europe with progressing climate change.
+KIRJOTA JOTTAI!
 <br><br><br>
 
 
@@ -121,28 +121,25 @@ Average road surface temperatures are expected to increase in Europe with progre
 # Days when temperture range > 10C
 {:#dtr10}
 
-Average number and minimum and maximum observed in that period:
-
 <div style="margin-bottom: 15px;">
   <label for="period2">Period: </label>
   <select id="period2">
     <option value="hist">Historical</option>
-    <option value="rect">Recent</option>
-    <option value="midc">Mid-Century</option>
+    <option value="midc">Mid-Century</option>    
+    <option value="diff">Change between Hist and MidC</option>
   </select>
 
   <label for="season2" style="margin-left: 15px;">Season: </label>
   <select id="season2">
     <option value="DJF">Winter</option>
-    <option value="MAM">Spring</option>
     <option value="JJA">Summer</option>
-    <option value="SON">Autumn</option>
+    <option value="Year-sum">Days per year</option>
   </select>
 </div>
 
-<iframe id="plotFrame2" src="PLOTS_Nadine/PLOT_interactive_ZDCs_perDay_hist_DJF.html"
+<iframe id="plotFrame2" src="PLOTS_Anton/DTRd10_1996-2014_JJA.html"
         width="100%"
-        height="550px"
+        height="700px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
@@ -154,19 +151,19 @@ const iframe2       = document.getElementById('plotFrame2');
 function updatePlot2() {
   const period = periodSelect2.value;
   const season = seasonSelect2.value;
-  const newSrc = `PLOTS_Nadine/PLOT_interactive_ZDCs_perDay_${period}_${season}.html`;
+  const newSrc = `PLOTS_Anton/PLOT_DTRd10_${period}_${season}.html`;
 
-  iframe2.style.opacity = 0;
+  iframe1.style.opacity = 0;
   setTimeout(() => {
-    iframe2.src = newSrc;
-    iframe2.onload = () => { iframe2.style.opacity = 1; };
+    iframe1.src = newSrc;
+    iframe1.onload = () => { iframe1.style.opacity = 1; };
   }, 400);
 }
 periodSelect2.addEventListener('change', updatePlot2);
 seasonSelect2.addEventListener('change', updatePlot2);
 </script>
 <br><br>
-The winter-time temperature increases higher north (higher than 60 degrees north) causes more freeze-thaw cycles (zero-degree-crossings) to happen, as asphalt temperatures don't stay stably below 0°C anymore. Further south, freeze-thaw cycles decrease as road temperatures hardly reach freezing temperatures ever.
+KIRJOTA JOTTAI!
 <br><br><br>
 
 
