@@ -152,10 +152,10 @@ function updatePlot2() {
   const season = seasonSelect2.value;
   const newSrc = `PLOTS_Anton/PLOT_DTRd10_${period}_${season}.html`;
 
-  iframe1.style.opacity = 0;
+  iframe2.style.opacity = 0;
   setTimeout(() => {
-    iframe1.src = newSrc;
-    iframe1.onload = () => { iframe1.style.opacity = 1; };
+    iframe2.src = newSrc;
+    iframe2.onload = () => { iframe2.style.opacity = 1; };
   }, 400);
 }
 periodSelect2.addEventListener('change', updatePlot2);
