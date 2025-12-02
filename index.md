@@ -23,42 +23,52 @@ Click a variable to explore visual results related to it. In the menu below, eac
   <div>
     <img src="Home_icons/Road.jpg" width="18">
     <img src="Home_icons/Rail.jpg" width="18">
-    <img src="Home_icons/Sea.jpg" width="18">
   </div>
   <p>Forms of precipitation influencing visibility, surface conditions, and maintenance needs.</p>
 </div>
 
 <!-- CARD 2 -->
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;transition:0.3s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
-  <a href="preciptype.html"><strong>Rainfall</strong></a>
+  <a href="precip_HCLIM.html"><strong>Rainfall</strong></a>
   <div>
     <img src="Home_icons/Road.jpg" width="18">
     <img src="Home_icons/Rail.jpg" width="18">
   </div>
-  <p>Accumulated or intense rainfall affecting friction, drainage, and potential flooding and undermining.</p>
+  <p>Accumulated or intense rainfall affecting friction, drainage, and potential flooding and rail undermining.</p>
 </div>
 
 <!-- CARD 3 -->
-<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;transition:0.3s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
-  <a href="R20mm_CORDEX.html"><strong>Wind</strong></a>
-  <div>
-    <img src="Home_icons/Sea.jpg" width="18">
-  </div>
-  <p>Surface winds influencing waves, ship handling, and maritime safety.</p>
-</div>
-
-<!-- CARD 4 -->
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;transition:0.3s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="Rx1day_CORDEX.html"><strong>Precipitation Index (Rx1day)</strong></a>
   <div>
     <img src="Home_icons/Rail.jpg" width="18">
   </div>
-  <p>Extreme 1-day precipitation amounts relevant for rail drainage and landslide risk.</p>
+  <p>Extreme precipitation amounts affecting rail drainage, undermining and landslide risk.</p>
+</div>
+
+<!-- CARD 4 -->
+<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;transition:0.3s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
+  <a href="R20mm_CORDEX.html"><strong>Wind</strong></a>
+  <div>
+    <img src="Home_icons/Road.jpg" width="18">
+    <img src="Home_icons/Rail.jpg" width="18">
+    <img src="Home_icons/Sea.jpg" width="18">
+  </div>
+  <p>Surface winds causing disruptions for land transport, influencing, waves, ship handling, and maritime safety.</p>
 </div>
 
 <!-- CARD 5 -->
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;transition:0.3s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
-  <a href="Rx1day_CORDEX.html"><strong>Sea Ice</strong></a>
+  <a href="Waves.html"><strong>Waves</strong></a>
+  <div>
+    <img src="Home_icons/Sea.jpg" width="18">
+  </div>
+  <p>Wave height and period impacting maritime routing and port safety.</p>
+</div>
+
+<!-- CARD 6 -->
+<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;transition:0.3s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
+  <a href="Sea_ice.html"><strong>Sea Ice</strong></a>
   <div>
     <img src="Home_icons/Sea.jpg" width="18">
   </div>
@@ -67,14 +77,15 @@ Click a variable to explore visual results related to it. In the menu below, eac
 
 <!-- CARD 6 -->
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;transition:0.3s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
-  <a href="preciptype.html"><strong>Waves</strong></a>
+  <a href="temprange.html"><strong>Temperature range and zero-crossing</strong></a>
   <div>
-    <img src="Home_icons/Sea.jpg" width="18">
+    <img src="Home_icons/Road.jpg" width="18">
+    <img src="Home_icons/Rail.jpg" width="18">
   </div>
-  <p>Wave height and period impacting maritime routing and port safety.</p>
+  <p>Diurnal temperature range and changes around zero degrees Centigrade being relevant for road and rail maintenance.</p>
 </div>
 
-<!-- CARD 7 -->
+<!-- CARD 8 -->
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;transition:0.3s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="roadweather.md"><strong>Road Surface Temperature</strong></a>
   <div>
@@ -83,7 +94,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
   <p>Controls icing risk and affects winter road maintenance planning.</p>
 </div>
 
-<!-- CARD 8 -->
+<!-- CARD 9 -->
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;transition:0.3s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="roadweather.md"><strong>Freeze–Thaw Cycles</strong></a>
   <div>
@@ -93,7 +104,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
   <p>Repeated freezing and thawing degrade pavements and rail ballast. Problems for road construction and maintenance.</p>
 </div>
 
-<!-- CARD 9 -->
+<!-- CARD 10 -->
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:260px;transition:0.3s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="roadweather.md"><strong>Surface Cover</strong></a>
   <div>
