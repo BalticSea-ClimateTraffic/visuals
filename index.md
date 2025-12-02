@@ -8,7 +8,7 @@ layout: default
 
 ### How is climate change expected to impact traffic and transport in the Baltic Sea Region? 
 
-<p style="color:#41bdf0;">
+<p style="color:#0097b2;">
 Whether you operate at road, rail, or sea, this website provides information on changes in climatic conditions through variables that are the most relevant for your operations. 
 
 Click a variable to explore visual results related to it. In the menu below, each variable is followed by icons of the affected transport modes and a short description.
@@ -35,7 +35,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
     <img src="Home_icons/Road.jpg" width="18">
     <img src="Home_icons/Rail.jpg" width="18">
   </div>
-  <p>Accumulated or intense rainfall affecting friction, drainage, and potential flooding.</p>
+  <p>Accumulated or intense rainfall affecting friction, drainage, and potential flooding and undermining.</p>
 </div>
 
 <!-- CARD 3 -->
@@ -62,7 +62,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
   <div>
     <img src="Home_icons/Sea.jpg" width="18">
   </div>
-  <p>Sea-ice extent and thickness affecting navigability and port operations.</p>
+  <p>Sea-ice extent and thickness affecting predictability of resource allocation, navigability and port operations.</p>
 </div>
 
 <!-- CARD 6 -->
@@ -90,7 +90,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
     <img src="Home_icons/Road.jpg" width="18">
     <img src="Home_icons/Rail.jpg" width="18">
   </div>
-  <p>Repeated freezing and thawing degrade pavements and rail ballast.</p>
+  <p>Repeated freezing and thawing degrade pavements and rail ballast. Problems for road construction and maintenance.</p>
 </div>
 
 <!-- CARD 9 -->
@@ -99,7 +99,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
   <div>
     <img src="Home_icons/Road.jpg" width="18">
   </div>
-  <p>Snow, ice, and slush modify friction and visibility on roads.</p>
+  <p>Snow, ice, and slush modify friction and visibility on roads, and affect maintenance.</p>
 </div>
 
 </div>
