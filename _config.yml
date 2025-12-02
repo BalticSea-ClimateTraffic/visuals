@@ -9,7 +9,7 @@ header_pages:
   - preciptype.md
   - precip_HCLIM.md
   - Rx1day_CORDEX.md
-  - R20mm_CORDEX.md
+  - Wind.md
   - temprange.md 
   - roadweather.md
   #- rstemp.md
