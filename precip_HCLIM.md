@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Precipitation
+title: Rainfall amount
 ---
 
 Projected precipitation changes on daily scale for two seasons: summer (JJA) and winter (DJF).
