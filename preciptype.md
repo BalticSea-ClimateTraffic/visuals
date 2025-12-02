@@ -1,6 +1,6 @@
 ---
 layout: page 
-title: Precipitation-Type
+title: Rainfall type
 ---
 
 Average phase of precipitation <br>
