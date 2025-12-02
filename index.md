@@ -48,7 +48,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
 
 <!-- CARD 4 -->
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
-  <a href="R20mm_CORDEX.html"><strong>Wind</strong></a>
+  <a href="Wind.html"><strong>Wind</strong></a>
   <div>
     <img src="Home_icons/Road.jpg" width="18">
     <img src="Home_icons/Rail.jpg" width="18">
