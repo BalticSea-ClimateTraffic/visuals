@@ -3,16 +3,15 @@ description: Climate change impacts on traffic around the Baltic sea
 theme: minima
 header_pages:
   - index.md
+  - about.md
+  - data.md
+  - references.md
   - preciptype.md
   - precip_HCLIM.md
-  #- Rx1day_CORDEX.md
+  - Rx1day_CORDEX.md
   - R20mm_CORDEX.md
-  - roadweather.md
   - temprange.md 
-  - snowfalldays.md
-  - data.md
-  - about.md
-  - references.md
+  - roadweather.md
   #- rstemp.md
   #- rscond.md
   #- freezethaw.md
