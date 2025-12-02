@@ -19,7 +19,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
 
 <!-- CARD 1 -->
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
-  <a href="preciptype.html"><strong>Rainfall Type</strong></a>
+  <a href="preciptype.html"><strong>Rainfall type</strong></a>
   <div>
     <img src="Home_icons/Road.jpg" width="18">
     <img src="Home_icons/Rail.jpg" width="18">
@@ -68,7 +68,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
 
 <!-- CARD 6 -->
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
-  <a href="Sea_ice.html"><strong>Sea Ice</strong></a>
+  <a href="Sea_ice.html"><strong>Sea ice</strong></a>
   <div>
     <img src="Home_icons/Sea.jpg" width="18">
   </div>
@@ -87,11 +87,11 @@ Click a variable to explore visual results related to it. In the menu below, eac
 
 <!-- CARD 8 -->
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
-  <a href="roadweather.md"><strong>Road Surface Temperature</strong></a>
+  <a href="roadweather.html"><strong>Road weather</strong></a>
   <div>
     <img src="Home_icons/Road.jpg" width="18">
   </div>
-  <p>Controls icing risk and affects winter road maintenance planning.</p>
+  <p>Road surface temperature controlling icing risk and affecting winter road maintenance planning. Surface cover (snow, ice, slush) modifying friction on roads and affecting maintenance needs.</p>
 </div>
 
 <!-- CARD 9 -->
@@ -102,15 +102,6 @@ Click a variable to explore visual results related to it. In the menu below, eac
     <img src="Home_icons/Rail.jpg" width="18">
   </div>
   <p>Repeated freezing and thawing degrade pavements and rail ballast. Problems for road construction and maintenance.</p>
-</div>
-
-<!-- CARD 10 -->
-<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
-  <a href="roadweather.md"><strong>Surface Cover</strong></a>
-  <div>
-    <img src="Home_icons/Road.jpg" width="18">
-  </div>
-  <p>Snow, ice, and slush modify friction and visibility on roads, and affect maintenance.</p>
 </div>
 
 </div>
