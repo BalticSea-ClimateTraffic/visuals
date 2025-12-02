@@ -15,7 +15,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
 </p>
 ---
 
-<div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px;">
+<div style="display:flex;flex-wrap:wrap;justify-content:flex-start;gap:20px;">
 
 <!-- CARD 1 -->
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width:30%;transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
