@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Precipitation Indices
+title: Extreme rainfall
 ---
 <br>
 
