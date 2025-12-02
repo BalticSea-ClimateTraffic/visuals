@@ -4,7 +4,7 @@ layout: default
 ---
 
 <!-- ![Type icon](Home_icons/All_sectors.jpg)<br> -->
-<img src="Home_icons/All_sectors.jpg" width="600px" height="auto"; alt="Type icon" >
+<img src="Home_icons/All_sectors.jpg" width="600px"; height="auto"; alt="Type icon" >
 
 ### How will climate change impact traffic and transport in the Baltic Sea Region? 
 
