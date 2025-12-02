@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Wind Speed
+title: Wind
 ---
 
 Maximum surface wind speed from CORDEX
