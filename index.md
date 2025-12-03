@@ -80,6 +80,16 @@ Click a variable to explore visual results related to it. In the menu below, eac
 
 <!-- CARD 7 -->
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
+  <a href="temprange.html"><strong>Temperature range and zero-crossing</strong></a>
+  <div>
+    <img src="Home_icons/Road.jpg" width="18">
+    <img src="Home_icons/Rail.jpg" width="18">
+  </div>
+  <p>Diurnal temperature range and changes around zero degrees Centigrade are relevant for road and rail maintenance.</p>
+</div>
+
+<!-- CARD 8 -->
+<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="Waves.html"><strong>Waves</strong></a>
   <div>
     <img src="Home_icons/Sea.jpg" width="18">
@@ -87,7 +97,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
   <p>Wave height and period impact maritime routing and port safety.</p>
 </div>
 
-<!-- CARD 8 -->
+<!-- CARD 9 -->
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="Wind.html"><strong>Wind</strong></a>
   <div>
@@ -98,15 +108,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
   <p>Surface winds cause disruptions for land transport, and influence waves, ship handling, and maritime safety.</p>
 </div>
 
-<!-- CARD 9 -->
-<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
-  <a href="temprange.html"><strong>Temperature range and zero-crossing</strong></a>
-  <div>
-    <img src="Home_icons/Road.jpg" width="18">
-    <img src="Home_icons/Rail.jpg" width="18">
-  </div>
-  <p>Diurnal temperature range and changes around zero degrees Centigrade are relevant for road and rail maintenance.</p>
-</div>
+
 
 
 
