@@ -19,10 +19,10 @@ More information on the bottom of the page.
 
   <label for="season1" style="margin-left: 15px;">Season: </label>
   <select id="season1">
-    <option value="DJF">DJF</option>
-    <option value="MAM">MAM</option>
-    <option value="JJA">JJA</option>
-    <option value="SON">SON</option>
+    <option value="DJF">Winter</option>
+    <option value="MAM">Spring</option>
+    <option value="JJA">Summer</option>
+    <option value="SON">Autumn</option>
   </select>
 
   <label for="type1" style="margin-left: 15px;">Precipitation Phase: </label>
@@ -32,7 +32,7 @@ More information on the bottom of the page.
   </select>
 </div>
 
-<iframe id="plotFrame1" src="PLOTS_Nadine/PLOT_interactive_GPType_hist_DJF_water.html" 
+<iframe id="plotFrame1" src="PLOTS_Nadine/PLOT_interactive_Heatmap_GPType_water_hist_DJF.html" 
         width="100%" 
         height="550px" 
         style="border:none; opacity:1; transition: opacity 0.5s;">
@@ -49,7 +49,7 @@ More information on the bottom of the page.
     const season = seasonSelect1.value;
     const type   = typeSelect1.value;
 
-    const newSrc = `PLOTS_Nadine/PLOT_interactive_GPType_${period}_${season}_${type}.html`;
+    const newSrc = `PLOTS_Nadine/PLOT_interactive_Heatmap_GPType_${type}_${period}_${season}.html`;
 
     iframe1.style.opacity = 0;
     setTimeout(() => {
