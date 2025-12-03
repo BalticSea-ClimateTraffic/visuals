@@ -1,14 +1,13 @@
 ---
 layout: page 
-title: Rainfall type
+title: Precipitation type
 ---
 
-Average phase of precipitation <br>
+Form of precipiation: water (rain), sleet or snow. <br>
 More information on the bottom of the page.
 
 
-## Interactive Plots
-
+Choose:s
 <div style="margin-bottom: 15px;">
   <label for="period1">Period: </label>
   <select id="period1">
@@ -34,7 +33,7 @@ More information on the bottom of the page.
 
 <iframe id="plotFrame1" src="PLOTS_Nadine/PLOT_interactive_Heatmap_GPType_water_hist_DJF.html" 
         width="100%" 
-        height="700px" 
+        height="750px" 
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
@@ -68,8 +67,10 @@ More information on the bottom of the page.
 
 
 
-## Static Plots
+### Static Plots
 
+
+Choose:
 <div style="margin-bottom: 15px;">
   <label for="period2">Period: </label>
   <select id="period2">
