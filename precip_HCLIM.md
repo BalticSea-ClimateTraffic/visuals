@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Rainfall amount
+title: Extreme rainfall
 ---
 
 Projected precipitation changes on daily scale for two seasons: summer (JJA) and winter (DJF).

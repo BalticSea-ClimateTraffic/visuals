@@ -3,7 +3,6 @@ description: Climate change impacts on traffic around the Baltic sea
 theme: minima
 header_pages:
   - index.md
-  - Rx1day_CORDEX.md
   - precip_HCLIM.md
   - preciptype.md
   - roadweather.md
