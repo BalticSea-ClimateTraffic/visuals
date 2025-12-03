@@ -54,9 +54,23 @@ Information coming soon.
   <img
     class="plot-image"
     data-base="{{ '/LOGOS/' | relative_url }}"
-    src="{{ 'LOGOS/UM_logo_blue_fi-sv_horizontal_RGB-01.jpg' | relative_url }}"
+    src="{{ 'LOGOS/UM_logo_blue_fi-sv-en_horizontal_RGB.png' | relative_url }}"
     alt="UM logo"
     style="width:50%; height:40%; border:none;"
+  />
+
+  <img
+    class="plot-image"
+    data-base="{{ '/LOGOS/' | relative_url }}"
+    src="{{ 'LOGOS/il-logo-fi-se-en-rgb-1860x345px.png' | relative_url }}"
+    alt="FMI logo"
+  />
+
+  <img
+    class="plot-image"
+    data-base="{{ '/LOGOS/' | relative_url }}"
+    src="{{ 'LOGOS/UM_logo_blue_fi-sv-en_horizontal_RGB.png' | relative_url }}"
+    alt="UM logo"
   />
 
 </div>
