@@ -3,8 +3,11 @@ title: Home
 layout: default
 ---
 
-<!-- ![Type icon](Home_icons/All_sectors.jpg)<br> -->
-<img src="Home_icons/All_sectors.jpg" width="600" height="200" alt="Type icon" >
+<div style="text-align:center;">
+  <img src="Home_icons/All_sectors.jpg" alt="Banner" style="width:800px; height:auto;">
+</div>
+
+
 
 ### How will climate change impact traffic and transport in the Baltic Sea Region? 
 
