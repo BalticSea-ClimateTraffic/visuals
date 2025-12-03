@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Temperature range and zero-crossing
+title: Temperature range
 ---
 ---
 <br>
