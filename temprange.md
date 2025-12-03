@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Temperature range
+title: Temperature-variability
 ---
 ---
 <br>
