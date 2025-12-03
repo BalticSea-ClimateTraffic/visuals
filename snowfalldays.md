@@ -172,18 +172,14 @@ The winter-time temperature increases higher north (higher than 60 degrees north
 
 # Further Information
 {:#further-info}
-PITTEEE PAIVITTAAA!!
-Used scenario: RCP 8.5 (worst-case climate change scenario)
-Used models: EC-Earth3/Era-Interim, HCLIM ALADIN cy38, FMI-RoadSurf
+Used scenario: Historical until 2015 - SSP245 ("moderate" pathway for future greenhouse gas emissions) for midcentury 
+Used Data: NEX-GDDP-CMIP6, Statistically downscaled climate model dataset made by NASA. Based on 30 CMIP6 climate model simulations, https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-gddp-cmip6 
 
-Periods:
-- Historical: 1986–2005
-- Recent: 1999–2018
-- Mid-Century: 2041–2060
+Periods:  
+- Historical: 1995–2014  
+- Mid-Century: 2041–2060  
 
-Seasons:
+Seasons:  
 - Winter: December, January, February (DJF)
-- Spring: March, April, May (MAM)
 - Summer: June, July, August (JJA)
-- Autumn: September, October, November (SON)
 <br><br><br>
