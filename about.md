@@ -43,7 +43,7 @@ Information coming soon.
   </div>
 
   <!-- Store the resolved base path in data-base -->
-  <img
+   <!--<img
     class="plot-image"
     data-base="{{ '/LOGOS/' | relative_url }}"
     src="{{ 'LOGOS/il-logo-fi-se-en-rgb-1860x345px.png' | relative_url }}"
@@ -57,7 +57,7 @@ Information coming soon.
     src="{{ 'LOGOS/UM_logo_blue_fi-sv-en_horizontal_RGB.png' | relative_url }}"
     alt="UM logo"
     style="width:50%; height:40%; border:none;"
-  />
+  />-->
 
   <img
     class="plot-image"
