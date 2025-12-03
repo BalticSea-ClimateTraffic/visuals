@@ -27,7 +27,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
     <img src="Home_icons/Road.jpg" width="18">
     <img src="Home_icons/Rail.jpg" width="18">
   </div>
-  <p>Forms of precipitation influencing visibility, surface conditions, and maintenance needs.</p>
+  <p>Forms of precipitation influence visibility, surface conditions, and maintenance needs.</p>
 </div>
 
 <!-- CARD 2 -->
@@ -37,7 +37,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
     <img src="Home_icons/Road.jpg" width="18">
     <img src="Home_icons/Rail.jpg" width="18">
   </div>
-  <p>Accumulated or intense rainfall affecting friction, drainage, and potential flooding and rail undermining.</p>
+  <p>Accumulated or intense rainfall affects friction, drainage, and potential flooding and rail undermining.</p>
 </div>
 
 <!-- CARD 3 -->
@@ -46,7 +46,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
   <div>
     <img src="Home_icons/Rail.jpg" width="18">
   </div>
-  <p>Extreme precipitation amounts affecting rail drainage, undermining and landslide risk.</p>
+  <p>Extreme rainfall amounts affect rail drainage, undermining and landslide risk.</p>
 </div>
 
 <!-- CARD 4 -->
@@ -57,7 +57,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
     <img src="Home_icons/Rail.jpg" width="18">
     <img src="Home_icons/Sea.jpg" width="18">
   </div>
-  <p>Surface winds causing disruptions for land transport, influencing, waves, ship handling, and maritime safety.</p>
+  <p>Surface winds cause disruptions for land transport, and influence waves, ship handling, and maritime safety.</p>
 </div>
 
 <!-- CARD 5 -->
@@ -66,7 +66,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
   <div>
     <img src="Home_icons/Sea.jpg" width="18">
   </div>
-  <p>Wave height and period impacting maritime routing and port safety.</p>
+  <p>Wave height and period impact maritime routing and port safety.</p>
 </div>
 
 <!-- CARD 6 -->
@@ -75,7 +75,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
   <div>
     <img src="Home_icons/Sea.jpg" width="18">
   </div>
-  <p>Sea-ice extent and thickness affecting predictability of resource allocation, navigability and port operations.</p>
+  <p>Sea-ice extent and thickness affect predictability of resource allocation, navigability and port operations.</p>
 </div>
 
 <!-- CARD 6 -->
@@ -85,7 +85,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
     <img src="Home_icons/Road.jpg" width="18">
     <img src="Home_icons/Rail.jpg" width="18">
   </div>
-  <p>Diurnal temperature range and changes around zero degrees Centigrade being relevant for road and rail maintenance.</p>
+  <p>Diurnal temperature range and changes around zero degrees Centigrade are relevant for road and rail maintenance.</p>
 </div>
 
 <!-- CARD 8 -->
@@ -94,7 +94,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
   <div>
     <img src="Home_icons/Road.jpg" width="18">
   </div>
-  <p>Road surface temperature controlling icing risk and affecting winter road maintenance planning. Surface cover (snow, ice, slush) modifying friction on roads and affecting maintenance needs.</p>
+  <p>Road surface temperature controls icing risk and affects winter road maintenance planning. Surface cover (snow, ice, slush) modifies friction on roads and affecting maintenance needs.</p>
 </div>
 
 <!-- CARD 9 -->
