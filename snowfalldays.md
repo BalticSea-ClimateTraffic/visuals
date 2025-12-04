@@ -112,7 +112,7 @@ periodSelect1.addEventListener('change', updatePlot1);
 seasonSelect1.addEventListener('change', updatePlot1);
 </script>
 <br><br>
-Kirjota jottain tahan
+
 <br><br><br>
 
 
@@ -121,7 +121,7 @@ Kirjota jottain tahan
 # Days with heavy snowfall
 {:#Hsnowfalldays}
 
-fewfwefwehfiöwehf
+
 
 <div style="margin-bottom: 15px;">
   <label for="period2">Period: </label>
