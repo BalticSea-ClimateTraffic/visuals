@@ -4,7 +4,7 @@ title: Temperature-variability
 ---
 ---
 <br>
-
+Climate change does not influence only average or maximum temperatures, it also alters the entire temperature range. It will change how much temperatures fluctuate over the course of a day and how these fluctuations differ between seasons. As a result, for example the frequency with which daily temperatures cross the freezing point (0 °C) can increase or decrease, creating new patterns in freeze–thaw cycles and surface conditions. Changes in daily and seasonal temperature ranges, especially more frequent crossings of 0 °C, can significantly affect transportation around the Baltic Sea. More freeze–thaw cycles lead to faster road surface wear and a higher risk of black ice. Snow that melts during warmer daytime periods and refreezes at night creates slippery roads, paths, and port areas. Variable temperatures also disrupt rail operations. 
 
 <style>
 /* Floating table of contents box on the right side */
