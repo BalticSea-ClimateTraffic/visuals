@@ -64,6 +64,7 @@ html {
   <a href="#further-info">Further Information</a>
 </div>
 
+Future snowfall patterns will be shaped by two opposing climate influences. On one hand, rising temperatures reduce the number of days that fall below freezing, meaning fewer opportunities for snow to form. On the other hand, a warmer atmosphere can hold more moisture, increasing the potential for heavier snowfall during the periods that do remain cold enough. As a result, many regions may see fewer snowy days overall, but more intense snowfall events when conditions are suitable.
 
 ---
 
