@@ -87,7 +87,8 @@ html {
 </div>
 
 <iframe id="plotFrame1" src="PLOTS_Anton/PLOT_Snday_hist_DJF.html"
-        width="100%"
+        width="900px"
+        height="700px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
@@ -139,7 +140,8 @@ fewfwefwehfiöwehf
 </div>
 
 <iframe id="plotFrame2" src="PLOTS_Anton/PLOT_HSnday_hist_DJF.html"
-        width="100%"
+        width="900px"
+        height="700px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
