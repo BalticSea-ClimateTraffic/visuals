@@ -86,7 +86,7 @@ html {
   </select>
 </div>
 
-<iframe id="plotFrame1" src="PLOTS_Anton/PLOT_Snday_1995-2014_DJF.html"
+<iframe id="plotFrame1" src="PLOTS_Anton/PLOT_Snday_hist_DJF.html"
         width="100%"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
@@ -138,7 +138,7 @@ fewfwefwehfiöwehf
   </select>
 </div>
 
-<iframe id="plotFrame2" src="PLOTS_Anton/PLOT_Sndays_1996-2014_JJA.html"
+<iframe id="plotFrame2" src="PLOTS_Anton/PLOT_HSnday_hist_DJF.html"
         width="100%"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
@@ -163,7 +163,7 @@ periodSelect2.addEventListener('change', updatePlot2);
 seasonSelect2.addEventListener('change', updatePlot2);
 </script>
 <br><br>
-The winter-time temperature increases higher north (higher than 60 degrees north) causes more freeze-thaw cycles (zero-degree-crossings) to happen, as asphalt temperatures don't stay stably below 0°C anymore. Further south, freeze-thaw cycles decrease as road temperatures hardly reach freezing temperatures ever.
+
 <br><br><br>
 
 
