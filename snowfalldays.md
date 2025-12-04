@@ -153,7 +153,7 @@ const iframe2       = document.getElementById('plotFrame2');
 function updatePlot2() {
   const period = periodSelect2.value;
   const season = seasonSelect2.value;
-  const newSrc = `PLOTS_Anton/PLOT_HSndays_${period}_${season}.html`;
+  const newSrc = `PLOTS_Anton/PLOT_HSnday_${period}_${season}.html``;
 
   iframe2.style.opacity = 0;
   setTimeout(() => {
