@@ -8,11 +8,11 @@ Heavy or prolonged rainfall can reduce track friction, overwhelm drainage system
 <label for="idDropdown">Index:</label>
 <select id="idDropdown">
   <option value="rx1day" selected>rx1day</option>
-  <option value="rx5day" selected>rx5day</option>
-  <option value="r20mm" selected>r20mm</option>
-  <option value="sdii" selected>sdii</option>
-  <!-- Add more IDs if you generate them, e.g. prcptot, r10mm, etc. -->
+  <option value="rx5day">rx5day</option>
+  <option value="r20mm">r20mm</option>
+  <option value="sdii">sdii</option>
 </select>
+
 
 <label for="seasonDropdown">Season:</label>
 <select id="seasonDropdown">
