@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Temperature&nbsp;variability"
+title: Temperature-variability
 ---
 ---
 <br>
