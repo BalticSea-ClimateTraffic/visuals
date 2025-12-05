@@ -11,7 +11,7 @@ Climate change does not influence only average or maximum temperatures, it also 
 #toc-box {
   position: fixed;          /* stick to viewport instead of page flow */
   top: 200px;               /* distance from top */
-  right: 20px;              /* distance from right edge */
+  right: 100px;              /* distance from right edge */
   width: 220px;             /* adjust width as needed */
   background-color: #f9f9f9;
   border: 1px solid #ccc;
