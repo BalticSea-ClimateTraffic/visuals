@@ -157,7 +157,7 @@ Average seasonal maximum near-surface wind speed (m/s).
 
   function buildFilename(basePath, mode, periodKey, season) {
 
-    // ✅ ABSOLUTE FILES
+    // ABSOLUTE FILES
     // hist_DJF_mean_1986-2005_map.html
     // mid_JJA_mean_2041-2060_map.html
     // late_JJA_mean_2081-2100_map.html
@@ -166,21 +166,21 @@ Average seasonal maximum near-surface wind speed (m/s).
       return basePath + `${periodKey}_${season}_mean_${yrs}_map.html`;
     }
 
-    // ✅ MID DIFFERENCE FILES
+    // MID DIFFERENCE FILES
     // diff_mid_DJF_mean_2041-2060_minus_hist_DJF_mean_1986-2005.html
     if (mode === "diff-mid") {
       return basePath +
         `diff_mid_${season}_mean_2041-2060_minus_hist_${season}_mean_1986-2005.html`;
     }
 
-    // ✅ LATE DIFFERENCE FILES
+    // LATE DIFFERENCE FILES
     // diff_late_JJA_mean_2081-2100_minus_hist_JJA_mean_1986-2005.html
     if (mode === "diff-late") {
       return basePath +
         `diff_late_${season}_mean_2081-2100_minus_hist_${season}_mean_1986-2005.html`;
     }
 
-    // ✅ Fallback
+    // Fallback
     return basePath + `hist_${season}_mean_1986-2005_map.html`;
   }
 
