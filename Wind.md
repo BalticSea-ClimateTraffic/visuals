@@ -39,7 +39,7 @@ Average seasonal maximum near-surface wind speed (m/s).
   </select>
 </div>
 
-<--<iframe
+<!--<iframe
   id="plotFrame1"
   data-base="{{ '/CORDEX_PR/' | relative_url }}"
   src="{{ '/CORDEX_PR/hist_DJF_mean_1986-2005_subset_map.html' | relative_url }}"
@@ -57,7 +57,7 @@ Average seasonal maximum near-surface wind speed (m/s).
   style="border:none; opacity:1; transition: opacity 0.5s;"
 ></iframe>
 
-<--<script>
+<!--<script>
 (function () {
   // Years used in your absolute filenames
   const YEARS = {
