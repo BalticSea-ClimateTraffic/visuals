@@ -242,7 +242,7 @@ The results are shown as spatial averages for three time periods:
 • Mid-century period: 2041–2060
 • Late-century period: 2081–2100
 
-The projections are based on the high-resolution HARMONIE-Climate regional climate model, developed through a Nordic collaboration in 2020.
+All projections are based on the RCP4.5 (Representative Concentration Pathway 4.5 W/m²) emissions scenario, which assumes that greenhouse gas emissions peak around the middle of the century and then gradually decline, representing a future with moderate mitigation efforts. The projections are based on the high-resolution HARMONIE-Climate regional climate model, developed through a Nordic collaboration in 2020. 
 
 The figures include mean precipitation maps, maps showing the projected change, and boxplots illustrating how precipitation varies within each country.
 
