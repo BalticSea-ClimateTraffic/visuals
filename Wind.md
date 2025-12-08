@@ -39,16 +39,25 @@ Average seasonal maximum near-surface wind speed (m/s).
   </select>
 </div>
 
-<iframe
+<--<iframe
   id="plotFrame1"
   data-base="{{ '/CORDEX_PR/' | relative_url }}"
   src="{{ '/CORDEX_PR/hist_DJF_mean_1986-2005_subset_map.html' | relative_url }}"
   width="100%"
   height="600px"
   style="border:none; opacity:1; transition: opacity 0.5s;"
+></iframe> -->
+
+<iframe
+  id="plotFrame1"
+  data-base="{{ '/Winds/' | relative_url }}"
+  src="{{ '/Winds/hist_DJF_mean_1986-2005_map.html' | relative_url }}"
+  width="100%"
+  height="600px"
+  style="border:none; opacity:1; transition: opacity 0.5s;"
 ></iframe>
 
-<script>
+<--<script>
 (function () {
   // Years used in your absolute filenames
   const YEARS = {
@@ -121,6 +130,87 @@ Average seasonal maximum near-surface wind speed (m/s).
   seasonSelect1.addEventListener('change', updatePlot1);
 
   // Initialize UI and plot
+  updateUI1();
+})();
+</script> -->
+
+
+<script>
+(function () {
+
+  const YEARS = {
+    hist: "1986-2005",
+    mid:  "2041-2060",
+    late: "2081-2100"
+  };
+
+  const modeSelect1   = document.getElementById('mode1');
+  const periodSelect1 = document.getElementById('period1');
+  const seasonSelect1 = document.getElementById('season1');
+  const periodRow1    = document.getElementById('periodRow1');
+  const iframe1       = document.getElementById('plotFrame1');
+
+  function updateUI1() {
+    const mode = modeSelect1.value;
+    periodRow1.style.display = (mode === "absolute") ? "inline-block" : "none";
+  }
+
+  function buildFilename(basePath, mode, periodKey, season) {
+
+    // ✅ ABSOLUTE FILES
+    // hist_DJF_mean_1986-2005_map.html
+    // mid_JJA_mean_2041-2060_map.html
+    // late_JJA_mean_2081-2100_map.html
+    if (mode === "absolute") {
+      const yrs = YEARS[periodKey];
+      return basePath + `${periodKey}_${season}_mean_${yrs}_map.html`;
+    }
+
+    // ✅ MID DIFFERENCE FILES
+    // diff_mid_DJF_mean_2041-2060_minus_hist_DJF_mean_1986-2005.html
+    if (mode === "diff-mid") {
+      return basePath +
+        `diff_mid_${season}_mean_2041-2060_minus_hist_${season}_mean_1986-2005.html`;
+    }
+
+    // ✅ LATE DIFFERENCE FILES
+    // diff_late_JJA_mean_2081-2100_minus_hist_JJA_mean_1986-2005.html
+    if (mode === "diff-late") {
+      return basePath +
+        `diff_late_${season}_mean_2081-2100_minus_hist_${season}_mean_1986-2005.html`;
+    }
+
+    // ✅ Fallback
+    return basePath + `hist_${season}_mean_1986-2005_map.html`;
+  }
+
+  function updatePlot1() {
+    const mode   = modeSelect1.value;
+    const period = periodSelect1.value;
+    const season = seasonSelect1.value;
+
+    let base = iframe1.dataset.base || "";
+    base = base.replace(/\/+$/, "") + "/";
+
+    const newSrc = buildFilename(base, mode, period, season);
+
+    iframe1.style.opacity = 0;
+    setTimeout(() => {
+      iframe1.src = newSrc;
+      iframe1.onload = () => {
+        iframe1.style.opacity = 1;
+      };
+    }, 400);
+  }
+
+  modeSelect1.addEventListener('change', function () {
+    updateUI1();
+    updatePlot1();
+  });
+
+  periodSelect1.addEventListener('change', updatePlot1);
+  seasonSelect1.addEventListener('change', updatePlot1);
+
   updateUI1();
 })();
 </script>
