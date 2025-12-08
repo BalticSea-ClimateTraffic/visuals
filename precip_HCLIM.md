@@ -3,7 +3,7 @@ layout: page
 title: Extreme rainfall
 ---
 
-Heavy or prolonged rainfall can reduce track friction, overwhelm drainage systems, and increase the risk of flooding or rail bed erosion. Here, we present changes in precipitation, including all forms of water that fall from the atmosphere.
+Accumulated or intense rainfall affects friction, drainage, and potential flooding and rail undermining. Here, we present changes in precipitation, including all forms of water that fall from the atmosphere.
 
 <label for="idDropdown">Index:</label>
 <select id="idDropdown">
