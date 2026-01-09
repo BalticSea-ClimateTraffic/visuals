@@ -8,6 +8,7 @@ header_pages:
   - roadweather.md
   - temprange.md
   - Wind.md
+  - snowfalldays.md
   - about.md
   - references.md
   #- rstemp.md

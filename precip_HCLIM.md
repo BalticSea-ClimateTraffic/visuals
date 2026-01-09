@@ -3,27 +3,24 @@ layout: page
 title: Extreme rainfall
 ---
 
-Projected precipitation changes on daily scale for two seasons: summer (JJA) and winter (DJF).
-The spatial means are calculated for periods: historical (1986–2005), mid-century (2041–2060), late-century (2081–2100)
-using the data from high resolution regional climate model HARMONIE-Climate. The data was produced in a Nordic collaboration project 2020.
-
-Select a precipitation index, a season, a plot style, and a future period to compare against the historical baseline.
-
-Indices:  
-Rx1day = Seasonal maximum daily precipitation  
-Rx5day = Seasonal maximum 5-day precipitation  
-R20mm  = Days when precipitation intensity is 20 mm or more  
-SDII   = Mean precipitation amount on wet days. A wet day is defined as a day  
-         with precipitation 1 mm or more.
+Accumulated or intense rainfall affects friction, drainage, and potential flooding and rail undermining. Here, we present changes in precipitation, including all forms of water that fall from the atmosphere.
 
 <label for="idDropdown">Index:</label>
 <select id="idDropdown">
-  <option value="rx1day" selected>rx1day</option>
-  <option value="rx5day" selected>rx5day</option>
-  <option value="r20mm" selected>r20mm</option>
-  <option value="sdii" selected>sdii</option>
-  <!-- Add more IDs if you generate them, e.g. prcptot, r10mm, etc. -->
+  <option value="rx1day" selected>
+    Seasonal maximum daily precipitation (Rx1day)
+  </option>
+  <option value="rx5day">
+    Seasonal maximum 5-day precipitation (Rx5day)
+  </option>
+  <option value="r20mm">
+    Days with precipitation ≥ 20 mm (R20mm)
+  </option>
+  <option value="sdii">
+    Mean precipitation on wet days (SDII)
+  </option>
 </select>
+
 
 <label for="seasonDropdown">Season:</label>
 <select id="seasonDropdown">
@@ -235,6 +232,26 @@ function attachAutosize(iframe) {
 updatePlots();
 </script>
 
+<br><br>
+
+This analysis presents projected changes in daily precipitation, meaning the amount of rain or snow that falls within a 24-hour period, for two seasons: summer June–August (JJA) and winter December–February (DJF).
+
+The results are shown as spatial averages for three time periods:
+
+• Historical period: 1986–2005
+• Mid-century period: 2041–2060
+• Late-century period: 2081–2100
+
+All projections are based on the RCP4.5 (Representative Concentration Pathway 4.5 W/m²) emissions scenario, which assumes that greenhouse gas emissions peak around the middle of the century and then gradually decline, representing a future with moderate mitigation efforts. The projections are based on the high-resolution HARMONIE-Climate regional climate model, developed through a Nordic collaboration in 2020. 
+
+The figures include mean precipitation maps, maps showing the projected change, and boxplots illustrating how precipitation varies within each country.
+
+Precipitation indices
+
+• Rx1day: highest single-day precipitation in a season
+• Rx5day: highest total precipitation over five consecutive days in a season
+• R20mm: number of days with heavy precipitation of 20 mm or more
+• SDII: average precipitation amount on wet days; a wet day is defined as a day with at least 1 mm of precipitation
 
 <br><br>
 Page author: Laura Utriainen

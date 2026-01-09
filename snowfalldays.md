@@ -11,7 +11,7 @@ title: Snowfall-days
 #toc-box {
   position: fixed;          /* stick to viewport instead of page flow */
   top: 200px;               /* distance from top */
-  right: 20px;              /* distance from right edge */
+  right: 300px;              /* distance from right edge */
   width: 220px;             /* adjust width as needed */
   background-color: #f9f9f9;
   border: 1px solid #ccc;
@@ -64,6 +64,7 @@ html {
   <a href="#further-info">Further Information</a>
 </div>
 
+Future snowfall patterns will be shaped by two opposing climate influences. On one hand, rising temperatures reduce the number of days that fall below freezing, meaning fewer opportunities for snow to form. On the other hand, a warmer atmosphere can hold more moisture, increasing the potential for heavier snowfall during the periods that do remain cold enough. As a result, many regions may see fewer snowy days overall, but more intense snowfall events when conditions are suitable.
 
 ---
 
@@ -86,8 +87,9 @@ html {
   </select>
 </div>
 
-<iframe id="plotFrame1" src="PLOTS_Anton/PLOT_Snday_1995-2014_DJF.html"
-        width="100%"
+<iframe id="plotFrame1" src="PLOTS_Anton/PLOT_Snday_hist_DJF.html"
+        width="900px"
+        height="700px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
@@ -111,7 +113,7 @@ periodSelect1.addEventListener('change', updatePlot1);
 seasonSelect1.addEventListener('change', updatePlot1);
 </script>
 <br><br>
-Kirjota jottain tahan
+
 <br><br><br>
 
 
@@ -120,7 +122,7 @@ Kirjota jottain tahan
 # Days with heavy snowfall
 {:#Hsnowfalldays}
 
-fewfwefwehfiöwehf
+
 
 <div style="margin-bottom: 15px;">
   <label for="period2">Period: </label>
@@ -138,8 +140,9 @@ fewfwefwehfiöwehf
   </select>
 </div>
 
-<iframe id="plotFrame2" src="PLOTS_Anton/PLOT_Sndays_1996-2014_JJA.html"
-        width="100%"
+<iframe id="plotFrame2" src="PLOTS_Anton/PLOT_HSnday_hist_DJF.html"
+        width="900px"
+        height="700px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
@@ -151,7 +154,7 @@ const iframe2       = document.getElementById('plotFrame2');
 function updatePlot2() {
   const period = periodSelect2.value;
   const season = seasonSelect2.value;
-  const newSrc = `PLOTS_Anton/PLOT_HSndays_${period}_${season}.html`;
+  const newSrc = `PLOTS_Anton/PLOT_HSnday_${period}_${season}.html`;
 
   iframe2.style.opacity = 0;
   setTimeout(() => {
@@ -163,7 +166,7 @@ periodSelect2.addEventListener('change', updatePlot2);
 seasonSelect2.addEventListener('change', updatePlot2);
 </script>
 <br><br>
-The winter-time temperature increases higher north (higher than 60 degrees north) causes more freeze-thaw cycles (zero-degree-crossings) to happen, as asphalt temperatures don't stay stably below 0°C anymore. Further south, freeze-thaw cycles decrease as road temperatures hardly reach freezing temperatures ever.
+
 <br><br><br>
 
 
@@ -172,18 +175,14 @@ The winter-time temperature increases higher north (higher than 60 degrees north
 
 # Further Information
 {:#further-info}
-PITTEEE PAIVITTAAA!!
-Used scenario: RCP 8.5 (worst-case climate change scenario)
-Used models: EC-Earth3/Era-Interim, HCLIM ALADIN cy38, FMI-RoadSurf
+Used scenario: Historical until 2015 - SSP245 ("moderate" pathway for future greenhouse gas emissions) for midcentury 
+Used Data: NEX-GDDP-CMIP6, Statistically downscaled climate model dataset made by NASA. Based on 30 CMIP6 climate model simulations, https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-gddp-cmip6 
 
-Periods:
-- Historical: 1986–2005
-- Recent: 1999–2018
-- Mid-Century: 2041–2060
+Periods:  
+- Historical: 1995–2014  
+- Mid-Century: 2041–2060  
 
-Seasons:
+Seasons:  
 - Winter: December, January, February (DJF)
-- Spring: March, April, May (MAM)
 - Summer: June, July, August (JJA)
-- Autumn: September, October, November (SON)
 <br><br><br>
