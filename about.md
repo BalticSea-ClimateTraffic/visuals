@@ -90,4 +90,4 @@ Information coming soon.
 ------------------------------------------------------------------------------------------------
 Page Admin: Nadine-Cyra Freistetter<br>
 Page created: 09-2025<br>
-Page last updated: 10-2025<br>
+Page last updated: 01-2026<br>
