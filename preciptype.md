@@ -11,8 +11,7 @@ The model data used here come from the study “Climate change impacts on future
 <br>
 
 # How to use
-The plot is fully interactive. <br>
-First, use the drop-down menus to choose a period, a season, and a precipitation phase. 
+The plot is fully interactive. First, use the drop-down menus to choose a period, a season, and a precipitation phase. 
 You can explore three time periods Historical (1986–2005), Recent (1999–2018), and Mid-Century (2041–2060), in four meteorological seasons <br>
 - Winter (DJF): December–February<br>
 - Spring (MAM): March–May<br>
@@ -64,12 +63,22 @@ Choose:
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
+<div style="margin-top:10px;">
+  <a id="downloadPlot1"
+     href="#"
+     download
+     style="display:none; font-weight:bold;">
+     ⬇ Download this plot as HTML
+  </a>
+</div>
+
 <script>
   const periodSelect1 = document.getElementById('period1');
   const seasonSelect1 = document.getElementById('season1');
   const typeSelect1   = document.getElementById('type1');
   const citiesSelect1 = document.getElementById('cities1');
   const iframe1       = document.getElementById('plotFrame1');
+  const downloadLink1 = document.getElementById('downloadPlot1');
 
   function updatePlot1() {
     const period = periodSelect1.value;
@@ -77,13 +86,15 @@ Choose:
     const type   = typeSelect1.value;
     const cities = citiesSelect1.value;
 
-
     const newSrc = `PLOTS_Nadine/PLOT_interactive_Heatmap_${cities}_GPType_${type}_${period}_${season}.html`;
-
+    
     iframe1.style.opacity = 0;
+
     setTimeout(() => {
       iframe1.src = newSrc;
-      iframe1.onload = () => { iframe1.style.opacity = 1; };
+      downloadLink1.href = newSrc;
+
+      iframe1.onload = () => {iframe1.style.opacity = 1; };
     }, 400);
   }
 
