@@ -78,7 +78,7 @@ Choose:
     const cities = citiesSelect1.value;
 
 
-    const newSrc = `PLOTS_Nadine/PLOT_interactive_Heatmap_GPType_${cities}_${type}_${period}_${season}.html`;
+    const newSrc = `PLOTS_Nadine/PLOT_interactive_Heatmap_${cities}_GPType_${type}_${period}_${season}.html`;
 
     iframe1.style.opacity = 0;
     setTimeout(() => {
