@@ -154,7 +154,7 @@ In the past, winter road surface temperatures were usually close to zero, with m
 Historically, winter road surface temperatures were on average well below freezing. By mid-century, average temperatures will still be below freezing, though maximum values may come close to or exceed zero, indicating that freeze–thaw cycles might increase (see <a href="#freeze-thaw-cycles">Freeze-Thaw Cycles</a> below). In spring and autumn, roads were mostly above freezing, and by mid-century they are expected to remain above or near freezing. Summer temperatures are projected to increase, following the same general pattern as in western regions with average maximum road temperatures around 30°C.<br>
 
 <b>North of the Baltic Sea</b>
-Winter road surface temperatures have historically been well below freezing, and even by mid-century, average winter temperatures are expected to remain below zero. Maximum temperatures, however, are likely to rise closer to zero, suggesting more frequent freeze–thaw cycles. In spring, even far-northern and glaciated regions are projected to reach positive or near-zero road surface temperatures by mid-century. Autumn shows a similar pattern, with generally positive averages but minimum temperatures dropping a few degrees below zero. Summer temperatures remain lower than the rest of Europe, with the Norwegian mountains and northern Fennoscandia being the main exceptions to the overall warming trend.<br>
+Winter road surface temperatures have historically been well below freezing, and even by mid-century, average winter temperatures are expected to remain below zero. Maximum temperatures, however, are likely to rise closer to zero, suggesting more frequent freeze–thaw cycles. In spring, even far-northern and glaciated regions are projected to reach positive or near-zero road surface temperatures by mid-century. Autumn shows a similar pattern, with generally positive averages but minimum temperatures dropping a few degrees below zero. Summer temperatures remain lower than the rest of Europe, with northern Fennoscandia being the main exceptions to the overall warming trend.<br>
 <br>
 <b>Attention</b>: The <b>average</b> maximum road surface temperture (average over the entire 2041-2060 period) does not portray individual heat waves in which road surface temperatures can be much higher than 30°C.
 
@@ -237,7 +237,7 @@ In autumn, historically, the mean number of ZDCs was 2, with an average maximum 
 <br>
 In winter, historically, most areas had almost no ZDCs, with an average maximum of 9. By mid-century, the mean will be around 1 in southern Fennoscandia and 0 in the far north, with the average maximum rising to 13.<br>
 <br>
-In spring, historically, the mean ZDCs were 2, with an average maximum of 14. By mid-century, the mean remains around 2 and the average maximum decreases to 11, though Norwegian fjords may experience higher numbers with a mean of 3.<br>
+In spring, historically, the mean ZDCs were 2, with an average maximum of 14. By mid-century, the mean remains around 2 and the average maximum decreases to 11.<br>
 
 <br><br><br>
 

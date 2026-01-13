@@ -94,41 +94,18 @@ Choose:
 </script>
 
 # Interpretation
-<b>West and South of the Baltic Sea (including southern Sweden)</b>
-winter 
-hist:
-midc:
-spring
-hist:
-midc:
-autumn
-hist:
-midc:
-<br>
+Snowfall is projected to decrease across all regions, with the strongest reductions in the south and along coastal areas, and across all seasons, with strongest changes expected in autumns.<br>
 
-<b>East of the Baltic Sea</b>
-winter 
-hist:
-midc:
-spring
-hist:
-midc:
-autumn
-hist:
-midc:
-<br>
+<b>West and South of the Baltic Sea (including southern Sweden)</b><br>
+In winter, historical conditions show that around 70% of precipitation fell as snow in Poland, while most other regions experienced 50–60% snowfall. By mid-century, snowfall could decrease noticeably, with Poland dropping to about 50–60% and most other areas to 30–40%. In spring, snowfall historically accounted for around 25% of precipitation (35% in southern Sweden). By mid-century, this could decline to around 15%, or about 25% in southern Sweden. In autumn, snowfall historically occurred 15–20% of the time (25% in southern Sweden), but by mid-century this could fall to around 10%, or about 15% in southern Sweden.<br> <br>
 
-<b>North of the Baltic Sea</b>
-winter 
-hist: precipitation fell as snow nearly 100% of the time, except for archipelagos, where snowfall occured around 70% of the time.
-midc: snowfalls stays over 90% of time around the gulf of bothnia
-spring
-hist:
-midc:
-autumn
-hist:
-midc:
-<br>
+<b>East of the Baltic Sea</b><br>
+In winter, snowfall historically dominated, with around 85% of inland precipitation and about 70% near the Baltic coast. By mid-century, snowfall could decrease to around 65–70% inland and about 55% near the coast, with archipelago regions dropping to around 40%. In spring, historical snowfall accounted for about 35% of precipitation, with slightly higher values in Estonia, decreasing to around 25% by mid-century. In autumn, snowfall historically occurred 25–30% of the time, falling to around 20% by mid-century.<br> <br>
+
+<b>North of the Baltic Sea</b><br>
+In winter, precipitation historically fell as snow almost 100% of the time, except in archipelago regions where snowfall occurred around 70% of the time. By mid-century, snowfall is expected to remain above 90% across much of central and northern Sweden, but decreases markedly in Finland, with central Finland around 85%, southern Finland around 75%, and archipelago regions partly below 50%. In spring, historical snowfall reached around 80% occurrence in Lapland, about 60% in central Sweden and Finland, and around 50% in southern Finland. By mid-century, these values could drop to 60–70% in Lapland, around 50% in central Finland, and 30–35% in southern Finland, as well as to about 60% in central Sweden. In autumn, snowfall historically accounted for around 70% in Lapland, 55–60% in central Sweden and Finland, and about 35% in southern Finland. By mid-century, this could decline to around 50% in Lapland, 30% in central Finland, about 20% in southern Finland, and to 45% in central Sweden.<br> <br>
+
+<b>Important note:</b> These results represent average conditions over long time periods in the worst-case climate change scenario RCP 8.5, and do not capture short-lived extreme events, such as warm spells, cold spells, or extreme precipitation events, which may still occur and can strongly affect local conditions.<br>
 
 <br><br>
 ---
