@@ -295,9 +295,9 @@ Choose:
 
   <label for="type3" style="margin-left: 15px;">Road Surface Condition: </label>
   <select id="type3">
+    <option value="icysum">Icy or partly icy road</option>
+    <option value="snow">Snow on road</option>
     <option value="dry">Dry road</option>
-    <option value="snowy">Snow on road</option>
-    <option value="icy">Icy or partly icy road</option>
   </select>
   
   <label for="cities3" style="margin-left: 15px;">Show Cities: </label>
