@@ -61,13 +61,13 @@ html {
   <a href="#road-cover">Road Condition</a>
 </div>
 
-Here you can explore how road conditions and temperatures may change across time and regions. The plots show road surface temperature, freeze–thaw cycles, and road surface condition, all of which are closely linked to safety and mobility. Road surface temperature affects ice formation and snow melt, freeze–thaw cycles indicate how often surfaces repeatedly freeze and thaw, and road surface condition describes whether roads are dry, wet, icy, or covered in snow or slush. These indicators help understand how climate change may impact driving and walking conditions in different areas throughout the year. Some general observations are presented under "Interpretation" below the plot.
+Here you can explore how road conditions and temperatures may change across time and regions. The figures show road surface temperature, freeze–thaw cycles, and road surface condition, all of which are closely linked to safety and mobility. Road surface temperature affects ice formation and snow melt, freeze–thaw cycles indicate how often surfaces repeatedly freeze and thaw, and road surface condition describes whether roads are dry, wet, icy, or covered in snow or slush. These indicators help us understand how climate change may impact driving and walking conditions in different areas throughout the year. Some general observations are presented under the “Interpretation” sections below the figures.
 
 The model data used here come from the study “Climate change impacts on future driving and walking conditions in Finland, Norway and Sweden” (Reg Environ Change, 2022). The data are based on climate model simulations using the RCP 8.5 scenario, which represents a high greenhouse gas emissions pathway and is often referred to as a worst-case climate change scenario. Therefore, the results on this page should be used as extreme-case estimates. 
 
 
 ## How to use
-The plots are fully interactive. First, use the drop-down menus to choose a period and a season. 
+The figures are fully interactive. First, use the drop-down menus to choose a period and a season. 
 You can explore three time periods Historical (1986–2005), Recent (1999–2018), and Mid-Century (2041–2060), in four meteorological seasons <br>
 - Winter (DJF): December–February<br>
 - Spring (MAM): March–May<br>
@@ -77,8 +77,8 @@ You can explore three time periods Historical (1986–2005), Recent (1999–2018
 This allows you to compare past conditions with recent years and possible future changes under climate change.<br>
 For <a href="#road-cover">Road Condition</a> you can additionally choose the road surface condition (cover): dry road, snow on road or ice on road.<br>
 <br>
-You can zoom in by dragging a box over an area or by using the zoom tools in the toolbar. To move around the map, click and drag the plot. You can select specific regions by focusing on the area of interest and adjusting the view. The toolbar also allows you to reset the view to the original extent at any time. If you would like to save the figure, you can download the plot as a PNG image directly using the camera icon. Hovering over the plot will show additional information for each location.<br>
-The plot can sometimes react slowly depending on your internet connection and other factors. 
+You can zoom in by dragging a box over an area or by using the zoom tools in the toolbar. To move around the map, click and drag the figure. You can select specific regions by focusing on the area of interest and adjusting the view. The toolbar also allows you to reset the view to the original extent at any time. If you would like to save the figure, you can download the figure as a PNG image directly using the camera icon. Hovering over the figure will show additional information for each location.<br>
+The figure can sometimes react slowly depending on your internet connection and other factors. 
 <br><br>
 
 ---
@@ -86,7 +86,7 @@ The plot can sometimes react slowly depending on your internet connection and ot
 # Road Surface Temperature (Asphalt)
 {:#road-temperature}
 
-These plots show the temperature of asphalt road surfaces, which can differ from air temperature due to solar radiation, traffic, and surface properties. Road surface temperature is a key factor for winter maintenance, traffic safety, and the formation of ice or snow on roads. By hovering your mouse across the map, you can see mean, maximum, and minimum temperature (on average) for each grid point.
+These figures show the temperature of asphalt road surfaces, which can differ from air temperature due to solar radiation, traffic, and surface properties. Road surface temperature is a key factor for winter maintenance, traffic safety, and the formation of ice or snow on roads. By hovering your mouse across the map, you can see mean, maximum, and minimum temperature (on average) for each grid point.
 <br><br>
 Choose:
 <div style="margin-bottom: 15px;">
@@ -114,7 +114,7 @@ Choose:
 
 <iframe id="plotFrame1" src="PLOTS_Nadine/PLOT_interactive_Heatmap_cities_GTSurf_avgmean_hist_DJF.html"
         width="100%"
-        height="750px"
+        height="680px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
@@ -123,7 +123,7 @@ Choose:
      href="#"
      download
      style="display:none; font-weight:bold;">
-     ⬇ Download this plot as HTML
+     ⬇ Download this figure as HTML
   </a>
 </div>
 
@@ -178,7 +178,7 @@ Winter road surface temperatures have historically been well below freezing, and
 # Freeze-Thaw Cycles
 {:#freeze-thaw-cycles}
 
-These plots illustrate how often temperatures cross the freezing point, causing water on the road to freeze and thaw. It shows the average number of freeze–thaw cycles, as well as the minimum and maximum values observed during the selected period. Frequent freeze–thaw cycles can increase road wear, damage surfaces, and raise maintenance needs.
+These figures illustrate how often temperatures cross the freezing point, causing water on the road to freeze and thaw. It shows the average number of freeze–thaw cycles, as well as the minimum and maximum values observed during the selected period. Frequent freeze–thaw cycles can increase road wear, damage surfaces, and raise maintenance needs.
 <br><br>
 Choose:
 <div style="margin-bottom: 15px;">
@@ -206,7 +206,7 @@ Choose:
 
 <iframe id="plotFrame2" src="PLOTS_Nadine/PLOT_interactive_Heatmap_cities_ZDCs_perDay_hist_DJF.html"
         width="100%"
-        height="750px"
+        height="680px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
@@ -215,7 +215,7 @@ Choose:
      href="#"
      download
      style="display:none; font-weight:bold;">
-     ⬇ Download this plot as HTML
+     ⬇ Download this figure as HTML
   </a>
 </div>
 
@@ -252,7 +252,7 @@ citiesSelect2.addEventListener('change', updatePlot2);
 Across Europe, zero-degree crossings are expected to become slightly less frequent in the south and west of the Baltic Sea, while in northern regions they may increase slightly, especially during winter and autumn, indicating potential changes in freeze–thaw cycles.
 
 <b>East, West, and South of the Baltic Sea (including southern Sweden)</b><br>
-In autumn, historically, the average maximum number of zero-degree crossings (ZDCs) per day was around 13, occasionally reaching 20, but the daily mean was stable at 1, meaning such high numbers were rare. By mid-century, the mean ZDCs per day will sometimes be 0 and sometimes 1, with the average maximum dropping to around 10 per day.<br>
+In autumn, historically, the regionally averaged maximum number of zero-degree crossings (ZDCs) per day was around 13, occasionally reaching 20, but the daily mean was stable at 1, meaning such high numbers were rare. By mid-century, the mean ZDCs per day will sometimes be 0 and sometimes 1, with the average maximum dropping to around 10 per day.<br>
 <br>
 In winter, historically, the mean number of ZDCs was about 2, with an average maximum of 15. By mid-century, the mean remains mostly 2, and the average maximum decreases slightly to 14.<br>
 <br>
@@ -272,7 +272,7 @@ In spring, historically, the mean ZDCs were 2, with an average maximum of 14. By
 # Road Condition
 {:#road-cover}
 
-This plot presents the seasonal average road surface condition on asphalt. Conditions range from dry, moist, or wet to more hazardous states such as slush, frost, partly icy or icy, and snow. These categories help describe typical driving conditions and how they may change across seasons and future climate periods. You can only choose between three major conditions, but by hovering your mouse across the map, you can see the exact value for all conditions for every grid point. The "snow on road" value might be intuitively on the low side for far-north regions because the road weather model which calculated these values assumes that average traffic on the road is packing the snow into icy and partly icy conditions over time. Therefore, it is recommended to add up the "snow", "icy", and "partly icy" categories for a quick estimate how much % of the time winter road maintanance could be needed (the model assumes no road maintenance is happening at all).
+This figure presents the seasonal average road surface condition on asphalt. Conditions range from dry, moist, or wet to more hazardous states such as slush, frost, partly icy or icy, and snow. These categories help us describe typical driving conditions and how they may change across seasons and future climate periods. You can only choose between three major conditions, but by hovering your mouse across the map, you can see the exact value for all conditions for every grid point. The "snow on road" value might be intuitively on the low side for far-north regions because the road weather model which calculated these values assumes that average traffic on the road is packing the snow into icy and partly icy conditions over time. Therefore, it is recommended to add up the "snow", "icy", and "partly icy" categories for a quick estimate of how often difficult driving conditions could occur (the model assumes no road maintenance is happening at all).
 <br><br>
 Choose:
 <div style="margin-bottom: 15px;">
@@ -309,7 +309,7 @@ Choose:
 
 <iframe id="plotFrame3" src="PLOTS_Nadine/PLOT_interactive_Heatmap_cities_GSCond_icysum_hist_DJF.html"
         width="100%"
-        height="800px"
+        height="680px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
@@ -318,7 +318,7 @@ Choose:
      href="#"
      download
      style="display:none; font-weight:bold;">
-     ⬇ Download this plot as HTML
+     ⬇ Download this figure as HTML
   </a>
 </div>
 
@@ -371,7 +371,7 @@ In the north, including northern Fennoscandia, snowy and icy conditions have lon
 
 <br>
 ---
-Data, plots, and text by <a href="https://en.ilmatieteenlaitos.fi/cv-nadine-cyra-freistetter"> Nadine-Cyra Freistetter </a><br>
+Data, figures, and text by <a href="https://en.ilmatieteenlaitos.fi/cv-nadine-cyra-freistetter"> Nadine-Cyra Freistetter </a><br>
 Sources: [model runs for paper](https://doi.org/10.1007/s10113-022-01920-4)
 
 
