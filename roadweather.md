@@ -114,7 +114,7 @@ Choose:
 
 <iframe id="plotFrame1" src="PLOTS_Nadine/PLOT_interactive_Heatmap_cities_GTSurf_avgmean_hist_DJF.html"
         width="100%"
-        height="680px"
+        height="700px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
@@ -206,7 +206,7 @@ Choose:
 
 <iframe id="plotFrame2" src="PLOTS_Nadine/PLOT_interactive_Heatmap_cities_ZDCs_perDay_hist_DJF.html"
         width="100%"
-        height="680px"
+        height="700px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
@@ -309,7 +309,7 @@ Choose:
 
 <iframe id="plotFrame3" src="PLOTS_Nadine/PLOT_interactive_Heatmap_cities_GSCond_icysum_hist_DJF.html"
         width="100%"
-        height="680px"
+        height="700px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
