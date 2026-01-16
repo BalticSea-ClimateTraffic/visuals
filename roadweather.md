@@ -114,7 +114,7 @@ Choose:
 
 <iframe id="plotFrame1" src="PLOTS_Nadine/PLOT_interactive_Heatmap_cities_GTSurf_avgmean_hist_DJF.html"
         width="100%"
-        height="700px"
+        height="710px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
@@ -154,8 +154,6 @@ periodSelect1.addEventListener('change', updatePlot1);
 seasonSelect1.addEventListener('change', updatePlot1);
 citiesSelect1.addEventListener('change', updatePlot1);
 </script>
-<br><br>
-
 # Interpretation 
 Road surface temperatures are projected to rise across Europe, with winters becoming milder in the south and west, spring and autumn temperatures generally staying above freezing, and summer heat spreading farther north, while the far north will still experience freezing conditions in winter.<br>
 
@@ -206,7 +204,7 @@ Choose:
 
 <iframe id="plotFrame2" src="PLOTS_Nadine/PLOT_interactive_Heatmap_cities_ZDCs_perDay_hist_DJF.html"
         width="100%"
-        height="700px"
+        height="710px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
@@ -309,7 +307,7 @@ Choose:
 
 <iframe id="plotFrame3" src="PLOTS_Nadine/PLOT_interactive_Heatmap_cities_GSCond_icysum_hist_DJF.html"
         width="100%"
-        height="700px"
+        height="710px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
@@ -354,9 +352,6 @@ seasonSelect3.addEventListener('change', updatePlot3);
 typeSelect3.addEventListener('change', updatePlot3);
 citiesSelect3.addEventListener('change', updatePlot3);
 </script>
-
-<br><br>
-
 # Interpretation 
 Snowy and icy road conditions are expected to decrease for many regions around the Baltic sea as climate change progresses. Overall, winter road conditions are expected to become much milder in the south and west of the Baltic Sea, and slightly milder east the baltic sea, while northern European roads will remain largely icy and snowy, though partly icy conditions could become more common.<br>
 
