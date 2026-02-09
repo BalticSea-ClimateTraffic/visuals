@@ -63,12 +63,12 @@ html {
   <a href="#further-info">Further Information</a>
 </div>
 Sea ice concentration is the fraction (or percentage) of the ocean surface that is covered by sea ice within a given area. It ranges from 0 (completely ice-free water) to 1 or 100% (entirely ice-covered) and is commonly derived from satellite observations, but can be also simulated with climate models. 
-Limitations: Sea ice concentration describes the fractional ice cover but does not capture ice thickness, ice strength, or ice type. As a result, areas with the same concentration may have very different navigability or hazard levels.
+<strong>Limitations::</strong> Sea ice concentration describes the fractional ice cover but does not capture ice thickness, ice strength, or ice type. As a result, areas with the same concentration may have very different navigability or hazard levels.
 
 The model data used in the figures shown above are based on climate Digital Twin (nextGEMS) simulations. These are high-resolution simulations that provide detailed spatial information, for example for sea ice conditions in the Baltic Sea. However, it should be noted that the results are based on a single model and a single realization, and that simulated conditions may differ slightly from observations even for historical periods. High-resolution information on sea ice conditions is generally limited. Despite these limitations, the simulations provide a useful indication of how sea ice conditions may change in the future.
 
 
-How to use
+<strong>How to use</strong>
 The figures show average sea ice concentration for each month for a near-historical period (1990–2019) and a future period (2030–2049), based on the high-emission scenario SSP3-7.0. The displayed month can be selected using the drop-down menus.
 
 The presented values are multi-year means. Interannual variability is not shown, and conditions in individual years may differ from the average.
