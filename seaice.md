@@ -81,7 +81,7 @@ The presented values are multi-year means. Interannual variability is not shown,
 
 <div style="margin-bottom: 15px;">
 
-  <label for="month" style="margin-left: 15px;">Season: </label>
+  <label for="month" style="margin-left: 15px;">Month: </label>
 <select id="month">
   <option value="0">January</option>
   <option value="1">February</option>
@@ -101,12 +101,11 @@ The presented values are multi-year means. Interannual variability is not shown,
 
 <iframe id="plotFrame1" src="PLOTS_Anton/seaice_hist_fut_0.png"
         width="900px"
-        height="700px"
-        style="border:none; opacity:1; transition: opacity 0.5s;">
+        style="width:100%; aspect-ratio: 9 / 7;"border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
 <script>
-const seasonSelect1 = document.getElementById('month');
+const monthSelect1 = document.getElementById('month');
 const iframe1       = document.getElementById('plotFrame1');
 
 function updatePlot1() {
@@ -119,8 +118,7 @@ function updatePlot1() {
     iframe1.onload = () => { iframe1.style.opacity = 1; };
   }, 400);
 }
-periodSelect1.addEventListener('change', updatePlot1);
-seasonSelect1.addEventListener('change', updatePlot1);
+monthSelect1.addEventListener('change', updatePlot1);
 </script>
 <br><br>
 
@@ -133,7 +131,7 @@ seasonSelect1.addEventListener('change', updatePlot1);
 
 # Further Information
 {:#further-info}
-Used scenario: Historical until 2015 - from 2015: SSP3-7.0 (is a high greenhouse-gas emissions climate scenario)
+Used scenario: Historical until 2015 - from 2015: SSP3-7.0 (a high greenhouse-gas emissions climate scenario)
 Used Data: Climate Digital Twins, nextGEMS, model: IFS-FESOM - https://destine.ecmwf.int/climate-change-adaptation-digital-twin-climate-dt/
 
 Periods:  1990–2019 and 2030–2049  
