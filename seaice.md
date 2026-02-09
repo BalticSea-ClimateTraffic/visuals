@@ -59,32 +59,34 @@ html {
 
 <div id="toc-box">
   <strong>Jump to:</strong>
-  <a href="#snowfalldays">Snowfall days</a>
-  <a href="#Hsnowfalldays">Heavy snowfall days</a>
+  <a href="#seaice">Snowfall days</a>
   <a href="#further-info">Further Information</a>
 </div>
-
-Future snowfall patterns will be shaped by two opposing climate influences. On one hand, rising temperatures reduce the number of days that fall below freezing, meaning fewer opportunities for snow to form. On the other hand, a warmer atmosphere can hold more moisture, increasing the potential for heavier snowfall during the periods that do remain cold enough. As a result, many regions may see fewer snowy days overall, but more intense snowfall events when conditions are suitable.
+DIIBADAABAAA
 
 ---
 
-# Days with snowfall
-{:#snowfalldays}
+# Sea Ice Concentration
+{:#seaice}
 
 <div style="margin-bottom: 15px;">
-  <label for="period1">Period: </label>
-  <select id="period1">
-    <option value="hist">Historical</option>
-    <option value="midc">Mid-Century</option>
-    <option value="diff">Change between Hist and MidC</option>
-  </select>
 
-  <label for="season1" style="margin-left: 15px;">Season: </label>
-  <select id="season1">
-    <option value="DJF">Winter</option>
-    <option value="JJA">Summer</option>
-    <option value="Year">Whole year</option>
-  </select>
+  <label for="month" style="margin-left: 15px;">Season: </label>
+<select id="month">
+  <option value="0">January</option>
+  <option value="1">February</option>
+  <option value="2">March</option>
+  <option value="3">April</option>
+  <option value="4">May</option>
+  <option value="5">June</option>
+  <option value="6">July</option>
+  <option value="7">August</option>
+  <option value="8">September</option>
+  <option value="9">October</option>
+  <option value="10">November</option>
+  <option value="11">December</option>
+</select>
+
 </div>
 
 <iframe id="plotFrame1" src="PLOTS_Anton/PLOT_Snday_hist_DJF.html"
@@ -101,7 +103,7 @@ const iframe1       = document.getElementById('plotFrame1');
 function updatePlot1() {
   const period = periodSelect1.value;
   const season = seasonSelect1.value;
-  const newSrc = `PLOTS_Anton/PLOT_Snday_${period}_${season}.html`;
+  const newSrc = `PLOTS_Anton/seaice_hist_fut_${month}.png`;
 
   iframe1.style.opacity = 0;
   setTimeout(() => {
@@ -119,70 +121,15 @@ seasonSelect1.addEventListener('change', updatePlot1);
 
 
 
-# Days with heavy snowfall
-{:#Hsnowfalldays}
-
-
-
-<div style="margin-bottom: 15px;">
-  <label for="period2">Period: </label>
-  <select id="period2">
-    <option value="hist">Historical</option>
-    <option value="midc">Mid-Century</option>
-    <option value="diff">Change between Hist and MidC</option>
-  </select>
-
-  <label for="season2" style="margin-left: 15px;">Season: </label>
-  <select id="season2">
-    <option value="DJF">Winter</option>
-    <option value="JJA">Summer</option>
-    <option value="Year">Whole year</option>
-  </select>
-</div>
-
-<iframe id="plotFrame2" src="PLOTS_Anton/PLOT_HSnday_hist_DJF.html"
-        width="900px"
-        height="700px"
-        style="border:none; opacity:1; transition: opacity 0.5s;">
-</iframe>
-
-<script>
-const periodSelect2 = document.getElementById('period2');
-const seasonSelect2 = document.getElementById('season2');
-const iframe2       = document.getElementById('plotFrame2');
-
-function updatePlot2() {
-  const period = periodSelect2.value;
-  const season = seasonSelect2.value;
-  const newSrc = `PLOTS_Anton/PLOT_HSnday_${period}_${season}.html`;
-
-  iframe2.style.opacity = 0;
-  setTimeout(() => {
-    iframe2.src = newSrc;
-    iframe2.onload = () => { iframe2.style.opacity = 1; };
-  }, 400);
-}
-periodSelect2.addEventListener('change', updatePlot2);
-seasonSelect2.addEventListener('change', updatePlot2);
-</script>
-<br><br>
-
-<br><br><br>
-
-
-
 
 
 # Further Information
 {:#further-info}
 Used scenario: Historical until 2015 - SSP245 ("moderate" pathway for future greenhouse gas emissions) for midcentury 
-Used Data: NEX-GDDP-CMIP6, Statistically downscaled climate model dataset made by NASA. Based on 30 CMIP6 climate model simulations, https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-gddp-cmip6 
+Used Data: 
 
 Periods:  
-- Historical: 1995–2014  
-- Mid-Century: 2041–2060  
+- Historical: 1990–2019  
+- Mid-Century: 2030–2049  
 
-Seasons:  
-- Winter: December, January, February (DJF)
-- Summer: June, July, August (JJA)
 <br><br><br>
