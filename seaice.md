@@ -133,6 +133,7 @@ monthSelect1.addEventListener('change', updatePlot1);
 # Further Information
 {:#further-info}
 Used scenario: Historical until 2015 - from 2015: SSP3-7.0 (a high greenhouse-gas emissions climate scenario)
+
 Used Data: Climate Digital Twins, nextGEMS, model: IFS-FESOM - https://destine.ecmwf.int/climate-change-adaptation-digital-twin-climate-dt/
 
 Periods:  1990–2019 and 2030–2049  
