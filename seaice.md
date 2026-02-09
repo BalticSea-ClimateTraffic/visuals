@@ -133,11 +133,9 @@ seasonSelect1.addEventListener('change', updatePlot1);
 
 # Further Information
 {:#further-info}
-Used scenario: Historical until 2015 - SSP245 ("moderate" pathway for future greenhouse gas emissions) for midcentury 
-Used Data: 
+Used scenario: Historical until 2015 - from 2015: SSP3-7.0 (is a high greenhouse-gas emissions climate scenario)
+Used Data: Climate Digital Twins, nextGEMS, model: IFS-FESOM - https://destine.ecmwf.int/climate-change-adaptation-digital-twin-climate-dt/
 
-Periods:  
-- Historical: 1990–2019  
-- Mid-Century: 2030–2049  
+Periods:  1990–2019 and 2030–2049  
 
 <br><br><br>
