@@ -102,7 +102,6 @@ The presented values are multi-year means. Interannual variability is not shown,
 <iframe id="plotFrame1" src="PLOTS_Anton/seaice_hist_fut_0.png"
         width="900px"
         style="width:100%; aspect-ratio: 9 / 7; border:none; opacity:1; transition: opacity 0.5s;"
->
 </iframe>
 
 <script>
