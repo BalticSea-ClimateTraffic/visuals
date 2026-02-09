@@ -99,20 +99,18 @@ The presented values are multi-year means. Interannual variability is not shown,
 
 </div>
 
-<iframe id="plotFrame1" src="PLOTS_Anton/PLOT_Snday_hist_DJF.html"
+<iframe id="plotFrame1" src="PLOTS_Anton/seaice_hist_fut_0.png"
         width="900px"
         height="700px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
 </iframe>
 
 <script>
-const periodSelect1 = document.getElementById('period1');
-const seasonSelect1 = document.getElementById('season1');
+const seasonSelect1 = document.getElementById('month');
 const iframe1       = document.getElementById('plotFrame1');
 
 function updatePlot1() {
-  const period = periodSelect1.value;
-  const season = seasonSelect1.value;
+  const month = monthSelect1.value;
   const newSrc = `PLOTS_Anton/seaice_hist_fut_${month}.png`;
 
   iframe1.style.opacity = 0;
