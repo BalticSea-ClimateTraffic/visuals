@@ -6,6 +6,13 @@ title: Temperature-variability
 <br>
 Climate change does not influence only average or maximum temperatures, it also alters the entire temperature range. It will change how much temperatures fluctuate over the course of a day and how these fluctuations differ between seasons. As a result, for example the frequency with which daily temperatures cross the freezing point (0 °C) can increase or decrease, creating new patterns in freeze–thaw cycles and surface conditions. Changes in daily and seasonal temperature ranges, especially more frequent crossings of 0 °C, can significantly affect transportation around the Baltic Sea. More freeze–thaw cycles lead to faster road surface wear and a higher risk of black ice. Snow that melts during warmer daytime periods and refreezes at night creates slippery roads, paths, and port areas. Variable temperatures also disrupt rail operations. 
 
+Below are three examples of temperature variation in the historical and mid-century climate:1) Diurnal temperature range, shown as the average difference between daily maximum and minimum temperatures, 2) Number of days when the diurnal temperature range exceeds 10 °C. and 3) Number of days when temperature crosses 0 °C, meaning it is both above and below freezing within the same day.
+
+# How to use
+The plots are fully interactive. Use the drop-down menus to select a period—Historical (1995–2014) or Mid-Century (2041–2060)—and a season (Winter, Summer, or the whole year). You can also view projected future changes, shown as the difference between the Mid-Century and Historical periods.
+
+You can zoom in by dragging a box over an area or by using the zoom tools in the toolbar. To move around the map, click and drag the plot. You can select specific regions by focusing on the area of interest and adjusting the view. The toolbar also allows you to reset the view to the original extent at any time. If you would like to save the figure, you can download the plot as a PNG image directly using the camera icon. 
+
 <style>
 /* Floating table of contents box on the right side */
 #toc-box {
@@ -212,7 +219,7 @@ seasonSelect3.addEventListener('change', updatePlot3);
 </script>
 <br><br>
 
-
+# Interpretion
 
 # Further Information
 {:#further-info} 
