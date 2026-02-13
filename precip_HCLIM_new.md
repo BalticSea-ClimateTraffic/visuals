@@ -20,48 +20,57 @@ For map plots, you can also select a future period:
 
 You can optionally display a difference map that shows the ratio between future and historical conditions. This helps to identify where the largest relative changes are projected.
 
-<label for="idDropdown">Index:</label>
-<select id="idDropdown">
-  <option value="rx1day" selected>
-    Seasonal maximum daily precipitation (Rx1day)
-  </option>
-  <option value="rx5day">
-    Seasonal maximum 5-day precipitation (Rx5day)
-  </option>
-  <option value="r20mm">
-    Days with precipitation ≥ 20 mm (R20mm)
-  </option>
-  <option value="sdii">
-    Mean precipitation on wet days (SDII)
-  </option>
-</select>
+---
+Choose:
+<div style="margin-bottom: 15px; white-space: nowrap; overflow-x: auto;">
 
-<label for="seasonDropdown">Season:</label>
-<select id="seasonDropdown">
-  <option value="JJA" selected>JJA (Jun–Aug)</option>
-  <option value="DJF">DJF (Dec–Feb)</option>
-</select>
 
-<label for="plotStyleDropdown">Plot style:</label>
-<select id="plotStyleDropdown">
-  <option value="maps" selected>Maps</option>
-  <option value="boxplots">Boxplots</option>
-</select>
 
-<!-- Map-specific options (shown only when Plot style = Maps) -->
-<div id="mapOptions" hidden>
-  <label for="periodDropdown">Future period:</label>
-  <select id="periodDropdown">
-    <option value="midcentury" selected>Mid-century (2041–2060)</option>
-    <option value="latecentury">Late-century (2081–2100)</option>
+  <label for="idDropdown">Index: </label>
+  <select id="idDropdown">
+    <option value="rx1day" selected>
+      Seasonal maximum daily precipitation
+    </option>
+    <option value="rx5day">
+      Seasonal maximum 5-day precipitation
+    </option>
+    <option value="r20mm">
+      Days with precipitation ≥ 20 mm
+    </option>
+    <option value="sdii">
+      Mean precipitation on wet days
+    </option>
   </select>
 
-  <label for="diffDropdown">Difference map:</label>
-  <select id="diffDropdown">
-    <option value="off" selected>Off</option>
-    <option value="on">On</option>
+  <label for="seasonDropdown" style="margin-left: 15px;">Season: </label>
+  <select id="seasonDropdown">
+    <option value="JJA" selected>Summer (June–August)</option>
+    <option value="DJF">Winter (December–February)</option>
   </select>
+
+  <label for="plotStyleDropdown" style="margin-left: 15px;">Plot style: </label>
+  <select id="plotStyleDropdown">
+    <option value="maps" selected>Maps</option>
+    <option value="boxplots">Boxplots</option>
+  </select>
+
+  <!-- Map-specific options -->
+  <span id="mapOptions" style="margin-left: 15px;">
+    <label for="periodDropdown">Future period: </label>
+    <select id="periodDropdown">
+      <option value="midcentury" selected>Mid-century (2041–2060)</option>
+      <option value="latecentury">Late-century (2081–2100)</option>
+    </select>
+
+    <label for="diffDropdown" style="margin-left: 15px;">Difference map: </label>
+    <select id="diffDropdown">
+      <option value="off" selected>Off</option>
+      <option value="on">On</option>
+    </select>
+  </span>
+
 </div>
+
 
 <div class="plots-row" id="plotsRow">
   <div class="plot-col" id="col-hist">
@@ -79,8 +88,6 @@ You can optionally display a difference map that shows the ratio between future 
 </div>
 
 <style>
-label { margin-right: 8px; font-weight: 600; }
-select { margin: 10px 16px 20px 0; padding: 6px 10px; font-size: 16px; }
 
 .plots-row {
   display: grid;
@@ -104,7 +111,31 @@ iframe {
   .plots-row { grid-template-columns: 1fr; }
   iframe { height: 520px; }
 }
+
+#mapOptions { white-space: nowrap; }
+#idDropdown, #seasonDropdown, #plotStyleDropdown,
+#periodDropdown, #diffDropdown {
+  display: inline-block;
+}
+
+label {
+  display: inline-block;
+  margin-right: 4px;
+  font-weight: 600;
+}
+
+select {
+  display: inline-block;
+  margin: 0 12px 0 0;
+  padding: 4px 8px;
+  font-size: 15px;
+}
+
+label, select {
+  vertical-align: middle;
+}
 </style>
+
 
 <script>
 const idDropdown        = document.getElementById('idDropdown');
@@ -160,7 +191,8 @@ function updatePlots() {
   const isMaps     = (plotStyle === 'maps');
   const isBoxplots = (plotStyle === 'boxplots');
   
-  mapOptions.toggleAttribute('hidden', !isMaps);
+  mapOptions.style.display = isMaps ? 'inline' : 'none';
+
 
   if (isMaps) {
     plotsRow.classList.remove('hidden');
