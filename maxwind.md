@@ -69,8 +69,8 @@ DIIBADAABA
   <label for="period1">Period: </label>
   <select id="period1">
     <option value="2005-2024">2005–2024</option>
-    <option value="2041-2060_minus_2005-2024">Change at mid-century</option>
-    <option value="2081-2100_minus_2005-2024">Change at end of century</option>
+    <option value="2041-2060_minus_2005-2024_">Change at mid-century</option>
+    <option value="2081-2100_minus_2005-2024_">Change at end of century</option>
   </select>
 
   <label for="month1" style="margin-left: 15px;">Month: </label>
@@ -106,7 +106,7 @@ function updatePlot1() {
   const period = periodSelect1.value;
   const month  = monthSelect1.value;
 
-  const newSrc = `PLOTS_Anton/PLOT_DIFF_sfcWindmax_${period}__ll0.10_m${month}.html`;
+  const newSrc = `PLOTS_Anton/PLOT_DIFF_sfcWindmax_${period}_ll0.10_m${month}.html`;
 
   iframe1.style.opacity = 0;
   setTimeout(() => {
