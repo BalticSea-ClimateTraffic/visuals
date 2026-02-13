@@ -234,6 +234,32 @@ function updatePlots() {
 [idDropdown, seasonDropdown, plotStyleDropdown, periodDropdown, diffDropdown].forEach(el =>
   el.addEventListener('change', updatePlots)
 );
+  
+/* -------- Auto-resize iframe height based on content -------- */
+function attachAutosize(iframe) {
+  const resize = () => {
+    try {
+      const doc = iframe.contentDocument || iframe.contentWindow.document;
+      if (!doc) return;
+      const h = Math.max(doc.body.scrollHeight, doc.documentElement.scrollHeight);
+      iframe.style.height = h + 'px';
+    } catch (e) {
+      console.warn('Autosize failed:', e);
+    }
+  };
+
+  iframe.addEventListener('load', () => {
+    resize();
+    setTimeout(resize, 50);
+    setTimeout(resize, 300);
+    setTimeout(resize, 1000);
+  });
+
+  window.addEventListener('resize', resize);
+}
+
+/* Attach autosize to all plot frames */
+[histFrame, futureFrame, diffFrame].forEach(attachAutosize);
 
 updatePlots();
 </script>
