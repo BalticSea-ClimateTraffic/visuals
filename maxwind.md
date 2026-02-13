@@ -105,8 +105,9 @@ const iframe1       = document.getElementById('plotFrame1');
 function updatePlot1() {
   const period = periodSelect1.value;
   const month  = monthSelect1.value;
+  const prefix = (period === "2005-2024") ? "PLOT" : "PLOT_DIFF";
 
-  const newSrc = `PLOTS_Anton/PLOT_DIFF_sfcWindmax_${period}_ll0.10_m${month}.html`;
+  const newSrc = `PLOTS_Anton/${prefix}_sfcWindmax_${period}_ll0.10_m${month}.html`;
 
   iframe1.style.opacity = 0;
   setTimeout(() => {
