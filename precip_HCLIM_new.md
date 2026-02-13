@@ -212,7 +212,14 @@ function updatePlots() {
     diffFrame.src   = diffOn ? (PATH_PREFIX + diff) : '';
 
     setColumns(2, diffOn);
+
+    // allow autosize for maps  
+    histFrame.style.height = '';
+    futureFrame.style.height = '';
+    diffFrame.style.height = '';
+
     return;
+
   }
 
   if (isBoxplots) {
@@ -222,10 +229,14 @@ function updatePlots() {
     futureTitle.textContent = 'Boxplots';
     futureFrame.src = PATH_PREFIX + buildBoxplotFilename(id, season);
 
+    // set fixed height for boxplots (prevents oversized blank space)
+    futureFrame.style.height = '520px';
+
     histFrame.src = '';
     diffFrame.src = '';
     return;
   }
+
 
   histFrame.src = futureFrame.src = diffFrame.src = '';
   plotsRow.classList.add('hidden');
