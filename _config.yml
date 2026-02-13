@@ -6,7 +6,7 @@ header_pages:
   - precip_HCLIM.md
   - preciptype.md
   - roadweather.md
-  - Wind.md
+  - maxwind.md
   - temprange.md
   - snowfalldays.md
   - seaice.md
