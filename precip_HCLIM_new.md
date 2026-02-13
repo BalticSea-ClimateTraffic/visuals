@@ -22,54 +22,55 @@ You can optionally display a difference map that shows the ratio between future 
 
 ---
 Choose:
-<div style="margin-bottom: 15px; white-space: nowrap; overflow-x: auto;">
+<div style="margin-bottom: 10px;">
 
-
-
-  <label for="idDropdown">Index: </label>
-  <select id="idDropdown">
-    <option value="rx1day" selected>
-      Seasonal maximum daily precipitation
-    </option>
-    <option value="rx5day">
-      Seasonal maximum 5-day precipitation
-    </option>
-    <option value="r20mm">
-      Days with precipitation ≥ 20 mm
-    </option>
-    <option value="sdii">
-      Mean precipitation on wet days
-    </option>
-  </select>
-
-  <label for="seasonDropdown" style="margin-left: 15px;">Season: </label>
-  <select id="seasonDropdown">
-    <option value="JJA" selected>Summer (June–August)</option>
-    <option value="DJF">Winter (December–February)</option>
-  </select>
-
-  <label for="plotStyleDropdown" style="margin-left: 15px;">Plot style: </label>
-  <select id="plotStyleDropdown">
-    <option value="maps" selected>Maps</option>
-    <option value="boxplots">Boxplots</option>
-  </select>
-
-  <!-- Map-specific options -->
-  <span id="mapOptions" style="margin-left: 15px;">
-    <label for="periodDropdown">Future period: </label>
-    <select id="periodDropdown">
-      <option value="midcentury" selected>Mid-century (2041–2060)</option>
-      <option value="latecentury">Late-century (2081–2100)</option>
+  <!-- Row 1 -->
+  <div style="margin-bottom: 6px;">
+    <label for="idDropdown">Index: </label>
+    <select id="idDropdown">
+      <option value="rx1day" selected>Seasonal maximum daily precipitation</option>
+      <option value="rx5day">Seasonal maximum 5-day precipitation</option>
+      <option value="r20mm">Days with precipitation ≥ 20 mm</option>
+      <option value="sdii">Mean precipitation on wet days</option>
     </select>
 
-    <label for="diffDropdown" style="margin-left: 15px;">Difference map: </label>
-    <select id="diffDropdown">
-      <option value="off" selected>Off</option>
-      <option value="on">On</option>
+    <label for="seasonDropdown" style="margin-left: 20px;">Season: </label>
+    <select id="seasonDropdown">
+      <option value="JJA" selected>Summer (June–August)</option>
+      <option value="DJF">Winter (December–February)</option>
     </select>
-  </span>
+  </div>
+
+  <!-- Row 2 -->
+  <div style="margin-bottom: 6px;">
+    <label for="plotStyleDropdown">Plot style: </label>
+    <select id="plotStyleDropdown">
+      <option value="maps" selected>Maps</option>
+      <option value="boxplots">Boxplots</option>
+    </select>
+
+    <span id="mapOptions" style="margin-left: 20px;">
+      <label for="periodDropdown">Future period: </label>
+      <select id="periodDropdown">
+        <option value="midcentury" selected>Mid-century (2041–2060)</option>
+        <option value="latecentury">Late-century (2081–2100)</option>
+      </select>
+    </span>
+  </div>
+
+  <!-- Row 3 -->
+  <div id="diffRow">
+    <span id="mapOptionsDiff">
+      <label for="diffDropdown">Difference map: </label>
+      <select id="diffDropdown">
+        <option value="off" selected>Off</option>
+        <option value="on">On</option>
+      </select>
+    </span>
+  </div>
 
 </div>
+
 
 
 <div class="plots-row" id="plotsRow">
@@ -97,7 +98,7 @@ Choose:
 }
 #col-diff { grid-column: 1 / -1; }
 .plot-col { display: flex; flex-direction: column; align-items: center; }
-.plot-title { font-weight: 600; margin: 6px 0 8px; }
+.plot-title { font-weight: normal; margin: 6px 0 8px; }
 
 iframe {
   width: 100%;
@@ -121,7 +122,7 @@ iframe {
 label {
   display: inline-block;
   margin-right: 4px;
-  font-weight: 600;
+  font-weight: normal;
 }
 
 select {
@@ -191,7 +192,8 @@ function updatePlots() {
   const isMaps     = (plotStyle === 'maps');
   const isBoxplots = (plotStyle === 'boxplots');
   
-  mapOptions.style.display = isMaps ? 'inline' : 'none';
+  document.getElementById('mapOptions').style.display = isMaps ? 'inline-block' : 'none';
+  document.getElementById('mapOptionsDiff').style.display = isMaps ? 'inline-block' : 'none';
 
 
   if (isMaps) {
