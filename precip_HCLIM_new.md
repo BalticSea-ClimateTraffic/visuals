@@ -249,14 +249,29 @@ function updatePlots() {
 /* -------- Auto-resize iframe height based on content -------- */
 function attachAutosize(iframe) {
   const resize = () => {
-    // Only autosize for map view
-    if (plotStyleDropdown.value !== 'maps') return;
-
     try {
       const doc = iframe.contentDocument || iframe.contentWindow.document;
       if (!doc) return;
-      const h = Math.max(doc.body.scrollHeight, doc.documentElement.scrollHeight);
-      iframe.style.height = h + 'px';
+
+      // Remove default margins
+      doc.body.style.margin = '0';
+
+      // Make main containers responsive
+      doc.querySelectorAll('div').forEach(el => {
+        el.style.maxWidth = '100%';
+      });
+
+      // Scale plot elements
+      doc.querySelectorAll('img, svg, canvas').forEach(el => {
+        el.style.maxWidth = '100%';
+        el.style.height = 'auto';
+      });
+
+      // Only autosize vertically for maps
+      if (plotStyleDropdown.value === 'maps') {
+        const h = Math.max(doc.body.scrollHeight, doc.documentElement.scrollHeight);
+        iframe.style.height = h + 'px';
+      }
     } catch (e) {
       console.warn('Autosize failed:', e);
     }
@@ -271,6 +286,8 @@ function attachAutosize(iframe) {
 
   window.addEventListener('resize', resize);
 }
+
+
 
 
 /* Attach autosize to all plot frames */
