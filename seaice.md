@@ -80,50 +80,58 @@ The presented values are multi-year means. Interannual variability is not shown,
 {:#seaice}
 
 <div style="margin-bottom: 15px;">
-
   <label for="month" style="margin-left: 15px;">Month: </label>
-<select id="month">
-  <option value="0">January</option>
-  <option value="1">February</option>
-  <option value="2">March</option>
-  <option value="3">April</option>
-  <option value="4">May</option>
-  <option value="5">June</option>
-  <option value="6">July</option>
-  <option value="7">August</option>
-  <option value="8">September</option>
-  <option value="9">October</option>
-  <option value="10">November</option>
-  <option value="11">December</option>
-</select>
-
+  <select id="month">
+    <option value="0">January</option>
+    <option value="1">February</option>
+    <option value="2">March</option>
+    <option value="3">April</option>
+    <option value="4">May</option>
+    <option value="5">June</option>
+    <option value="6">July</option>
+    <option value="7">August</option>
+    <option value="8">September</option>
+    <option value="9">October</option>
+    <option value="10">November</option>
+    <option value="11">December</option>
+  </select>
 </div>
-<iframe
+
+<img
   id="plotFrame1"
   src="PLOTS_Anton/seaice_hist_fut_0.png"
-  style="width:100%; height:auto;"
-></iframe>
-
+  alt="Sea ice plot"
+  style="
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    opacity: 1;
+    transition: opacity 0.5s;
+  "
+>
 
 <script>
 const monthSelect1 = document.getElementById('month');
-const iframe1       = document.getElementById('plotFrame1');
+const img1 = document.getElementById('plotFrame1');
 
 function updatePlot1() {
   const month = monthSelect1.value;
   const newSrc = `PLOTS_Anton/seaice_hist_fut_${month}.png`;
 
-  iframe1.style.opacity = 0;
+  img1.style.opacity = 0;
   setTimeout(() => {
-    iframe1.src = newSrc;
-    iframe1.onload = () => { iframe1.style.opacity = 1; };
+    img1.onload = () => { img1.style.opacity = 1; };
+    img1.src = newSrc;
   }, 400);
 }
+
 monthSelect1.addEventListener('change', updatePlot1);
 </script>
-<br><br>
 
 <br><br><br>
+
 
 # Interpretation
 ...
