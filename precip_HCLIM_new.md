@@ -249,6 +249,9 @@ function updatePlots() {
 /* -------- Auto-resize iframe height based on content -------- */
 function attachAutosize(iframe) {
   const resize = () => {
+    // Only autosize for map view
+    if (plotStyleDropdown.value !== 'maps') return;
+
     try {
       const doc = iframe.contentDocument || iframe.contentWindow.document;
       if (!doc) return;
@@ -268,6 +271,7 @@ function attachAutosize(iframe) {
 
   window.addEventListener('resize', resize);
 }
+
 
 /* Attach autosize to all plot frames */
 [histFrame, futureFrame, diffFrame].forEach(attachAutosize);
