@@ -23,6 +23,9 @@ Lind, P., Belušić, D., Médus, E., Dobler, A., Pedersen, R. A., Wang, F., ... 
 Dyrrdal, A. V., Médus, E., Dobler, A., Hodnebrog, Ø., Arnbjerg-Nielsen, K., Olsson, J., ... & Post, P. (2023). Changes in design precipitation over the Nordic-Baltic region as given by convection-permitting climate simulations. Weather and Climate Extremes, 42, 100604. <br>
 <a href="https://doi.org/10.1016/j.wace.2023.100604"> https://doi.org/10.1016/j.wace.2023.100604</a>
 
+The HARMONIE Climate community (2025). NorCP HCLIM 3km EC-Earth RCP8.5 data [Data set]. NIRD RDA. <br>
+<a href="https://doi.org/10.11582/2025.v5h1qkwp"> https://doi.org/10.11582/2025.v5h1qkwp</a>
+
 
 
 
