@@ -20,8 +20,6 @@ For map plots, you can also select a future period:
 
 You can optionally display a difference map that shows the ratio between future and historical conditions. This helps to identify where the largest relative changes are projected.
 
-When viewing maps, you can zoom into a region by dragging a box over the area of interest or by using the zoom tools in the toolbar. To move across the map, click and drag. Hovering over the map will show more detailed values for each location. If the plots respond slowly, this may depend on internet connection speed or browser performance.
-
 <label for="idDropdown">Index:</label>
 <select id="idDropdown">
   <option value="rx1day" selected>
