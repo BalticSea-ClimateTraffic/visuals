@@ -130,16 +130,21 @@ periodSelect1.addEventListener('change', updatePlot1);
 monthSelect1.addEventListener('change', updatePlot1);
 </script>
 
+# Interpretation
+...
 <br><br><br>
 
 
 
 # Further Information
 {:#further-info}
-Used scenario:
-Used Data: 
+Used scenario: RCP 8.5 (Representative Concentration Pathway 8.5) is a high greenhouse-gas emissions scenario used in climate research to explore a worst-case future. It assumes continued growth in emissions throughout the 21st century, driven by high population growth, heavy reliance on fossil fuels, limited climate policies, and slow technological change. Under this pathway, radiative forcing reaches 8.5 W/m² by 2100, leading to strong global warming, more frequent and intense extreme weather events, rising sea levels, and significant impacts on natural and human systems. Although RCP 8.5 is now considered unlikely, it remains useful for understanding upper-bound climate risks and the potential consequences of very high emissions.
+
+Used Data: EURO-CORDEX (European branch of the Coordinated Regional Climate Downscaling Experiment). It is a major international climate research initiative that provides high-resolution climate projections for Europe. Here we have used 12km resolution data based on two regional climate models (x and y), with several GCM boundary conditions covering Z simulations in total.
+
 Periods:  
-- Historical: 1995–2014  
-- Mid-Century: 2041–2060  
+- Historical: 2005–2014  
+- Mid-Century: 2041–2060
+- End-Century: 2081–2100   
 
 <br><br><br>
