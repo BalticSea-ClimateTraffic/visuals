@@ -59,8 +59,14 @@ html {
 
 
 
-DIIBADAABA
+Maximum wind speed
 ---
+On this page, you can find the average maximum wind speed for each month and how it is projected to change in the near future and by the end of the century, based on climate model simulations. Maximum wind speed is an important indicator for the traffic sector because strong gusts can cause accidents, vehicle instability, infrastructure damage, and service disruptions.
+
+The figures on this page are based on high-resolution regional climate model simulations from the EURO-CORDEX initiative. These projections follow the RCP 8.5 scenario, which represents a high-emission pathway. Although this scenario is unlikely to occur, it provides a useful indication of how conditions could change in a worst-case scenario.
+
+It should also be noted that, even though the results are based on multiple simulations, they are still affected by individual model biases. Maximum wind speed may not be a reliable indicator of changes in average wind speed or wind gusts, and it does not provide information about wind direction, which may be relevant for some applications.
+
 
 # Maximum wind speed
 <!-- Maximum wind speed -->
