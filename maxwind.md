@@ -59,7 +59,7 @@ html {
 
 
 
-Maximum wind speed
+# Maximum wind speed
 ---
 On this page, you can find the average maximum wind speed for each month and how it is projected to change in the near future and by the end of the century, based on climate model simulations. Maximum wind speed is an important indicator for the traffic sector because strong gusts can cause accidents, vehicle instability, infrastructure damage, and service disruptions.
 
@@ -67,8 +67,12 @@ The figures on this page are based on high-resolution regional climate model sim
 
 It should also be noted that, even though the results are based on multiple simulations, they are still affected by individual model biases. Maximum wind speed may not be a reliable indicator of changes in average wind speed or wind gusts, and it does not provide information about wind direction, which may be relevant for some applications.
 
+# How to use
+The plot is fully interactive. Use the drop-down menus to select either absolute values for the current climate (2005–2014) or the projected changes in maximum wind speed for the future (mid-century (2041–2060) or end of the century (2081–2100)) relative to the current climate.
 
-# Maximum wind speed
+The figures show monthly average values for the selected period. You can change the month using the drop-down menu at the top.
+<br>
+You can zoom in by dragging a box over an area or by using the zoom tools in the toolbar. To move around the map, click and drag the plot. You can select specific regions by focusing on the area of interest and adjusting the view. The toolbar also allows you to reset the view to the original extent at any time. If you would like to save the figure, you can download the plot as a PNG image directly using the camera icon. Hovering over the plot will show additional information for each location.<br>
 <!-- Maximum wind speed -->
 
 <div style="margin-bottom: 15px;">
