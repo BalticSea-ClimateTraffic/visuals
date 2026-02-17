@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Snowfall-days
+title: Snow
 ---
 ---
 <br>
