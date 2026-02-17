@@ -6,7 +6,7 @@ layout: default
     
 <div style="text-align:left;">
   <img src="LOGOS/il-logo-fi-se-en-rgb-1860x345px.png" alt="FMI logo" style="width:300px; height:auto;">
-  <img src="LOGOS/UM_logo_blue_fi-sv-en_horizontal_RGB.png" alt="Ministry for foreign affairs logo" style="width:300px; height:auto;">
+  <img src="LOGOS/UM_logo_blue_fi-sv-en_horizontal_RGB.png" alt="Ministry for foreign affairs logo" style="width:100px; height:auto;">
 </div>
 
 
