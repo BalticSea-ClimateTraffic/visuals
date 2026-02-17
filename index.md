@@ -80,7 +80,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
     <img src="Home_icons/Rail.jpg" width="18">
   </div>
   <p>Snowfall and snow accumulation affect operations at road, rail, and sea.</p>
-</div
+</div>
   
 <!-- CARD 7 -->
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
