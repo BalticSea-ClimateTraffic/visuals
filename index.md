@@ -32,16 +32,6 @@ Click a variable to explore visual results related to it. In the menu below, eac
 
 <!-- CARD 2 -->
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
-  <a href="roadweather.html#freeze-thaw-cycles"><strong>Freeze–Thaw Cycles</strong></a>
-  <div>
-    <img src="Home_icons/Road.jpg" width="18">
-    <img src="Home_icons/Rail.jpg" width="18">
-  </div>
-  <p>Repeated freezing and thawing degrade pavements and rail ballast. Problems for road construction and maintenance.</p>
-</div>
-
-<!-- CARD 3 -->
-<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="preciptype.html"><strong>Precipitation type</strong></a>
   <div>
     <img src="Home_icons/Road.jpg" width="18">
@@ -50,45 +40,17 @@ Click a variable to explore visual results related to it. In the menu below, eac
   <p>Forms of precipitation influence visibility, surface conditions, and maintenance needs.</p>
 </div>
 
-
-<!-- CARD 4 -->
+<!-- CARD 3 -->
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
-  <a href="roadweather.html"><strong>Road weather</strong></a>
-  <div>
-    <img src="Home_icons/Road.jpg" width="18">
-  </div>
-  <p>Road surface temperature controls icing risk and affects winter road maintenance planning. Surface cover (snow, ice, slush) modifies friction on roads and affecting maintenance needs.</p>
-</div>
-
-<!-- CARD 5 -->
-<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
-  <a href="Sea_ice.html"><strong>Sea ice</strong></a>
-  <div>
-    <img src="Home_icons/Sea.jpg" width="18">
-  </div>
-  <p>Sea-ice extent and thickness affect predictability of resource allocation, navigability and port operations.</p>
-</div>
-
-<!-- CARD 6 -->
-<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
-  <a href="temprange.html"><strong>Temperature range and zero-crossing</strong></a>
+  <a href="roadweather.html#freeze-thaw-cycles"><strong>Road weather</strong></a>
   <div>
     <img src="Home_icons/Road.jpg" width="18">
     <img src="Home_icons/Rail.jpg" width="18">
   </div>
-  <p>Diurnal temperature range and changes around zero degrees Centigrade are relevant for road and rail maintenance.</p>
+  <p>Repeated freezing and thawing degrade pavements and rail ballast. Problems for road construction and maintenance.</p>
 </div>
 
-<!-- CARD 7 -->
-<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
-  <a href="Waves.html"><strong>Waves</strong></a>
-  <div>
-    <img src="Home_icons/Sea.jpg" width="18">
-  </div>
-  <p>Wave height and period impact maritime routing and port safety.</p>
-</div>
-
-<!-- CARD 8 -->
+<!-- CARD 4 -->
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="Wind.html"><strong>Wind</strong></a>
   <div>
@@ -98,6 +60,31 @@ Click a variable to explore visual results related to it. In the menu below, eac
   </div>
   <p>Surface winds cause disruptions for land transport, and influence waves, ship handling, and maritime safety.</p>
 </div>
+
+<!-- CARD 5 -->
+<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
+  <a href="temprange.html"><strong>Temperature variability</strong></a>
+  <div>
+    <img src="Home_icons/Road.jpg" width="18">
+    <img src="Home_icons/Rail.jpg" width="18">
+  </div>
+  <p>Diurnal temperature range and changes around zero degrees Centigrade are relevant for road and rail maintenance.</p>
+</div>
+
+<!-- CARD 6 -->
+<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
+  <a href="Sea_ice.html"><strong>Sea ice</strong></a>
+  <div>
+    <img src="Home_icons/Sea.jpg" width="18">
+  </div>
+  <p>Sea-ice extent and thickness affect predictability of resource allocation, navigability and port operations.</p>
+</div>
+
+
+
+
+
+
 
 
 
