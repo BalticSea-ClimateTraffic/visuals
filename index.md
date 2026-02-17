@@ -3,13 +3,18 @@ title: Home
 layout: default
 ---
 
+    
 <div style="text-align:center;">
-  <img src="Home_icons/All_sectors.jpg" alt="Banner" style="width:800px; height:auto;">
+  <img src="LOGOS/il-logo-fi-se-en-rgb-1860x345px.png" alt="FMI logo" style="width:300px; height:auto;">
+  <img src="LOGOS/UM_logo_blue_fi-sv-en_horizontal_RGB.png" alt="Ministry for foreign affairs logo" style="width:300px; height:auto;">
 </div>
 
-
+    
 
 ### How will climate change impact traffic and transport in the Baltic Sea Region? 
+<div style="text-align:center;">
+  <img src="Home_icons/All_sectors.jpg" alt="Banner" style="width:400px; height:auto;">
+</div>
 
 <p style="color:#1800ad;">
 Whether you operate at road, rail, or sea, this website provides information on changes in climatic conditions through variables that are the most relevant for your operations. <br> <br>
