@@ -73,6 +73,17 @@ Click a variable to explore visual results related to it. In the menu below, eac
 
 <!-- CARD 6 -->
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
+  <a href="snowfalldays.html"><strong>Snow</strong></a>
+  <div>
+    <img src="Home_icons/Sea.jpg" width="18">
+    <img src="Home_icons/Road.jpg" width="18">
+    <img src="Home_icons/Rail.jpg" width="18">
+  </div>
+  <p>Snowfall and snow accumulation affect operations at road, rail, and sea.</p>
+</div
+  
+<!-- CARD 7 -->
+<div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="Sea_ice.html"><strong>Sea ice</strong></a>
   <div>
     <img src="Home_icons/Sea.jpg" width="18">
