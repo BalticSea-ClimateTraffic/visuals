@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 # Interpretation
-...
+Based on these climate modeling simulations, sea ice cover is at its greatest extent on average in March and April. However, climate change is expected to significantly reduce the extent of sea ice cover as early as the coming decades. According to the results, in a couple of decades, the ice cover will only extend to the northernmost parts of the Bothnian Bay and the Gulf of Finland. It should be noted, however, that there are still differences between individual years.
 
 
 
