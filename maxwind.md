@@ -131,7 +131,8 @@ monthSelect1.addEventListener('change', updatePlot1);
 </script>
 
 # Interpretation
-...
+Based on these climate model simulations, no major changes in maximum wind speeds are expected in general. However, winds in the Bothnian Bay will be stronger in spring than they are today. These changes will be visible aldready by the middle of this century. The results reveal intriguing changes in the southern parts of the Baltic Sea during midwinter. According to the results, maximum winds will weaken by the middle of the century, but will be stronger than they are today by the end of the century. However, there is a great uncertainty associated with these results.
+
 <br><br><br>
 
 
@@ -140,7 +141,7 @@ monthSelect1.addEventListener('change', updatePlot1);
 {:#further-info}
 Used scenario: RCP 8.5 (Representative Concentration Pathway 8.5) is a high greenhouse-gas emissions scenario used in climate research to explore a worst-case future. It assumes continued growth in emissions throughout the 21st century, driven by high population growth, heavy reliance on fossil fuels, limited climate policies, and slow technological change. Under this pathway, radiative forcing reaches 8.5 W/m² by 2100, leading to strong global warming, more frequent and intense extreme weather events, rising sea levels, and significant impacts on natural and human systems. Although RCP 8.5 is now considered unlikely, it remains useful for understanding upper-bound climate risks and the potential consequences of very high emissions.
 
-Used Data: EURO-CORDEX (European branch of the Coordinated Regional Climate Downscaling Experiment). It is a major international climate research initiative that provides high-resolution climate projections for Europe. Here we have used 12km resolution data based on two regional climate models (x and y), with several GCM boundary conditions covering Z simulations in total.
+Used Data: EURO-CORDEX (European branch of the Coordinated Regional Climate Downscaling Experiment). It is a major international climate research initiative that provides high-resolution climate projections for Europe. Here we have used 12km resolution data based on two regional climate models, with several GCM boundary conditions.
 
 Periods:  
 - Historical: 2005–2014  
