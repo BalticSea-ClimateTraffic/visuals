@@ -149,3 +149,4 @@ Periods:
 - End-Century: 2081–2100   
 
 <br><br><br>
+Page author: Anton Laakso
