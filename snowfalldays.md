@@ -175,8 +175,8 @@ seasonSelect2.addEventListener('change', updatePlot2);
 <br><br><br>
 
 
-# Interpretion
-{:#Interpretion}
+# Interpretation
+{:#Interpretation}
 As the climate warms, the number of days with freezing temperatures is also decreasing, and as a result, snow is falling as rain more and more often. Consequently, the number of days with snowfall is decreasing throughout the Baltic Sea region. However, for example, in winter—from December to February—in northern Sweden, where there are still plenty of days with sub-freezing temperatures, the number of days with snowfall is increasing. In this region, the number of days with heavy snowfall is also increasing. A very slight increase can also be seen across nearly all of Finland.
 
 
