@@ -150,4 +150,5 @@ Used Data: Climate Digital Twins, nextGEMS, model: IFS-FESOM - https://destine.e
 
 Periods:  1990–2019 and 2030–2049  
 
+Page author: Anton Laakso
 <br><br><br>
