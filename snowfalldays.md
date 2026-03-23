@@ -192,4 +192,6 @@ Periods:
 Seasons:  
 - Winter: December, January, February (DJF)
 - Summer: June, July, August (JJA)
+
+Page author: Anton Laakso
 <br><br><br>
