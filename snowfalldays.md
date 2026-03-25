@@ -71,6 +71,7 @@ Future snowfall patterns will be shaped by two opposing climate influences. On o
 The plots are fully interactive. Use the drop-down menus to select a period—Historical (1995–2014) or Mid-Century (2041–2060)—and a season (Winter, Summer, or the whole year). You can also view projected future changes, shown as the difference between the Mid-Century and Historical periods.
 
 You can zoom in by dragging a box over an area or by using the zoom tools in the toolbar. To move around the map, click and drag the plot. You can select specific regions by focusing on the area of interest and adjusting the view. The toolbar also allows you to reset the view to the original extent at any time. If you would like to save the figure, you can download the plot as a PNG image directly using the camera icon.
+
 ---
 
 # Days with snowfall
