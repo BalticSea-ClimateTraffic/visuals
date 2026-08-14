@@ -92,10 +92,10 @@ Click a variable to explore visual results related to it. In the menu below, eac
   <p>Sea-ice extent and thickness affect predictability of resource allocation, navigability and port operations.</p>
 </div>
 
-
+<p>
 Page updated:
 14.8.2026 / Mira Hulkkonen, FMI
-
+</p>
 
 
 
