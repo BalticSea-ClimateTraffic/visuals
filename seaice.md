@@ -5,58 +5,6 @@ title: Sea Ice
 ---
 <br>
 
-
-<style>
-/* Floating table of contents box on the right side */
-#toc-box {
-  position: fixed;          /* stick to viewport instead of page flow */
-  top: 200px;               /* distance from top */
-  right: 300px;              /* distance from right edge */
-  width: 220px;             /* adjust width as needed */
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-shadow: 0 0 6px rgba(0,0,0,0.1);
-  padding: 12px 16px;
-  font-size: 0.95em;
-  z-index: 1000;            /* keep it above other elements */
-}
-
-#toc-box strong {
-  display: block;
-  margin-bottom: 8px;
-  font-size: 1em;
-}
-
-#toc-box a {
-  text-decoration: underline;
-  color: #0055aa;
-  display: block;
-  margin-bottom: 6px;
-  transition: color 0.2s ease;
-}
-
-#toc-box a:hover {
-  color: #003d80;
-}
-
-html {
-  scroll-behavior: smooth;  /* enables nice smooth scrolling */
-}
-
-
-@media (max-width: 900px) {
-  #toc-box {
-    position: static;
-    width: auto;
-    box-shadow: none;
-    border: none;
-    background: transparent;
-    margin-bottom: 20px;
-  }
-}
-</style>
-
 Sea ice concentration is the fraction (or percentage) of the ocean surface that is covered by sea ice within a given area. It ranges from 0 (completely ice-free water) to 1 or 100% (entirely ice-covered) and is commonly derived from satellite observations, but can be also simulated with climate models. 
 <strong>Limitations:</strong> Sea ice concentration describes the fractional ice cover but does not capture ice thickness, ice strength, or ice type. As a result, areas with the same concentration may have very different navigability or hazard levels.
 
