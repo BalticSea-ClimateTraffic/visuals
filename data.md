@@ -20,7 +20,5 @@ The validation data of ERA5 is also downloadable via the Copernicus Climate Chan
 
 
 <br><br>
-Page maintained and updated by <a href="https://en.ilmatieteenlaitos.fi/cv-akash-deshmukh"> Akash Deshmukh </a>
-<br><br>
 <br><br>
 Return to [HOME](index.md)
