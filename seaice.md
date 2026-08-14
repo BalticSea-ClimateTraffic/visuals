@@ -20,7 +20,6 @@ The presented values are multi-year means. Interannual variability is not shown,
 
 
 # Sea Ice Concentration
-{:#seaice}
 
 <div style="margin-bottom: 15px;">
   <label for="month" style="margin-left: 15px;">Month: </label>
@@ -86,7 +85,6 @@ Based on these climate modeling simulations, sea ice cover is at its greatest ex
 
 
 # Further Information
-{:#further-info}
 Used scenario: Historical until 2015 - from 2015: SSP3-7.0 (a high greenhouse-gas emissions climate scenario)
 
 Used Data: Climate Digital Twins, nextGEMS, model: IFS-FESOM - https://destine.ecmwf.int/climate-change-adaptation-digital-twin-climate-dt/
