@@ -57,11 +57,6 @@ html {
 }
 </style>
 
-<div id="toc-box">
-  <strong>Jump to:</strong>
-  <a href="#seaice">Snowfall days</a>
-  <a href="#further-info">Further Information</a>
-</div>
 Sea ice concentration is the fraction (or percentage) of the ocean surface that is covered by sea ice within a given area. It ranges from 0 (completely ice-free water) to 1 or 100% (entirely ice-covered) and is commonly derived from satellite observations, but can be also simulated with climate models. 
 <strong>Limitations:</strong> Sea ice concentration describes the fractional ice cover but does not capture ice thickness, ice strength, or ice type. As a result, areas with the same concentration may have very different navigability or hazard levels.
 
