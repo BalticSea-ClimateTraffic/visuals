@@ -59,9 +59,9 @@ html {
 
 
 
-# Maximum wind speed
+# Maximum daily wind speed
 ---
-On this page, you can find the average maximum wind speed for each month and how it is projected to change in the near future and by the end of the century, based on climate model simulations. Maximum wind speed is an important indicator for the traffic sector because strong gusts can cause accidents, vehicle instability, infrastructure damage, and service disruptions.
+On this page, you can find the average maximum daily wind speed for each month and how it is projected to change in the near future and by the end of the century, based on climate model simulations. 
 
 The figures on this page are based on high-resolution regional climate model simulations from the EURO-CORDEX initiative. These projections follow the RCP 8.5 scenario, which represents a high-emission pathway. Although this scenario is unlikely to occur, it provides a useful indication of how conditions could change in a worst-case scenario.
 
@@ -131,7 +131,7 @@ monthSelect1.addEventListener('change', updatePlot1);
 </script>
 
 # Interpretation
-Based on these climate model simulations, no major changes in maximum wind speeds are expected in general. However, winds in the Bothnian Bay will be stronger in spring than they are today. These changes will be visible aldready by the middle of this century. The results reveal intriguing changes in the southern parts of the Baltic Sea during midwinter. According to the results, maximum winds will weaken by the middle of the century, but will be stronger than they are today by the end of the century. However, there is a great uncertainty associated with these results.
+Based on these climate model simulations, no major changes in maximum daily wind speeds are expected in general. However, winds in the Bothnian Bay will be stronger in spring than they are today. These changes will be visible aldready by the middle of this century. The results reveal intriguing changes in the southern parts of the Baltic Sea during midwinter. According to the results, maximum winds will weaken by the middle of the century, but will be stronger than they are today by the end of the century. However, there is a great uncertainty associated with these results.
 
 <br><br><br>
 
