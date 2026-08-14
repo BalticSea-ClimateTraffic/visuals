@@ -96,13 +96,3 @@ Click a variable to explore visual results related to it. In the menu below, eac
 Page updated:
 14.8.2026 / Mira Hulkkonen, FMI
 </p>
-
-
-
-
-
-
-
-
-
-</div>
