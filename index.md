@@ -25,7 +25,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="precip_HCLIM.html"><strong>Extreme rainfall</strong></a>
   <div>
-    <img src="Home_icons/Road_no_bg.png" width="25">
+    <img src="Home_icons/Road_no_bg.png" width="25" alt="A picture of a road - icon for road transport">
     <img src="Home_icons/Rail_no_bg.png" width="25">
   </div>
   <p>Accumulated or intense rainfall affects friction, drainage, and potential flooding and rail undermining.</p>
