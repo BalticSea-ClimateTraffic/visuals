@@ -26,7 +26,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
   <a href="precip_HCLIM.html"><strong>Extreme rainfall</strong></a>
   <div>
     <img src="Home_icons/Road_no_bg.png" width="25" alt="A picture of a road - icon for road transport">
-    <img src="Home_icons/Rail_no_bg.png" width="25">
+    <img src="Home_icons/Rail_no_bg.png" width="25" alt="A picture of a train - icon for rail transport">
   </div>
   <p>Accumulated or intense rainfall affects friction, drainage, and potential flooding and rail undermining.</p>
 </div>
@@ -35,8 +35,8 @@ Click a variable to explore visual results related to it. In the menu below, eac
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="preciptype.html"><strong>Precipitation type</strong></a>
   <div>
-    <img src="Home_icons/Road_no_bg.png" width="25">
-    <img src="Home_icons/Rail_no_bg.png" width="25">
+    <img src="Home_icons/Road_no_bg.png" width="25" alt="A picture of a road - icon for road transport">
+    <img src="Home_icons/Rail_no_bg.png" width="25" alt="A picture of a train - icon for rail transport">
   </div>
   <p>Forms of precipitation influence visibility, surface conditions, and maintenance needs.</p>
 </div>
@@ -45,8 +45,8 @@ Click a variable to explore visual results related to it. In the menu below, eac
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="roadweather.html#freeze-thaw-cycles"><strong>Road weather</strong></a>
   <div>
-    <img src="Home_icons/Road_no_bg.png" width="25">
-    <img src="Home_icons/Rail_no_bg.png" width="25">
+    <img src="Home_icons/Road_no_bg.png" width="25" alt="A picture of a road - icon for road transport">
+    <img src="Home_icons/Rail_no_bg.png" width="25" alt="A picture of a train - icon for rail transport">
   </div>
   <p>Repeated freezing and thawing degrade pavements and rail ballast. Problems for road construction and maintenance.</p>
 </div>
@@ -55,9 +55,9 @@ Click a variable to explore visual results related to it. In the menu below, eac
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="maxwind.html"><strong>Wind</strong></a>
   <div>
-    <img src="Home_icons/Road_no_bg.png" width="25">
-    <img src="Home_icons/Rail_no_bg.png" width="25">
-    <img src="Home_icons/Sea_no_bg.png" width="25">
+    <img src="Home_icons/Road_no_bg.png" width="25" alt="A picture of a road - icon for road transport">
+    <img src="Home_icons/Rail_no_bg.png" width="25" alt="A picture of a train - icon for rail transport">
+    <img src="Home_icons/Sea_no_bg.png" width="25" alt="A picture of a ship - icon for sea transport">
   </div>
   <p>Surface winds cause disruptions for land transport, and influence waves, ship handling, and maritime safety.</p>
 </div>
@@ -66,8 +66,8 @@ Click a variable to explore visual results related to it. In the menu below, eac
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="temprange.html"><strong>Temperature variability</strong></a>
   <div>
-    <img src="Home_icons/Road_no_bg.png" width="25">
-    <img src="Home_icons/Rail_no_bg.png" width="25">
+    <img src="Home_icons/Road_no_bg.png" width="25" alt="A picture of a road - icon for road transport">
+    <img src="Home_icons/Rail_no_bg.png" width="25" alt="A picture of a train - icon for rail transport">
   </div>
   <p>Diurnal temperature range and changes around zero degrees Centigrade are relevant for road and rail maintenance.</p>
 </div>
@@ -76,9 +76,9 @@ Click a variable to explore visual results related to it. In the menu below, eac
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="snowfalldays.html"><strong>Snow</strong></a>
   <div>
-    <img src="Home_icons/Sea_no_bg.png" width="25">
-    <img src="Home_icons/Road_no_bg.png" width="25">
-    <img src="Home_icons/Rail_no_bg.png" width="25">
+    <img src="Home_icons/Sea_no_bg.png" width="25" alt="A picture of a ship - icon for sea transport">
+    <img src="Home_icons/Road_no_bg.png" width="25" alt="A picture of a road - icon for road transport">
+    <img src="Home_icons/Rail_no_bg.png" width="25" alt="A picture of a train - icon for rail transport">
   </div>
   <p>Snowfall and snow accumulation affect operations at road, rail, and sea.</p>
 </div>
@@ -87,7 +87,7 @@ Click a variable to explore visual results related to it. In the menu below, eac
 <div style="border:1px solid #ccc;border-radius:10px;padding:15px;background:#fafafa;width: calc(33.33% - 50px);transition:0.2s;" onmouseover="this.style.background='#d0e7ff';" onmouseout="this.style.background='#fafafa';">
   <a href="seaice.html"><strong>Sea ice</strong></a>
   <div>
-    <img src="Home_icons/Sea_no_bg.png" width="25">
+    <img src="Home_icons/Sea_no_bg.png" width="25" alt="A picture of a ship - icon for sea transport">
   </div>
   <p>Sea-ice extent and thickness affect predictability of resource allocation, navigability and port operations.</p>
 </div>
