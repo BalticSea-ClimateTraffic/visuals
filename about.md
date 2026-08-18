@@ -11,7 +11,7 @@ IBA-CRISTAL project is provides tailored climate information for the traffic and
 tero.mielonen@fmi.fi
 
 ### Team of Experts (alphabetical order)
-• Akash Deshmukh </a><br>
+• Akash Deshmukh<br>
 • <a href="https://en.ilmatieteenlaitos.fi/cv-nadine-cyra-freistetter"> Nadine-Cyra Freistetter </a><br>
 • <a href="https://en.ilmatieteenlaitos.fi/cv-nadine-cyra-freistetter"> Hilppa Gregow </a><br>
 • <a href="https://en.ilmatieteenlaitos.fi/cv-mira-hulkkonen"> Mira Hulkkonen </a><br>
@@ -23,11 +23,11 @@ tero.mielonen@fmi.fi
 • <a href="https://en.ilmatieteenlaitos.fi/cv-joonas-merikanto"> Joonas Merikanto </a>(Principal Investigator) <br>
 • <a href="https://en.ilmatieteenlaitos.fi/cv-tero-mielonen"> Tero Mielonen </a>(Project Coordinator) <br>
 • Laura Utriainen
-<br><br>
+<br>
 
 ### Funding
 This project has received funding from the Ministry for Foreign Affairs of Finland for the years 2025-2026.
-<br><br>
+<br>
 
 ### Data Sources
 Results shown here are based on regional climate model simulations and statistically downscaled global climate model data. The future conditions follow standardized future climate change scenarios (Representative Concentration Pathways, RCPs). The analysis of the data products was conducted at the Finnish Meteorological Institute. Each results page harbours more information on the production of correpsonding results.
