@@ -52,5 +52,10 @@
 }
 
 .site-nav {
-  float: left;
+  float: none;
+  text-align: left;
+}
+
+.site-nav .trigger {
+  text-align: left;
 }
