@@ -10,11 +10,11 @@ layout: default
 </div>
 
 
-<h3 style="color:#1800ad;">
+<h3 style="color:#000000;">
 How will climate change impact traffic and transport in the Baltic Sea Region?
 </h3>
 
-<p style="color:#1800ad;">
+<p style="color:#000000;">
 Whether you operate at road, rail, or sea, this website provides information on changes in climatic conditions through variables that are the most relevant for your operations. <br> <br>
 
 Click a variable in the cards below to explore visual results related to it. In the menu below, each variable is followed by icons of the affected transport modes and a short description.
