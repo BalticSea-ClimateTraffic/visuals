@@ -226,7 +226,7 @@ The annual number of days with sub-zero temperatures varies by region. Across mo
 
 # Further Information
 {:#further-info} 
-Used scenario: Historical until 2015 - SSP245 ("moderate" pathway for future greenhouse gas emissions) for midcentury 
+Used scenario: Historical until 2015 - SSP2-4.5 ("moderate" pathway for future greenhouse gas emissions) for midcentury 
 Used Data: NEX-GDDP-CMIP6, Statistically downscaled climate model dataset made by NASA. Based on 30 CMIP6 climate model simulations, https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-gddp-cmip6 
 
 Periods:  
