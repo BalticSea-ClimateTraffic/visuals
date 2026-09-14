@@ -31,5 +31,4 @@ The HARMONIE Climate community (2025). NorCP HCLIM 3km EC-Earth RCP8.5 data [Dat
 
 Return to [HOME](index.md)
 <br><br>
-Page maintained and updated by <a href="https://en.ilmatieteenlaitos.fi/cv-akash-deshmukh"> Akash Deshmukh </a>
-<br><br>
+
