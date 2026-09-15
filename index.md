@@ -71,7 +71,7 @@ Click a variable in the cards below to explore visual results related to it. In 
     <img src="Home_icons/Road_no_bg.png" width="25" alt="A picture of a road - icon for road transport">
     <img src="Home_icons/Rail_no_bg.png" width="25" alt="A picture of a train - icon for rail transport">
   </div>
-  <p>Diurnal temperature range and changes around zero degrees Centigrade are relevant for road and rail maintenance.</p>
+  <p>Diurnal temperature range and changes around zero Celsius degrees are relevant for road and rail maintenance.</p>
 </div>
 
 <!-- CARD 6 -->
