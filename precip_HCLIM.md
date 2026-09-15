@@ -5,7 +5,7 @@ title: Extreme rainfall
 
 Here you can explore how intense and heavy precipitation may change across seasons and future periods. The plots show different indicators of extreme rainfall, meaning situations when a large amount of rain or snow falls within a short time. Such events are important because they can affect drainage systems, increase the risk of flooding, and weaken railway foundations and other infrastructure. Some guidance on how to interpret the results is provided below the plots.
 
-The model data are based on high-resolution regional climate simulations using the HARMONIE-Climate model, developed through Nordic collaboration. The projections follow the RCP4.5 emissions scenario, which represents a future with moderate climate mitigation where greenhouse gas emissions peak around mid-century and then gradually decline. Therefore, the results on this page describe plausible mid-range climate change impacts rather than worst-case outcomes.
+The model data are based on high-resolution regional climate simulations using the HARMONIE-Climate model, developed through Nordic collaboration. The projections follow the RCP 4.5 emissions scenario, which represents a future with moderate climate mitigation where greenhouse gas emissions peak around mid-century and then gradually decline. Therefore, the results on this page describe plausible mid-range climate change impacts rather than worst-case outcomes.
 
 # How to use
 The plots are interactive. First, choose a precipitation index from the drop-down menu. Each index describes a different aspect of heavy rainfall. Then select a season and a plot style.
