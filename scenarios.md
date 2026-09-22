@@ -10,6 +10,7 @@ The scenarios are not predictions of the future. Instead, they provide consisten
 The CMIP6 scenarios combine two elements: a socioeconomic pathway (SSP) and an assumed level of climate forcing by 2100. The SSP describes the broader societal development pathway, whereas the number indicates the resulting strength of human influence on Earth’s energy balance.
 
 The pathways used here represent a range of plausible future developments:
+
 • SSP1 –  sustainability, taking the green road: A sustainable path 
 emphasizing inclusive development, environmental boundaries, 
 and reduced inequality → decreasing emissions​
@@ -27,7 +28,7 @@ and human capital development driven by competitive markets and
 heavy fossil fuel reliance → very high emissions.​
 
 <div style="text-align:left;">
-  <img src="PLOTS_anton/fig_future_temperature_scenarios.png" alt="Line chart of projected global temperature anomaly from 2015 to 2100 under five CMIP6 emission scenarios. Temperatures rise least under SSP1-1.9 and SSP1-2.6, moderately under SSP2-4.5, and most strongly under SSP3-7.0 and SSP5-8.5. Shaded areas show the uncertainty range for each scenario." style="width:300px; height:auto;">
+  <img src="PLOTS_Anton/fig_future_temperature_scenarios.png" alt="Line chart of projected global temperature anomaly from 2015 to 2100 under five CMIP6 emission scenarios. Temperatures rise least under SSP1-1.9 and SSP1-2.6, moderately under SSP2-4.5, and most strongly under SSP3-7.0 and SSP5-8.5. Shaded areas show the uncertainty range for each scenario." style="width:300px; height:auto;">
 </div>
 
 The numbers in scenario names (e.g. 4.5, 8.5) describe the level of 
