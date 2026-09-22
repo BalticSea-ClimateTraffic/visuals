@@ -143,7 +143,7 @@ Number of days per season/year when daily temperature range is larger than 10 °
   </select>
 </div>
 
-<iframe id="plotFrame2" src="PLOTS_Anton/PLOT_DTRd10_hist_Year.html"
+<iframe id="plotFrame2" src="PLOTS_Anton/PLOT_DTRd10_hist_DJF.html"
         width="900px"
         height="700px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
@@ -192,7 +192,7 @@ A days when the air temperature crosses 0 °C at least once—either rising from
   </select>
 </div>
 
-<iframe id="plotFrame3" src="PLOTS_Anton/PLOT_ZCD_hist_Year.html"
+<iframe id="plotFrame3" src="PLOTS_Anton/PLOT_ZCD_hist_DJF.html"
         width="900px"
         height="700px"
         style="border:none; opacity:1; transition: opacity 0.5s;">
