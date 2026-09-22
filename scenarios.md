@@ -26,6 +26,10 @@ high emissions ​
 and human capital development driven by competitive markets and 
 heavy fossil fuel reliance → very high emissions.​
 
+<div style="text-align:left;">
+  <img src="PLOTS_anton/fig_future_temperature_scenarios.png" alt="Line chart of projected global temperature anomaly from 2015 to 2100 under five CMIP6 emission scenarios. Temperatures rise least under SSP1-1.9 and SSP1-2.6, moderately under SSP2-4.5, and most strongly under SSP3-7.0 and SSP5-8.5. Shaded areas show the uncertainty range for each scenario." style="width:300px; height:auto;">
+</div>
+
 The numbers in scenario names (e.g. 4.5, 8.5) describe the level of 
 radiative forcing (W/m2) by the end of 21st century. That means the 
 energy imbalance caused by emissions, so how much extra energy 
