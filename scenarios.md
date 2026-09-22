@@ -11,6 +11,7 @@ The CMIP6 scenarios combine two elements: a socioeconomic pathway (SSP) and an a
 
 The pathways used here represent a range of plausible future developments:
 
+
 • SSP1 –  sustainability, taking the green road: A sustainable path 
 emphasizing inclusive development, environmental boundaries, 
 and reduced inequality → decreasing emissions​
