@@ -10,19 +10,19 @@ The scenarios are not predictions of the future. Instead, they provide consisten
 The CMIP6 scenarios combine two elements: a socioeconomic pathway (SSP) and an assumed level of climate forcing by 2100. The SSP describes the broader societal development pathway, whereas the number indicates the resulting strength of human influence on Earth’s energy balance.
 
 The pathways used here represent a range of plausible future developments:
-SSP1 –  sustainability, taking the green road: A sustainable path 
+• SSP1 –  sustainability, taking the green road: A sustainable path 
 emphasizing inclusive development, environmental boundaries, 
 and reduced inequality → decreasing emissions​
 
-SSP2 – middle of the road: A continuation of historical social, 
+• SSP2 – middle of the road: A continuation of historical social, 
 economic, and technological patterns with uneven progress → 
 moderate emissions ​
 
-SSP3 –  regional rivalry: fragmented world driven by resurgent 
+• SSP3 –  regional rivalry: fragmented world driven by resurgent 
 nationalism, regional security, and low international cooperation → 
 high emissions ​
 
-SSP5 –  fossil-fuel development: Rapid technological progress 
+• SSP5 –  fossil-fuel development: Rapid technological progress 
 and human capital development driven by competitive markets and 
 heavy fossil fuel reliance → very high emissions.​
 
