@@ -28,6 +28,8 @@ high emissions ​
 and human capital development driven by competitive markets and 
 heavy fossil fuel reliance → very high emissions.​
 
+The analyses presented in this website utilize the following scenarios:​ SSP2-4.5,​ SSP3-7.0 and SSP5-8.5. Even though the scenarios are quite different, the level of warming around mid-century will be in the same range regardless of the pathway selected. However, at the end of the century, larger emissions will cause significantly higher global temperatures.    
+
 <div style="text-align:left;">
   <img src="PLOTS_Anton/fig_future_temperature_scenarios.png" alt="Line chart of projected global temperature anomaly from 2015 to 2100 under five CMIP6 emission scenarios. Temperatures rise least under SSP1-1.9 and SSP1-2.6, moderately under SSP2-4.5, and most strongly under SSP3-7.0 and SSP5-8.5. Shaded areas show the uncertainty range for each scenario." style="width:600px; height:auto;">
 </div>
