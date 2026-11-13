@@ -96,5 +96,5 @@ Click a variable in the cards below to explore visual results related to it. In 
 
 <p>
 Page updated:
-14.8.2026 / Mira Hulkkonen, FMI
+13 November 2026 / Mira Hulkkonen
 </p>
