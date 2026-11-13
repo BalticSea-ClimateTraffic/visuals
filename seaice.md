@@ -1,14 +1,15 @@
 ---
 layout: page
-title: Sea Ice
+title: Sea ice
 ---
 ---
 <br>
 
-Sea ice concentration is the fraction (or percentage) of the ocean surface that is covered by sea ice within a given area. It ranges from 0 (completely ice-free water) to 1 or 100% (entirely ice-covered) and is commonly derived from satellite observations, but can be also simulated with climate models. 
+Sea ice concentration is the fraction (or percentage) of the ocean surface that is covered by sea ice within a given area. It ranges from 0 (completely ice-free water) to 1 or 100 % (entirely ice-covered) and is commonly derived from satellite observations, but can also be simulated with climate models. 
+<br>
 <strong>Limitations:</strong> Sea ice concentration describes the fractional ice cover but does not capture ice thickness, ice strength, or ice type. As a result, areas with the same concentration may have very different navigability or hazard levels.
 
-The model data used in the figures shown above are based on climate Digital Twin (nextGEMS) simulations. These are high-resolution simulations that provide detailed spatial information, for example for sea ice conditions in the Baltic Sea. However, it should be noted that the results are based on a single model and a single realization, and that simulated conditions may differ slightly from observations even for historical periods. High-resolution information on sea ice conditions is generally limited. Despite these limitations, the simulations provide a useful indication of how sea ice conditions may change in the future.
+The model data used in the vizualizations below are based on climate Digital Twin (nextGEMS) simulations. These are high-resolution simulations that provide detailed spatial information, for example for sea ice conditions in the Baltic Sea. However, it should be noted that the results are based on a single model and a single simulation, and that simulated conditions may differ slightly from observations even for historical periods. High-resolution information on sea ice conditions is generally limited. Despite these limitations, the simulations provide a useful indication of how sea ice conditions may change in the future.
 
 
 # How to use
@@ -42,7 +43,7 @@ The presented values are multi-year means. Interannual variability is not shown,
 <img
   id="plotFrame1"
   src="PLOTS_Anton/seaice_hist_fut_0.png"
-  alt="Sea ice plot"
+  alt="Monthly sea ice concentarion in 1990–2019 and 2030–2049"
   style="display:block; width:100%; max-width:1200px; height:auto; margin:auto; opacity:1; transition: opacity 0.5s;"
 />
 
@@ -80,14 +81,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 # Interpretation
-Based on these climate modeling simulations, sea ice cover is at its greatest extent on average in March and April. However, climate change is expected to significantly reduce the extent of sea ice cover as early as the coming decades. According to the results, in a couple of decades, the ice cover will only extend to the northernmost parts of the Bothnian Bay and the Gulf of Finland. It should be noted, however, that there are still differences between individual years.
+Based on these climate modeling simulations, sea ice cover is at its greatest extent on average in March and April. However, climate change is expected to significantly reduce the extent of sea ice cover as early as the coming decades. For 2030–2049, the simulation indicates that the ice cover will only extend to the northernmost parts of the Bothnian Bay and the Gulf of Finland. It should be noted, however, that there are still differences between individual years.
 
 
 
 # Further Information
 Used scenario: Historical until 2015 - from 2015: SSP3-7.0 (a high greenhouse-gas emissions climate scenario)
 
-Used Data: Climate Digital Twins, nextGEMS, model: IFS-FESOM - https://destine.ecmwf.int/climate-change-adaptation-digital-twin-climate-dt/
+Used Data: [Climate Digital Twins](https://destine.ecmwf.int/climate-change-adaptation-digital-twin-climate-dt/), nextGEMS, model: IFS-FESOM 
 
 Periods:  1990–2019 and 2030–2049  
 
