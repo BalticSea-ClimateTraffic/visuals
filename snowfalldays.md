@@ -64,11 +64,11 @@ html {
   <a href="#further-info">Further Information</a>
 </div>
 
-Future snowfall patterns will be shaped by two opposing climate influences. On one hand, rising temperatures reduce the number of days that fall below freezing, meaning fewer opportunities for snow to form. On the other hand, a warmer atmosphere can hold more moisture, increasing the potential for heavier snowfall during the periods that do remain cold enough. As a result, many regions may see fewer snowy days overall, but more intense snowfall events when conditions are suitable. On this page, you can explore how the number of days with snowfall and heavy snowfall will change in the future. The results are based on several climate models. The number of days with snowfall is determined based on the average daily temperature and precipitation
+Future snowfall patterns will be shaped by two opposing climate influences. On one hand, rising temperatures reduce the number of days that fall below freezing, meaning fewer opportunities for snow to form. On the other hand, a warmer atmosphere can hold more moisture, increasing the potential for heavier snowfall during the periods that do remain cold enough. As a result, many regions may see fewer snowy days overall, but more intense snowfall (> 10 mm/day) events when conditions are suitable. On this page, you can explore how the number of days with snowfall and heavy snowfall will change in the future. The results are based on several climate models. The number of days with snowfall is determined based on the average daily temperature and precipitation.
 
 # How to use
 
-The plots are fully interactive. Use the drop-down menus to select a period—Historical (1995–2014) or Mid-Century (2041–2060)—and a season (Winter, Summer, or the whole year). You can also view projected future changes, shown as the difference between the Mid-Century and Historical periods.
+The plots are fully interactive. Use the drop-down menus to select a period, historical (1995–2014) or mid-century (2041–2060), and a season (winter, summer, or the whole year). You can also view projected future changes, shown as the difference between the mid-century and historical periods.
 
 You can zoom in by dragging a box over an area or by using the zoom tools in the toolbar. To move around the map, click and drag the plot. You can select specific regions by focusing on the area of interest and adjusting the view. The toolbar also allows you to reset the view to the original extent at any time. If you would like to save the figure, you can download the plot as a PNG image directly using the camera icon.
 
@@ -81,8 +81,8 @@ You can zoom in by dragging a box over an area or by using the zoom tools in the
   <label for="period1">Period: </label>
   <select id="period1">
     <option value="hist">Historical</option>
-    <option value="midc">Mid-Century</option>
-    <option value="diff">Change between Hist and MidC</option>
+    <option value="midc">Mid-century</option>
+    <option value="diff">Change between historical and mid-century</option>
   </select>
 
   <label for="season1" style="margin-left: 15px;">Season: </label>
@@ -135,7 +135,7 @@ seasonSelect1.addEventListener('change', updatePlot1);
   <select id="period2">
     <option value="hist">Historical</option>
     <option value="midc">Mid-century</option>
-    <option value="diff">Change between Hist and Mid</option>
+    <option value="diff">Change between historical and mid-century</option>
   </select>
 
   <label for="season2" style="margin-left: 15px;">Season: </label>
@@ -178,14 +178,16 @@ seasonSelect2.addEventListener('change', updatePlot2);
 
 # Interpretation
 {:#Interpretation}
-As the climate warms, the number of days with freezing temperatures is also decreasing, and as a result, snow is falling as rain more and more often. Consequently, the number of days with snowfall is decreasing throughout the Baltic Sea region. However, for example, in winter—from December to February—in northern Sweden, where there are still plenty of days with sub-freezing temperatures, the number of days with snowfall is increasing. In this region, the number of days with heavy snowfall is also increasing. A very slight increase can also be seen across nearly all of Finland.
+
+In this analysis, a snowfall day is defined as a day with a mean temperature below 0 °C and a daily precipitation total of at least 1 mm of water, while a heavy-snowfall day meets the same temperature criterion and has at least 10 mm of precipitation.
+<br>
+As the climate warms, the number of days with freezing temperatures is also decreasing, and as a result, snow is falling as rain more and more often. Consequently, the number of days with snowfall is decreasing throughout the Baltic Sea region. In northern Sweden, however, winter snowfall days are projected to increase, as there are still plenty of days with sub-freezing temperatures. In this region, the number of days with heavy snowfall is also increasing. A very slight increase can also be seen across nearly all of Finland.
 
 
 # Further Information
 {:#further-info}
-Used scenario: Historical until 2015 - SSP2-4.5 ("moderate" pathway for future greenhouse gas emissions) for midcentury 
-Used Data: NEX-GDDP-CMIP6, Statistically downscaled climate model dataset made by NASA. Based on 30 CMIP6 climate model simulations, https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-gddp-cmip6 
-
+Scenario: Historical until 2015 - SSP2-4.5 ("moderate" pathway for future greenhouse gas emissions) for midcentury 
+Data: [NEX-GDDP-CMIP6](https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-gddp-cmip6), statistically downscaled climate model dataset made by NASA. Based on 30 CMIP6 climate model simulations.
 Periods:  
 - Historical: 1995–2014  
 - Mid-century: 2041–2060  
