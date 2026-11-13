@@ -68,7 +68,7 @@ The figures on this page are based on high-resolution regional climate model sim
 It should also be noted that, even though the results are based on multiple simulations, they are still affected by individual model biases. Maximum wind speed may not be a reliable indicator of changes in average wind speed or wind gusts, and it does not provide information about wind direction, which may be relevant for some applications.
 
 # How to use
-The plot is fully interactive. Use the drop-down menus to select either absolute values for the current climate (2005–2014) or the projected changes in maximum wind speed for the future (mid-century (2041–2060) or end of the century (2081–2100)) relative to the current climate.
+The plot is fully interactive. Use the drop-down menus to select either absolute values for the current climate (2005–2024) or the projected changes in maximum wind speed for the future (mid-century (2041–2060) or end of the century (2081–2100)) relative to the current climate.
 
 The figures show monthly average values for the selected period. You can change the month using the drop-down menu at the top.
 <br>
@@ -144,7 +144,7 @@ Used scenario: RCP 8.5 (Representative Concentration Pathway 8.5) is a high gree
 Used Data: EURO-CORDEX (European branch of the Coordinated Regional Climate Downscaling Experiment). It is a major international climate research initiative that provides high-resolution climate projections for Europe. Here we have used 12km resolution data based on two regional climate models, with several GCM boundary conditions.
 
 Periods:  
-- Historical: 2005–2014  
+- Historical: 2005–2024  
 - Mid-Century: 2041–2060
 - End-Century: 2081–2100   
 
