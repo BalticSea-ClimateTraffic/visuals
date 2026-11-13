@@ -63,7 +63,7 @@ html {
 
 Here you can explore how road conditions and temperatures may change across time and regions. The figures show road surface temperature, freeze–thaw cycles, and road surface condition, all of which are closely linked to safety and mobility. Road surface temperature affects ice formation and snow melt, freeze–thaw cycles indicate how often surfaces repeatedly freeze and thaw, and road surface condition describes whether roads are dry, wet, icy, or covered in snow or slush. These indicators help us understand how climate change may impact driving and walking conditions in different areas throughout the year. Some general observations are presented under the “Interpretation” sections below the figures.
 
-The model data used here come from the study “Climate change impacts on future driving and walking conditions in Finland, Norway and Sweden” (Reg Environ Change, 2022). The data are based on climate model simulations using the RCP 8.5 scenario, which represents a high greenhouse gas emissions pathway and is often referred to as a worst-case climate change scenario. Therefore, the results on this page should be used as extreme-case estimates. 
+The model data used here come from the study “Climate change impacts on future driving and walking conditions in Finland, Norway and Sweden” (Reg Environ Change, 2022). The data are based on climate model simulations using the RCP 8.5 scenario, which is a very high-emissions, low-mitigation pathway used to examine high-end climate risks. It should not be interpreted as the most likely future. Instead, the results on this page should be used as extreme-case estimates. 
 
 
 ## How to use
@@ -173,10 +173,10 @@ Winter road surface temperatures have historically been well below freezing, and
 
 
 ---
-# Freeze-Thaw Cycles
+# Zero-degree crossings
 {:#freeze-thaw-cycles}
 
-These figures illustrate how often temperatures cross the freezing point, causing water on the road to freeze and thaw. It shows the average number of freeze–thaw cycles, as well as the minimum and maximum values observed during the selected period. Frequent freeze–thaw cycles can increase road wear, damage surfaces, and raise maintenance needs.
+These figures illustrate how often road surface temperatures cross the freezing point, causing water on the road to freeze or thaw. It shows the maximum number of zero-degree crossings for the selected period. Frequent freeze–thaw cycles can increase road wear, damage surfaces, and raise maintenance needs.
 <br><br>
 Choose:
 <div style="margin-bottom: 15px;">
@@ -247,10 +247,10 @@ citiesSelect2.addEventListener('change', updatePlot2);
 <br><br>
 
 # Interpretation
-Across Europe, zero-degree crossings are expected to become slightly less frequent in the south and west of the Baltic Sea, while in northern regions they may increase slightly, especially during winter and autumn, indicating potential changes in freeze–thaw cycles.
+Across Europe, zero-degree crossings (ZDCs) are expected to become slightly less frequent in the south and west of the Baltic Sea, while in northern regions they may increase slightly, especially during winter and autumn, indicating potential changes in freeze–thaw cycles.
 
 <b>East, West, and South of the Baltic Sea (including southern Sweden)</b><br>
-In autumn, historically, the regionally averaged maximum number of zero-degree crossings (ZDCs) per day was around 13, occasionally reaching 20, but the daily mean was stable at 1, meaning such high numbers were rare. By mid-century, the mean ZDCs per day will sometimes be 0 and sometimes 1, with the average maximum dropping to around 10 per day.<br>
+In autumn, historically, the regionally averaged maximum number of ZDCs per day was around 13, occasionally reaching 20, but the daily mean was stable at 1, meaning such high numbers were rare. By mid-century, the mean ZDCs per day will sometimes be 0 and sometimes 1, with the average maximum dropping to around 10 per day.<br>
 <br>
 In winter, historically, the mean number of ZDCs was about 2, with an average maximum of 15. By mid-century, the mean remains mostly 2, and the average maximum decreases slightly to 14.<br>
 <br>
