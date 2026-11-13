@@ -61,14 +61,14 @@ html {
   <a href="#road-cover">Road Condition</a>
 </div>
 
-Here you can explore how road conditions and temperatures may change across time and regions. The figures show road surface temperature, freeze–thaw cycles, and road surface condition, all of which are closely linked to safety and mobility. Road surface temperature affects ice formation and snow melt, freeze–thaw cycles indicate how often surfaces repeatedly freeze and thaw, and road surface condition describes whether roads are dry, wet, icy, or covered in snow or slush. These indicators help us understand how climate change may impact driving and walking conditions in different areas throughout the year. Some general observations are presented under the “Interpretation” sections below the figures.
+Here you can explore how road conditions and temperatures may change across time and regions. The figures show road surface temperature, freeze–thaw cycles, and road surface condition, all of which are closely linked to safety and mobility. Road surface temperature affects ice formation and snow melt, zero-degree crossings indicate how often surfaces repeatedly freeze and thaw, and road surface condition describes whether roads are dry, wet, icy, or covered in snow or slush. These indicators help us understand how climate change may impact driving and walking conditions in different areas throughout the year. Some general observations are presented under the “Interpretation” sections below the figures.
 
-The model data used here come from the study “Climate change impacts on future driving and walking conditions in Finland, Norway and Sweden” (Reg Environ Change, 2022). The data are based on climate model simulations using the RCP 8.5 scenario, which is a very high-emissions, low-mitigation pathway used to examine high-end climate risks. It should not be interpreted as the most likely future. Instead, the results on this page should be used as extreme-case estimates. 
+The model data used here come from the study “Climate change impacts on future driving and walking conditions in Finland, Norway and Sweden” (Reg Environ Change, 2022). The data are based on climate model simulations using the RCP8.5 scenario, which is a very high-emissions, low-mitigation pathway used to examine high-end climate risks. It should not be interpreted as the most likely future. Instead, the results on this page should be used as extreme-case estimates. 
 
 
 ## How to use
 The figures are fully interactive. First, use the drop-down menus to choose a period and a season. 
-You can explore three time periods Historical (1986–2005), Recent (1999–2018), and Mid-Century (2041–2060), in four meteorological seasons <br>
+You can explore three time periods historical (1986–2005), recent (1999–2018), and mid-century (2041–2060), in four meteorological seasons <br>
 - Winter (DJF): December–February<br>
 - Spring (MAM): March–May<br>
 - Summer (JJA): June–August<br>
@@ -94,7 +94,7 @@ Choose:
   <select id="period1">
     <option value="hist">Historical (1986–2005)</option>
     <option value="rect">Recent (1999–2018)</option>
-    <option value="midc">Mid-Century (2041–2060)</option>
+    <option value="midc">Mid-century (2041–2060)</option>
   </select>
 
   <label for="season1" style="margin-left: 15px;">Season: </label>
@@ -184,7 +184,7 @@ Choose:
   <select id="period2">
     <option value="hist">Historical (1986–2005)</option>
     <option value="rect">Recent (1999–2018)</option>
-    <option value="midc">Mid-Century (2041–2060)</option>
+    <option value="midc">Mid-century (2041–2060)</option>
   </select>
 
   <label for="season2" style="margin-left: 15px;">Season: </label>
@@ -278,7 +278,7 @@ Choose:
   <select id="period3">
     <option value="hist">Historical (1986–2005)</option>
     <option value="rect">Recent (1999–2018)</option>
-    <option value="midc">Mid-Century (2041–2060)</option>
+    <option value="midc">Mid-century (2041–2060)</option>
   </select>
 
   <label for="season3" style="margin-left: 15px;">Season: </label>
@@ -352,7 +352,7 @@ typeSelect3.addEventListener('change', updatePlot3);
 citiesSelect3.addEventListener('change', updatePlot3);
 </script>
 # Interpretation 
-Snowy and icy road conditions are expected to decrease for many regions around the Baltic sea as climate change progresses. Overall, winter road conditions are expected to become much milder in the south and west of the Baltic Sea, and slightly milder east the baltic sea, while northern European roads will remain largely icy and snowy, though partly icy conditions could become more common.<br>
+Snowy and icy road conditions are expected to decrease for many regions around the Baltic Sea as climate change progresses. Overall, winter road conditions are expected to become much milder in the south and west of the Baltic Sea, and slightly milder east the baltic sea, while northern European roads will remain largely icy and snowy, though partly icy conditions could become more common.<br>
 
 <b>West and South of the Baltic Sea (including southern Sweden)</b><br>
 In historical winters, the west and south of the Baltic Sea, including southern Sweden, experienced mostly dry roads, with dry conditions around 60% of the time, while snow or ice covered the roads for more than 30% of the time. By mid-century (2041–2060), dry roads in this region are expected to become even more common, occurring close to 70% of the time, while snow and ice will be present less than 20% of the time.<br>
@@ -364,8 +364,7 @@ In the east of the Baltic Sea, winters were historically harsher. Roads were dry
 In the north, including northern Fennoscandia, snowy and icy conditions have long dominated, with roads covered over 70% of the time. Looking ahead to mid-century, dry roads remain relatively rare, occurring only 20–30% of the time. Partly icy conditions become more frequent, but overall snow and ice will still cover roughly 70% of the roads.<br>
 
 <br>
----
-Data, figures, and text by <a href="https://en.ilmatieteenlaitos.fi/cv-nadine-cyra-freistetter"> Nadine-Cyra Freistetter </a><br>
+Page author: <a href="https://en.ilmatieteenlaitos.fi/cv-nadine-cyra-freistetter"> Nadine-Cyra Freistetter </a><br>
 Sources: [model runs for paper](https://doi.org/10.1007/s10113-022-01920-4)
 
 
