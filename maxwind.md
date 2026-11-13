@@ -145,8 +145,8 @@ Used Data: EURO-CORDEX (European branch of the Coordinated Regional Climate Down
 
 Periods:  
 - Historical: 2005–2024  
-- Mid-Century: 2041–2060
-- End-Century: 2081–2100   
+- Mid-century: 2041–2060
+- End-century: 2081–2100   
 
 <br><br><br>
 Page author: Anton Laakso
