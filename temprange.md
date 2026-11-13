@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Temperature-variability
+title: Temperature variability
 ---
 ---
 <br>
 Climate change does not influence only average or maximum temperatures, it also alters the entire temperature range. It will change how much temperatures fluctuate over the course of a day and how these fluctuations differ between seasons. As a result, for example the frequency with which daily temperatures cross the freezing point (0 °C) can increase or decrease, creating new patterns in freeze–thaw cycles and surface conditions. Changes in daily and seasonal temperature ranges, especially more frequent crossings of 0 °C, can significantly affect transportation around the Baltic Sea. More freeze–thaw cycles lead to faster road surface wear and a higher risk of black ice. Snow that melts during warmer daytime periods and refreezes at night creates slippery roads, paths, and port areas. Variable temperatures also disrupt rail operations. 
 
-Below are three examples of temperature variation in the historical and mid-century climate: 1) Diurnal temperature range, shown as the average difference between daily maximum and minimum temperatures, 2) Number of days when the diurnal temperature range exceeds 10 °C. and 3) Number of days when temperature crosses 0 °C, meaning it is both above and below freezing within the same day.
+Below are three examples of temperature variation in the historical and mid-century climate: 1) Diurnal temperature range, shown as the average difference between daily maximum and minimum temperatures, 2) Number of days when the diurnal temperature range exceeds 10 °C and 3) Number of days when temperature crosses 0 °C, meaning it is both above and below freezing within the same day.
 
 # How to use
 The plots are fully interactive. Use the drop-down menus to select a period, historical (1995–2014) or mid-century (2041–2060), and a season (winter, summer, or the whole year). You can also view projected future changes, shown as the difference between the mid-century and historical periods.
@@ -67,7 +67,7 @@ html {
 <div id="toc-box">
   <strong>Jump to:</strong>
   <a href="#dtr">DTR</a>  
-  <a href="#dtr10">Days when temperture range > 10C</a>
+  <a href="#dtr10">Days when temperature range > 10C</a>
   <a href="#ZCD">Zero-Crossing-Days</a>
   <a href="#further-info">Further Information</a>
 </div>
@@ -83,7 +83,7 @@ Average difference of daily maximum and minimum temperature.
   <select id="period1">
     <option value="hist">Historical</option>
     <option value="midc">Mid-century</option>    
-    <option value="diff">Change between Hist and Mid</option>
+    <option value="diff">Change between historical and mid-century</option>
   </select>
 
   <label for="season1" style="margin-left: 15px;">Season: </label>
@@ -126,13 +126,13 @@ seasonSelect1.addEventListener('change', updatePlot1);
 
 # Days when temperature range > 10 °C
 {:#dtr10}
-Number of days per season/year when daily temperature range is larger than 10 °C per season/year.
+Number of days per season/year when daily temperature range is larger than 10 °C.
 <div style="margin-bottom: 15px;">
   <label for="period2">Period: </label>
   <select id="period2">
     <option value="hist">Historical</option>
     <option value="midc">Mid-century</option>    
-    <option value="diff">Change between Hist and Mid</option>
+    <option value="diff">Change between historical and mid-century</option>
   </select>
 
   <label for="season2" style="margin-left: 15px;">Season: </label>
@@ -175,13 +175,13 @@ seasonSelect2.addEventListener('change', updatePlot2);
 
 # Zero-Crossing-Days
 {:#ZCD}
-A days when the air temperature crosses 0 °C at least once—either rising from below freezing to above, or falling from above freezing to below.
+A day on which the air temperature crosses 0 °C at least once—either rising from below freezing to above, or falling from above freezing to below.
 <div style="margin-bottom: 15px;">
   <label for="period3">Period: </label>
   <select id="period3">
     <option value="hist">Historical</option>
     <option value="midc">Mid-century</option>    
-    <option value="diff">Change between Hist and Mid</option>
+    <option value="diff">Change between historical and mid-century</option>
   </select>
 
   <label for="season3" style="margin-left: 15px;">Season: </label>
@@ -227,7 +227,7 @@ The annual number of zero-crossing days varies by region. Across most of Europe,
 # Further Information
 {:#further-info} 
 Used scenario: Historical until 2015 - SSP2-4.5 ("moderate" pathway for future greenhouse gas emissions) for midcentury 
-Used Data: NEX-GDDP-CMIP6, Statistically downscaled climate model dataset made by NASA. Based on 30 CMIP6 climate model simulations, https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-gddp-cmip6 
+Used Data: [NEX-GDDP-CMIP6](https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-gddp-cmip6), Statistically downscaled climate model dataset made by NASA. Based on 30 CMIP6 climate model simulations.
 
 Periods:  
 - Historical: 1995–2014  
