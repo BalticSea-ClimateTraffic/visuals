@@ -63,7 +63,7 @@ html {
 ---
 On this page, you can find the average maximum daily wind speed for each month and how it is projected to change in the near future and by the end of the century, based on climate model simulations. 
 
-The figures on this page are based on high-resolution regional climate model simulations from the EURO-CORDEX initiative. These projections follow the RCP 8.5 scenario, which represents a high-emission pathway. Although this scenario is unlikely to occur, it provides a useful indication of how conditions could change in a worst-case scenario.
+The figures on this page are based on high-resolution regional climate model simulations from the EURO-CORDEX initiative. These projections follow the the RCP 8.5 scenario, which is a very high-emissions, low-mitigation pathway used to examine high-end climate risks. It should not be interpreted as the most likely future. Instead, the results on this page should be used as extreme-case estimates.
 
 It should also be noted that, even though the results are based on multiple simulations, they are still affected by individual model biases. Maximum wind speed may not be a reliable indicator of changes in average wind speed or wind gusts, and it does not provide information about wind direction, which may be relevant for some applications.
 
