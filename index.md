@@ -17,7 +17,7 @@ How will climate change impact traffic and transport in the Baltic Sea Region?
 <p style="color:#000000;">
 Whether you operate at road, rail, or sea, this website provides information on changes in climatic conditions through variables that are the most relevant for your operations. <br> <br>
 
-Click a variable in the cards below to explore visual results related to it. In the menu below, each variable is followed by icons of the affected transport modes and a short description.
+Click a variable in the cards below to explore visual results related to it. In the cards below, each variable is followed by icons of the affected transport modes and a short description.
 </p>
 ---
 
@@ -30,7 +30,7 @@ Click a variable in the cards below to explore visual results related to it. In 
     <img src="Home_icons/Road_no_bg.png" width="25" alt="A picture of a road - icon for road transport">
     <img src="Home_icons/Rail_no_bg.png" width="25" alt="A picture of a train - icon for rail transport">
   </div>
-  <p>Accumulated or intense rainfall affects friction, drainage, and potential flooding and rail undermining.</p>
+  <p>Prolonged or intense rainfall affects friction, drainage, and potential flooding and rail undermining.</p>
 </div>
 
 <!-- CARD 2 -->
@@ -50,7 +50,7 @@ Click a variable in the cards below to explore visual results related to it. In 
     <img src="Home_icons/Road_no_bg.png" width="25" alt="A picture of a road - icon for road transport">
     <img src="Home_icons/Rail_no_bg.png" width="25" alt="A picture of a train - icon for rail transport">
   </div>
-  <p>Repeated freezing and thawing degrade pavements and rail ballast. Problems for road construction and maintenance.</p>
+  <p>Repeated freezing and thawing degrade pavements and rail ballast causing problems for road construction and maintenance.</p>
 </div>
 
 <!-- CARD 4 -->
@@ -71,7 +71,7 @@ Click a variable in the cards below to explore visual results related to it. In 
     <img src="Home_icons/Road_no_bg.png" width="25" alt="A picture of a road - icon for road transport">
     <img src="Home_icons/Rail_no_bg.png" width="25" alt="A picture of a train - icon for rail transport">
   </div>
-  <p>Diurnal temperature range and changes around zero Celsius degrees are relevant for road and rail maintenance.</p>
+  <p>Diurnal temperature range and changes around zero degrees Celsius are relevant for road and rail maintenance.</p>
 </div>
 
 <!-- CARD 6 -->
@@ -82,7 +82,7 @@ Click a variable in the cards below to explore visual results related to it. In 
     <img src="Home_icons/Road_no_bg.png" width="25" alt="A picture of a road - icon for road transport">
     <img src="Home_icons/Rail_no_bg.png" width="25" alt="A picture of a train - icon for rail transport">
   </div>
-  <p>Snowfall and snow accumulation affect operations at road, rail, and sea.</p>
+  <p>Snowfall and snow accumulation affect road, rail, and maritime operations.</p>
 </div>
   
 <!-- CARD 7 -->
@@ -91,7 +91,7 @@ Click a variable in the cards below to explore visual results related to it. In 
   <div>
     <img src="Home_icons/Sea_no_bg.png" width="25" alt="A picture of a ship - icon for sea transport">
   </div>
-  <p>Sea-ice extent and thickness affect predictability of resource allocation, navigability and port operations.</p>
+  <p>Sea-ice extent and thickness affect the predictability of resource allocation, navigability and port operations.</p>
 </div>
 
 <p>
