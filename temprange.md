@@ -6,10 +6,10 @@ title: Temperature-variability
 <br>
 Climate change does not influence only average or maximum temperatures, it also alters the entire temperature range. It will change how much temperatures fluctuate over the course of a day and how these fluctuations differ between seasons. As a result, for example the frequency with which daily temperatures cross the freezing point (0 °C) can increase or decrease, creating new patterns in freeze–thaw cycles and surface conditions. Changes in daily and seasonal temperature ranges, especially more frequent crossings of 0 °C, can significantly affect transportation around the Baltic Sea. More freeze–thaw cycles lead to faster road surface wear and a higher risk of black ice. Snow that melts during warmer daytime periods and refreezes at night creates slippery roads, paths, and port areas. Variable temperatures also disrupt rail operations. 
 
-Below are three examples of temperature variation in the historical and mid-century climate:1) Diurnal temperature range, shown as the average difference between daily maximum and minimum temperatures, 2) Number of days when the diurnal temperature range exceeds 10 °C. and 3) Number of days when temperature crosses 0 °C, meaning it is both above and below freezing within the same day.
+Below are three examples of temperature variation in the historical and mid-century climate: 1) Diurnal temperature range, shown as the average difference between daily maximum and minimum temperatures, 2) Number of days when the diurnal temperature range exceeds 10 °C. and 3) Number of days when temperature crosses 0 °C, meaning it is both above and below freezing within the same day.
 
 # How to use
-The plots are fully interactive. Use the drop-down menus to select a period—Historical (1995–2014) or Mid-Century (2041–2060)—and a season (Winter, Summer, or the whole year). You can also view projected future changes, shown as the difference between the Mid-Century and Historical periods.
+The plots are fully interactive. Use the drop-down menus to select a period, historical (1995–2014) or mid-century (2041–2060), and a season (winter, summer, or the whole year). You can also view projected future changes, shown as the difference between the mid-century and historical periods.
 
 You can zoom in by dragging a box over an area or by using the zoom tools in the toolbar. To move around the map, click and drag the plot. You can select specific regions by focusing on the area of interest and adjusting the view. The toolbar also allows you to reset the view to the original extent at any time. If you would like to save the figure, you can download the plot as a PNG image directly using the camera icon. 
 
@@ -82,8 +82,8 @@ Average difference of daily maximum and minimum temperature.
   <label for="period1">Period: </label>
   <select id="period1">
     <option value="hist">Historical</option>
-    <option value="midc">Mid-Century</option>    
-    <option value="diff">Change between Hist and MidC</option>
+    <option value="midc">Mid-century</option>    
+    <option value="diff">Change between Hist and Mid</option>
   </select>
 
   <label for="season1" style="margin-left: 15px;">Season: </label>
@@ -131,8 +131,8 @@ Number of days per season/year when daily temperature range is larger than 10 °
   <label for="period2">Period: </label>
   <select id="period2">
     <option value="hist">Historical</option>
-    <option value="midc">Mid-Century</option>    
-    <option value="diff">Change between Hist and MidC</option>
+    <option value="midc">Mid-century</option>    
+    <option value="diff">Change between Hist and Mid</option>
   </select>
 
   <label for="season2" style="margin-left: 15px;">Season: </label>
@@ -180,8 +180,8 @@ A days when the air temperature crosses 0 °C at least once—either rising from
   <label for="period3">Period: </label>
   <select id="period3">
     <option value="hist">Historical</option>
-    <option value="midc">Mid-Century</option>    
-    <option value="diff">Change between Hist and MidC</option>
+    <option value="midc">Mid-century</option>    
+    <option value="diff">Change between Hist and Mid</option>
   </select>
 
   <label for="season3" style="margin-left: 15px;">Season: </label>
@@ -231,7 +231,7 @@ Used Data: NEX-GDDP-CMIP6, Statistically downscaled climate model dataset made b
 
 Periods:  
 - Historical: 1995–2014  
-- Mid-Century: 2041–2060  
+- Mid-century: 2041–2060  
 
 Seasons:  
 - Winter: December, January, February (DJF)
