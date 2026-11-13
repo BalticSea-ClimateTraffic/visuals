@@ -4,7 +4,7 @@ title: About
 ---
 
 ### The impact of climate change on land and maritime transport in the Baltic Sea Region
-IBA-CRISTAL project is provides tailored climate information for the traffic and transport sector operating in the Baltic sea region. The visual products on this website were co-designed together with stakeholders, based on a stakeholder survey and two stakeholder workshops. 
+The IBA-CRISTAL project is provides tailored climate information for the traffic and transport sector operating in the Baltic Sea region. The visual products on this website were co-designed with stakeholders, based on a stakeholder survey and two stakeholder workshops. 
 <br><br>
 
 ### Contact
@@ -30,27 +30,27 @@ This project has received funding from the Ministry for Foreign Affairs of Finla
 <br>
 
 ### Data Sources
-Results shown here are based on regional climate model simulations and statistically downscaled global climate model data. The future conditions follow standardized future climate change scenarios (Representative Concentration Pathways, RCPs). The analysis of the data products was conducted at the Finnish Meteorological Institute. Each results page harbours more information on the production of correpsonding results.
+Results shown here are based on regional climate model simulations and statistically downscaled global climate model data. The future conditions follow standardized future climate change scenarios (Representative Concentration Pathways, RCPs). The analysis of the data products was conducted at the Finnish Meteorological Institute. Each results page provides further information on the production of corresponding results.
 <br>
 
 ### Datasets
-Used climate model data from CMIP5 and CMIP6 are freely available via the DKRZ (<a href="https://esgf-data.dkrz.de">https://esgf-data.dkrz.de </a>). <br>
+Used climate model data from CMIP5 and CMIP6 are freely available via the <a href="https://esgf-data.dkrz.de"> DKRZ </a>. <br>
 
-The EURO-CORDEX data is available via data portal (<a href="https://euro-cordex.net/060378/index.php.en">https://euro-cordex.net/060378/index.php.en</a>)<br>
+The EURO-CORDEX data are available through the EURO-CORDEX <a href="https://euro-cordex.net/060378/index.php.en"> data portal</a>. <br>
 
-The validation data of ERA5 is also downloadable via the Copernicus Climate Change Service (C3S) Climate Data Store (CDS) (<a href="https://doi.org/10.24381/cds.e2161bac">https://doi.org/10.24381/cds.e2161bac</a>). <br>
+The ERA5 reanalysis data used in the validation of climate models is also downloadable via the Copernicus Climate Change Service (C3S) <a href="https://doi.org/10.24381/cds.e2161bac"> Climate Data Store (CDS) </a>. <br>
 
 ### How to cite
 Information coming soon.
 <br>
 
 ### Accessibility statement
-We are working to ensure that the website meets the Web Content Accessibility Guidelines at Level AA. Current status: partially compliant. The website is currently being developed and improved. Some parts of the website may not yet fully meet accessibility requirements. 
+The website is only partially compliant with the Web Content Accessibility Guidelines at Level AA, thus, some parts of the website may not fully meet accessibility requirements. 
 
 If you experience any difficulties using this website or find content that is not accessible to you, please let us know. 
 Please contact: Tero Mielonen / FMI, tero.mielonen@fmi.fi
 
-Accessibility statement last  updated 14.8.2026
+Accessibility statement last  updated 13 November 2026
 <br>
 
 <div style="position: relative; width: 100%; height: 600px; text-align: center;">
