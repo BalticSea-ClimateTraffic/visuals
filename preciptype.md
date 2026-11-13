@@ -2,14 +2,14 @@
 layout: page 
 title: Precipitation type
 ---
-Here you can explore how different types of precipitation may change across time and seasons. The plot shows the precipitation type, meaning whether precipitation falls as water or snow. These forms depend strongly on temperature and are important for understanding weather conditions, climate impacts, and everyday activities such as driving or walking. Some general observations are presented under "Interpretation" below the plot.<br>
+Here you can explore how different types of precipitation may change across time and seasons. The plot shows the precipitation type, meaning whether precipitation falls as rain or snow. These forms depend strongly on temperature and are important for understanding weather conditions, climate impacts, and everyday activities such as driving or walking. Some general observations are presented under "Interpretation" below the plot.<br>
 <br>
-The model data used here come from the study “Climate change impacts on future driving and walking conditions in Finland, Norway and Sweden” (Reg Environ Change, 2022). The data are based on climate model simulations using the RCP 8.5 scenario, which is a very high-emissions, low-mitigation pathway used to examine high-end climate risks. It should not be interpreted as the most likely future. Instead, the results on this page should be used as extreme-case estimates. <br>
+The model data used here come from the study “Climate change impacts on future driving and walking conditions in Finland, Norway and Sweden” (Reg Environ Change, 2022). The data are based on climate model simulations using the RCP8.5 scenario, which is a very high-emissions, low-mitigation pathway used to examine high-end climate risks. It should not be interpreted as the most likely future. Instead, the results on this page should be used as extreme-case estimates. <br>
 <br>
 
 # How to use
 The plot is fully interactive. First, use the drop-down menus to choose a period, a season, and a precipitation phase. 
-You can explore three time periods historical (1986–2005), recent (1999–2018), and mid-century (2041–2060), in four meteorological seasons <br>
+You can explore three time periods: historical (1986–2005), recent (1999–2018), and mid-century (2041–2060), in four meteorological seasons <br>
 - Winter (DJF): December–February<br>
 - Spring (MAM): March–May<br>
 - Summer (JJA): June–August<br>
@@ -100,20 +100,20 @@ Choose:
   citiesSelect1.addEventListener('change', updatePlot1);
 </script>
 # Interpretation
-Snowfall is projected to decrease across all regions, with the strongest reductions in the south and along coastal areas, and across all seasons, with strongest changes expected in autumns.<br>
+Snowfall is projected to decrease across all regions, with the strongest reductions in the south and along coastal areas, and across all seasons, with the largest changes expected in autumn.<br>
 
 <b>West and South of the Baltic Sea (including southern Sweden)</b><br>
-In winter, historical conditions show that around 70% of precipitation fell as snow in Poland, while most other regions experienced 50–60% snowfall. By mid-century, snowfall could decrease noticeably, with Poland dropping to about 50–60% and most other areas to 30–40%. In spring, snowfall historically accounted for around 25% of precipitation (35% in southern Sweden). By mid-century, this could decline to around 15%, or about 25% in southern Sweden. In autumn, snowfall historically occurred 15–20% of the time (25% in southern Sweden), but by mid-century this could fall to around 10%, or about 15% in southern Sweden.<br> <br>
+In winter, historical conditions show that around 70 % of precipitation fell as snow in Poland, while most other regions experienced 50–60% snowfall. By mid-century, snowfall could decrease noticeably, with Poland dropping to about 50–60 % and most other areas to 30–40 %. In spring, snowfall historically accounted for around 25 % of precipitation (35 % in southern Sweden). By mid-century, this could decline to around 15 %, or about 25 % in southern Sweden. In autumn, snowfall historically occurred 15–20 % of the time (25 % in southern Sweden), but by mid-century this could fall to around 10 %, or about 15 % in southern Sweden.<br> <br>
 
 <b>East of the Baltic Sea</b><br>
-In winter, snowfall historically dominated, with around 85% of inland precipitation and about 70% near the Baltic coast. By mid-century, snowfall could decrease to around 65–70% inland and about 55% near the coast, with archipelago regions dropping to around 40%. In spring, historical snowfall accounted for about 35% of precipitation, with slightly higher values in Estonia, decreasing to around 25% by mid-century. In autumn, snowfall historically occurred 25–30% of the time, falling to around 20% by mid-century.<br> <br>
+In winter, snowfall historically dominated, with around 85 % of inland precipitation and about 70 % near the Baltic coast. By mid-century, snowfall could decrease to around 65–70 % inland and about 55 % near the coast, with archipelago regions dropping to around 40 %. In spring, historical snowfall accounted for about 35 % of precipitation, with slightly higher values in Estonia, decreasing to around 25 % by mid-century. In autumn, snowfall historically occurred 25–30 % of the time, falling to around 20 % by mid-century.<br> <br>
 
 <b>North of the Baltic Sea</b><br>
-In winter, precipitation historically fell as snow almost 100% of the time, except in archipelago regions where snowfall occurred around 70% of the time. By mid-century, snowfall is expected to remain above 90% across much of central and northern Sweden, but decreases markedly in Finland, with central Finland around 85%, southern Finland around 75%, and archipelago regions partly below 50%. In spring, historical snowfall reached around 80% occurrence in Lapland, about 60% in central Sweden and Finland, and around 50% in southern Finland. By mid-century, these values could drop to 60–70% in Lapland, around 50% in central Finland, and 30–35% in southern Finland, as well as to about 60% in central Sweden. In autumn, snowfall historically accounted for around 70% in Lapland, 55–60% in central Sweden and Finland, and about 35% in southern Finland. By mid-century, this could decline to around 50% in Lapland, 30% in central Finland, about 20% in southern Finland, and to 45% in central Sweden.<br> <br>
+In winter, precipitation historically fell as snow almost 100 % of the time, except in archipelago regions where snowfall occurred around 70 % of the time. By mid-century, snowfall is expected to remain above 90 % across much of central and northern Sweden, but decreases markedly in Finland, with central Finland around 85 %, southern Finland around 75 %, and archipelago regions partly below 50 %. In spring, historical snowfall reached around 80 % occurrence in Lapland, about 60 % in central Sweden and Finland, and around 50 % in southern Finland. By mid-century, these values could drop to 60–70 % in Lapland, around 50 % in central Finland, and 30–35 % in southern Finland, as well as to about 60 % in central Sweden. In autumn, snowfall historically accounted for around 70 % in Lapland, 55–60 % in central Sweden and Finland, and about 35 % in southern Finland. By mid-century, this could decline to around 50 % in Lapland, 30 % in central Finland, about 20 % in southern Finland, and to 45 % in central Sweden.<br> <br>
 
-<b>Important note:</b> These results represent average conditions over long time periods in the worst-case climate change scenario RCP 8.5, and do not capture short-lived extreme events, such as warm spells, cold spells, or extreme precipitation events, which may still occur and can strongly affect local conditions.<br>
+<b>Important note:</b> These results represent average conditions over long time periods in the worst-case climate change scenario RCP8.5, and do not capture short-lived extreme events, such as warm spells, cold spells, or extreme precipitation events, which may still occur and can strongly affect local conditions.<br>
 
 <br><br>
 ---
 Page Author: Nadine-Cyra Freistetter<br>
-Sources: [model runs for paper](https://doi.org/10.1007/s10113-022-01920-4)
+Source: [simulations for Freistetter et al. (2022), Climate change impacts on future driving and walking conditions in Finland, Norway and Sweden. Reg Environ Change 22, 58.](https://doi.org/10.1007/s10113-022-01920-4)
