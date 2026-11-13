@@ -176,7 +176,7 @@ Winter road surface temperatures have historically been well below freezing, and
 # Zero-degree crossings
 {:#freeze-thaw-cycles}
 
-These figures illustrate how often road surface temperatures cross the freezing point, causing water on the road to freeze or thaw. It shows the maximum number of zero-degree crossings for the selected period. Frequent freeze–thaw cycles can increase road wear, damage surfaces, and raise maintenance needs.
+These figures illustrate how often road surface temperatures cross the freezing point, causing water on the road to freeze or thaw. They show the maximum number of zero-degree crossings for the selected period. Frequent freeze–thaw cycles can increase road wear, damage surfaces, and raise maintenance needs.
 <br><br>
 Choose:
 <div style="margin-bottom: 15px;">
