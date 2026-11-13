@@ -63,7 +63,7 @@ html {
 ---
 On this page, you can find the average maximum daily wind speed for each month and how it is projected to change in the near future and by the end of the century, based on climate model simulations. 
 
-The figures on this page are based on high-resolution regional climate model simulations from the EURO-CORDEX initiative. These projections follow the the RCP 8.5 scenario, which is a very high-emissions, low-mitigation pathway used to examine high-end climate risks. It should not be interpreted as the most likely future. Instead, the results on this page should be used as extreme-case estimates.
+The figures on this page are based on high-resolution regional climate model simulations from the EURO-CORDEX initiative. These projections follow the the RCP8.5 scenario, which is a very high-emissions, low-mitigation pathway used to examine high-end climate risks. It should not be interpreted as the most likely future. Instead, the results on this page should be used as extreme-case estimates.
 
 It should also be noted that, even though the results are based on multiple simulations, they are still affected by individual model biases. Maximum wind speed may not be a reliable indicator of changes in average wind speed or wind gusts, and it does not provide information about wind direction, which may be relevant for some applications.
 
@@ -80,7 +80,7 @@ You can zoom in by dragging a box over an area or by using the zoom tools in the
   <select id="period1">
     <option value="2005-2024">2005–2024</option>
     <option value="2041-2060_minus_2005-2024_">Change at mid-century</option>
-    <option value="2081-2100_minus_2005-2024_">Change at end of century</option>
+    <option value="2081-2100_minus_2005-2024_">Change at end the of century</option>
   </select>
 
   <label for="month1" style="margin-left: 15px;">Month: </label>
@@ -139,14 +139,14 @@ Based on these climate model simulations, no major changes in maximum daily wind
 
 # Further Information
 {:#further-info}
-Used scenario: RCP 8.5 (Representative Concentration Pathway 8.5) is a high greenhouse-gas emissions scenario used in climate research to explore a worst-case future. It assumes continued growth in emissions throughout the 21st century, driven by high population growth, heavy reliance on fossil fuels, limited climate policies, and slow technological change. Under this pathway, radiative forcing reaches 8.5 W/m² by 2100, leading to strong global warming, more frequent and intense extreme weather events, rising sea levels, and significant impacts on natural and human systems. Although RCP 8.5 is now considered unlikely, it remains useful for understanding upper-bound climate risks and the potential consequences of very high emissions.
+Used scenario: RCP8.5 (Representative Concentration Pathway 8.5) is a high greenhouse-gas emissions scenario used in climate research to explore a worst-case future. It assumes continued growth in emissions throughout the 21st century, driven by high population growth, heavy reliance on fossil fuels, limited climate policies, and slow technological change. Under this pathway, radiative forcing reaches 8.5 W/m² by 2100, leading to strong global warming, more frequent and intense extreme weather events, rising sea levels, and significant impacts on natural and human systems. Although RCP8.5 is now considered unlikely, it remains useful for understanding upper-bound climate risks and the potential consequences of very high emissions.
 
 Used Data: EURO-CORDEX (European branch of the Coordinated Regional Climate Downscaling Experiment). It is a major international climate research initiative that provides high-resolution climate projections for Europe. Here we have used 12km resolution data based on two regional climate models, with several GCM boundary conditions.
 
 Periods:  
 - Historical: 2005–2024  
 - Mid-century: 2041–2060
-- End-century: 2081–2100   
+- End of the century: 2081–2100   
 
 <br><br><br>
 Page author: Anton Laakso
