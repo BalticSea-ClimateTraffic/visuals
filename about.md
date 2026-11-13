@@ -38,6 +38,8 @@ Used climate model data from CMIP5 and CMIP6 are freely available via the <a hre
 
 The EURO-CORDEX data are available through the EURO-CORDEX <a href="https://euro-cordex.net/060378/index.php.en"> data portal</a>. <br>
 
+The NorCP HCLIM 3km EC-Earth RCP8.5 data are available through <a href="https://doi.org/10.11582/2025.v5h1qkwp"> Norwegian Meteorological Institute </a>
+
 The ERA5 reanalysis data used in the validation of climate models is also downloadable via the Copernicus Climate Change Service (C3S) <a href="https://doi.org/10.24381/cds.e2161bac"> Climate Data Store (CDS) </a>. <br>
 
 ### How to cite
