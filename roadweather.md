@@ -57,13 +57,13 @@ html {
 <div id="toc-box">
   <strong>Jump to:</strong>
   <a href="#road-temperature">Road Surface Temperature</a>  
-  <a href="#freeze-thaw-cycles">Freeze-Thaw Cycles on Road</a>
+  <a href="#freeze-thaw-cycles">Zero-Degree Crossings on Road</a>
   <a href="#road-cover">Road Condition</a>
 </div>
 
-Here you can explore how road conditions and temperatures may change across time and regions. The figures show road surface temperature, freeze–thaw cycles, and road surface condition, all of which are closely linked to safety and mobility. Road surface temperature affects ice formation and snow melt, zero-degree crossings indicate how often surfaces repeatedly freeze and thaw, and road surface condition describes whether roads are dry, wet, icy, or covered in snow or slush. These indicators help us understand how climate change may impact driving and walking conditions in different areas throughout the year. Some general observations are presented under the “Interpretation” sections below the figures.
+Here you can explore how road conditions and temperatures may change across time and regions. The figures show road surface temperature, freeze–thaw cycles, and road surface condition, all of which are closely linked to safety and mobility. Road surface temperature affects ice formation and snowmelt, zero-degree crossings indicate how often surfaces repeatedly freeze and thaw, and road surface condition describes whether roads are dry, wet, icy, or covered in snow or slush. These indicators help us understand how climate change may impact driving and walking conditions in different areas throughout the year. Some general observations are presented under the “Interpretation” sections below the figures.
 
-The model data used here come from the study “Climate change impacts on future driving and walking conditions in Finland, Norway and Sweden” (Reg Environ Change, 2022). The data are based on climate model simulations using the RCP8.5 scenario, which is a very high-emissions, low-mitigation pathway used to examine high-end climate risks. It should not be interpreted as the most likely future. Instead, the results on this page should be used as extreme-case estimates. 
+The model data used here come from the study “Climate change impacts on future driving and walking conditions in Finland, Norway and Sweden” (Reg Environ Change, 2022). The data are based on climate model simulations using the RCP8.5 scenario, which is a very high-emissions, low-mitigation pathway used to examine high-end climate risks. It should not be interpreted as the most likely future. Instead, the results on this page should be used as extreme-case estimates. Furthermore, the road surface condition estimates are based on the assumption that no road maintenance is done. 
 
 
 ## How to use
@@ -155,19 +155,19 @@ seasonSelect1.addEventListener('change', updatePlot1);
 citiesSelect1.addEventListener('change', updatePlot1);
 </script>
 # Interpretation 
-Road surface temperatures are projected to rise across Europe, with winters becoming milder in the south and west, spring and autumn temperatures generally staying above freezing, and summer heat spreading farther north, while the far north will still experience freezing conditions in winter.<br>
+Road surface temperatures are projected to rise across Northen Europe, with winters becoming milder in the south and west, spring and autumn temperatures generally staying above freezing, and summer heat spreading farther north, while the far north will still experience freezing conditions in winter.<br>
 
 <b>West and South of the Baltic Sea (including southern Sweden)</b><br>
-In the past, winter road surface temperatures were usually close to zero, with maximum values often rising above freezing. By mid-century (2041–2060), these regions are expected to experience mostly positive road surface temperatures during winter. In spring and autumn, roads have historically been above freezing on average, and this pattern is expected to continue, with nighttime temperatures rarely dropping below zero. In summer, average maximum road surface temperatures were historically near or above 30°C only in southern Germany and Poland, but by mid-century, such road temperatures are likely to be observed in the entire region.<br>
+In the past, winter road surface temperatures were usually close to 0 °C, with maximum values often rising above freezing. By mid-century (2041–2060), these regions are expected to experience mostly positive road surface temperatures during winter. In spring and autumn, roads have historically been above freezing on average, and this pattern is expected to continue, with nighttime temperatures rarely dropping below 0 °C. In summer, average maximum road surface temperatures were historically near or above 30 °C only in southern Germany and Poland, but by mid-century, such road temperatures are likely to be observed in the entire region.<br>
 
 
 <b>East of the Baltic Sea</b><br>
-Historically, winter road surface temperatures were on average well below freezing. By mid-century, average temperatures will still be below freezing, though maximum values may come close to or exceed zero, indicating that freeze–thaw cycles might increase (see <a href="#freeze-thaw-cycles">Freeze-Thaw Cycles</a> below). In spring and autumn, roads were mostly above freezing, and by mid-century they are expected to remain above or near freezing. Summer temperatures are projected to increase, following the same general pattern as in western regions with average maximum road temperatures around 30°C.<br>
+Historically, winter road surface temperatures were on average well below freezing. By mid-century, average temperatures will still be below freezing, though maximum values may come close to or exceed 0 °C, indicating that freeze–thaw cycles might increase (see <a href="#freeze-thaw-cycles">Zero-Degree Crossings</a> below). In spring and autumn, roads were mostly above freezing, and by mid-century they are expected to remain above or near freezing. Summer temperatures are projected to increase, following the same general pattern as in western regions with average maximum road temperatures around 30°C.<br>
 
 <b>North of the Baltic Sea</b><br>
-Winter road surface temperatures have historically been well below freezing, and even by mid-century, average winter temperatures are expected to remain below zero. Maximum temperatures, however, are likely to rise closer to zero, suggesting more frequent freeze–thaw cycles. In spring, even far-northern and glaciated regions are projected to reach positive or near-zero road surface temperatures by mid-century. Autumn shows a similar pattern, with generally positive averages but minimum temperatures dropping a few degrees below zero. Summer temperatures remain lower than the rest of Europe, with northern Fennoscandia being the main exceptions to the overall warming trend.<br>
+Winter road surface temperatures have historically been well below freezing, and even by mid-century, average winter temperatures are expected to remain below 0 °C. Maximum temperatures, however, are likely to rise closer to 0 °C, suggesting more frequent freeze–thaw cycles. In spring, even far-northern and glaciated regions are projected to reach positive or near-zero road surface temperatures by mid-century. Autumn shows a similar pattern, with generally positive averages but minimum temperatures dropping a few degrees below 0 °C. Summer temperatures remain lower than the rest of Europe, with northern Fennoscandia being the main exceptions to the overall warming trend.<br>
 <br>
-<b>Attention</b>: The <b>average</b> maximum road surface temperture (average over the entire 2041-2060 period) does not portray individual heat waves in which road surface temperatures can be much higher than 30°C.
+<b>Attention</b>: The <b>average</b> maximum road surface temperature (average over the entire 2041-2060 period) does not portray individual heat waves in which road surface temperatures can be much higher than 30°C.
 
 <br><br><br>
 
@@ -176,7 +176,7 @@ Winter road surface temperatures have historically been well below freezing, and
 # Zero-degree crossings
 {:#freeze-thaw-cycles}
 
-These figures illustrate how often road surface temperatures cross the freezing point, causing water on the road to freeze or thaw. They show the maximum number of zero-degree crossings for the selected period. Frequent freeze–thaw cycles can increase road wear, damage surfaces, and raise maintenance needs.
+These figures illustrate how often road surface temperatures cross the freezing point, causing water on the road to freeze or thaw. They show the maximum number of zero-degree crossings for the selected period. By hovering your mouse across the map, you can see the mean and the range of zero-degree crossings per day for each grid point. Frequent freeze–thaw cycles can increase road wear, damage surfaces, and raise maintenance needs.
 <br><br>
 Choose:
 <div style="margin-bottom: 15px;">
@@ -247,7 +247,7 @@ citiesSelect2.addEventListener('change', updatePlot2);
 <br><br>
 
 # Interpretation
-Across Europe, zero-degree crossings (ZDCs) are expected to become slightly less frequent in the south and west of the Baltic Sea, while in northern regions they may increase slightly, especially during winter and autumn, indicating potential changes in freeze–thaw cycles.
+Across Northern Europe, zero-degree crossings (ZDCs) are expected to become slightly less frequent in the south and west of the Baltic Sea, while in northern regions they may increase slightly, especially during winter and autumn, indicating potential changes in freeze–thaw cycles.
 
 <b>East, West, and South of the Baltic Sea (including southern Sweden)</b><br>
 In autumn, historically, the regionally averaged maximum number of ZDCs per day was around 13, occasionally reaching 20, but the daily mean was stable at 1, meaning such high numbers were rare. By mid-century, the mean ZDCs per day will sometimes be 0 and sometimes 1, with the average maximum dropping to around 10 per day.<br>
@@ -352,20 +352,20 @@ typeSelect3.addEventListener('change', updatePlot3);
 citiesSelect3.addEventListener('change', updatePlot3);
 </script>
 # Interpretation 
-Snowy and icy road conditions are expected to decrease for many regions around the Baltic Sea as climate change progresses. Overall, winter road conditions are expected to become much milder in the south and west of the Baltic Sea, and slightly milder east the baltic sea, while northern European roads will remain largely icy and snowy, though partly icy conditions could become more common.<br>
+Snowy and icy road conditions are expected to decrease for many regions around the Baltic Sea as climate change progresses. Overall, winter road conditions are expected to become much milder in the south and west of the Baltic Sea, and slightly milder east the Baltic Sea, while northern European roads will remain largely icy and snowy, though partly icy conditions could become more common.<br>
 
 <b>West and South of the Baltic Sea (including southern Sweden)</b><br>
-In historical winters, the west and south of the Baltic Sea, including southern Sweden, experienced mostly dry roads, with dry conditions around 60% of the time, while snow or ice covered the roads for more than 30% of the time. By mid-century (2041–2060), dry roads in this region are expected to become even more common, occurring close to 70% of the time, while snow and ice will be present less than 20% of the time.<br>
+In historical winters, the west and south of the Baltic Sea, including southern Sweden, experienced mostly dry roads, with dry conditions around 60 % of the time, while snow or ice covered the roads for more than 30 % of the time. By mid-century (2041–2060), dry roads in this region are expected to become even more common, occurring close to 70% of the time, while snow and ice will be present less than 20 % of the time.<br>
 
 <b>East of the Baltic Sea</b><br>
-In the east of the Baltic Sea, winters were historically harsher. Roads were dry only 30–40% of the time, and snow and ice covered them for more than half of the season. By mid-century, conditions become slightly milder, with dry roads expected over 50% of the time, though snow and ice will still cover around 40% of the roads.<br>
+In the east of the Baltic Sea, winters were historically harsher. Roads were dry only 30–40 % of the time, and snow and ice covered them for more than half of the season. By mid-century, conditions become slightly milder, with dry roads expected over 50 % of the time, though snow and ice will still cover the roads for about 40 % of the time.<br>
 
 <b>North of the Baltic Sea</b><br>
-In the north, including northern Fennoscandia, snowy and icy conditions have long dominated, with roads covered over 70% of the time. Looking ahead to mid-century, dry roads remain relatively rare, occurring only 20–30% of the time. Partly icy conditions become more frequent, but overall snow and ice will still cover roughly 70% of the roads.<br>
+In the north, including northern Fennoscandia, snowy and icy conditions have long dominated, with roads covered over 70 % of the time. Looking ahead to mid-century, dry roads remain relatively rare, occurring only 20–30 % of the time. Partly icy conditions become more frequent, but overall snow and ice will still cover roughly 70 % of the roads.<br>
 
 <br>
-Page author: <a href="https://en.ilmatieteenlaitos.fi/cv-nadine-cyra-freistetter"> Nadine-Cyra Freistetter </a><br>
-Sources: [model runs for paper](https://doi.org/10.1007/s10113-022-01920-4)
+Page author: Nadine-Cyra Freistetter <br>
+Source: [simulations for Freistetter et al. (2002), Climate change impacts on future driving and walking conditions in Finland, Norway and Sweden. Reg Environ Change 22, 58.](https://doi.org/10.1007/s10113-022-01920-4)
 
 
 
