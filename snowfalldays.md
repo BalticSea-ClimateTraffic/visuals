@@ -134,8 +134,8 @@ seasonSelect1.addEventListener('change', updatePlot1);
   <label for="period2">Period: </label>
   <select id="period2">
     <option value="hist">Historical</option>
-    <option value="midc">Mid-Century</option>
-    <option value="diff">Change between Hist and MidC</option>
+    <option value="midc">Mid-century</option>
+    <option value="diff">Change between Hist and Mid</option>
   </select>
 
   <label for="season2" style="margin-left: 15px;">Season: </label>
@@ -188,7 +188,7 @@ Used Data: NEX-GDDP-CMIP6, Statistically downscaled climate model dataset made b
 
 Periods:  
 - Historical: 1995–2014  
-- Mid-Century: 2041–2060  
+- Mid-century: 2041–2060  
 
 Seasons:  
 - Winter: December, January, February (DJF)
