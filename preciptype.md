@@ -9,7 +9,7 @@ The model data used here come from the study “Climate change impacts on future
 
 # How to use
 The plot is fully interactive. First, use the drop-down menus to choose a period, a season, and a precipitation phase. 
-You can explore three time periods Historical (1986–2005), Recent (1999–2018), and Mid-Century (2041–2060), in four meteorological seasons <br>
+You can explore three time periods historical (1986–2005), recent (1999–2018), and mid-century (2041–2060), in four meteorological seasons <br>
 - Winter (DJF): December–February<br>
 - Spring (MAM): March–May<br>
 - Summer (JJA): June–August<br>
@@ -28,7 +28,7 @@ Choose:
   <select id="period1">
     <option value="hist">Historical (1986–2005)</option><br>
     <option value="rect">Recent (1999–2018)</option><br>
-    <option value="midc">Mid-Century (2041–2060)</option>
+    <option value="midc">Mid-century (2041–2060)</option>
   </select>
 
   <label for="season1" style="margin-left: 15px;">Season: </label>
