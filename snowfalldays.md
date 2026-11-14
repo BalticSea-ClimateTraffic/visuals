@@ -64,7 +64,7 @@ html {
   <a href="#further-info">Further Information</a>
 </div>
 
-Future snowfall patterns will be shaped by two opposing climate influences. On one hand, rising temperatures reduce the number of days that fall below freezing, meaning fewer opportunities for snow to form. On the other hand, a warmer atmosphere can hold more moisture, increasing the potential for heavier snowfall during the periods that do remain cold enough. As a result, many regions may see fewer snowy days overall, but more intense snowfall (> 10 mm/day) events when conditions are suitable. On this page, you can explore how the number of days with snowfall and heavy snowfall will change in the future. The results are based on several climate models. The number of days with snowfall is determined based on the average daily temperature and precipitation.
+Future snowfall patterns will be shaped by two opposing climate influences. On one hand, rising temperatures reduce the number of days that fall below freezing, meaning fewer opportunities for snow to form. On the other hand, a warmer atmosphere can hold more moisture, increasing the potential for heavier snowfall during the periods that do remain cold enough. As a result, many regions may see fewer snowy days overall, but more intense snowfall events when conditions are suitable. On this page, you can explore how the number of days with snowfall and heavy snowfall (> 10 mm/day) will change in the future. The results are based on several climate models. The number of days with snowfall is determined based on the average daily temperature and precipitation.
 
 # How to use
 
