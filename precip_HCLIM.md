@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Extreme rainfall
+title: Extreme precipitation
 ---
 
-Here you can explore how intense and heavy precipitation may change across seasons and future periods. The plots show different indicators of extreme rainfall, meaning situations when a large amount of rain or snow falls within a short time. Such events are important because they can affect drainage systems, increase the risk of flooding, and weaken railway foundations and other infrastructure. Some guidance on how to interpret the results is provided below the plots.
+Here you can explore how intense and heavy precipitation may change across seasons and future periods. The plots show different indicators of extreme precipitation, meaning situations when a large amount of rain or snow falls within a short time. Such events are important because they can affect drainage systems, increase the risk of flooding, and weaken railway foundations and other infrastructure. Some guidance on how to interpret the results is provided below the plots.
 
-The model data are based on high-resolution regional climate simulations using the HARMONIE-Climate model, developed through Nordic collaboration. The projections follow the RCP 4.5 emissions scenario, which represents a future with moderate climate mitigation where greenhouse gas emissions peak around mid-century and then gradually decline. Therefore, the results on this page describe plausible mid-range climate change impacts rather than worst-case outcomes.
+The model data are based on high-resolution regional climate simulations using the HARMONIE-Climate model, developed through Nordic collaboration. The projections follow the RCP4.5 emissions scenario, which represents a future with moderate climate mitigation where greenhouse gas emissions peak around mid-century and then gradually decline. Therefore, the results on this page describe plausible mid-range climate change impacts rather than worst-case outcomes.
 
 # How to use
-The plots are interactive. First, choose a precipitation index from the drop-down menu. Each index describes a different aspect of heavy rainfall. Then select a season and a plot style.
+The plots are interactive. First, choose a precipitation index from the drop-down menu. Each index describes a different aspect of heavy precipitation. Then select a season and a plot style.
 
 You can explore two seasons:
 - Summer (June–August)
@@ -16,7 +16,7 @@ You can explore two seasons:
 
 For map plots, you can also select a future period:
 - Mid-century (2041–2060)
-- Late-century (2081–2100)
+- End of the century (2081–2100)
 
 You can optionally display a difference map that shows the ratio between future and historical conditions. This helps to identify where the largest relative changes are projected.
 
@@ -53,7 +53,7 @@ Choose:
       <label for="periodDropdown">Future period: </label>
       <select id="periodDropdown">
         <option value="midcentury" selected>Mid-century (2041–2060)</option>
-        <option value="latecentury">Late-century (2081–2100)</option>
+        <option value="latecentury">End of the century (2081–2100)</option>
       </select>
     </span>
   </div>
@@ -304,9 +304,9 @@ The indices describe different characteristics of heavy rainfall events:
 - Days with heavy precipitation: the number of days in a season when precipitation reaches at least 20 mm  
 - Mean precipitation on wet days: the average precipitation amount on days with measurable precipitation (at least 1 mm)
 
-In general, increasing values in these indices indicate a higher likelihood of intense rainfall events, which may increase the risk of flooding, erosion, and infrastructure damage.
+In general, increasing values in these indices indicate a higher likelihood of intense precipitation events, which may increase the risk of flooding, erosion, and infrastructure damage.
 
-When comparing historical and future maps, areas with strong increases suggest that extreme rainfall events could become more frequent or more intense. For example, an increase in the maximum daily precipitation implies that the heaviest storms may produce larger rainfall totals, even if the total seasonal precipitation does not change substantially. Similarly, more days exceeding 20 mm of precipitation indicate a greater number of heavy rainfall events that may challenge drainage capacity.
+When comparing historical and future maps, areas with strong increases suggest that extreme precipitation events could become more frequent or more intense. For example, an increase in the maximum daily precipitation implies that the heaviest storms may produce larger precipitation totals, even if the total seasonal precipitation does not change substantially. Similarly, more days exceeding 20 mm of precipitation indicate a greater number of heavy precipitation days that may challenge drainage capacity.
 
 Boxplots summarise how the indices vary across regions within each country. A wider box or longer whiskers indicate larger spatial variability, meaning that some locations experience much stronger extremes than others. A shift of the entire box upward from historical to future periods suggests a consistent intensification of extreme precipitation across most regions.
 
@@ -316,7 +316,7 @@ It is important to note that these results describe long-term average conditions
 The results are shown for three main time periods:
 - Historical reference period: 1986–2005  
 - Mid-century period: 2041–2060  
-- Late-century period: 2081–2100  
+- End of the century period: 2081–2100  
 
 All projections are based on regional climate model simulations driven by the RCP4.5 emissions pathway. The maps show spatial patterns of the indices, while boxplots illustrate their distribution within each country.
 
