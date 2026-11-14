@@ -220,7 +220,7 @@ seasonSelect3.addEventListener('change', updatePlot3);
 <br><br>
 
 # Interpretation
-The extent to which daily temperature fluctuations change in a warmer climate depends on the season. Average daily temperature fluctuations decrease in most parts of the Baltic Sea region during the winter, whereas temperature fluctuations become greater during the summer. This is particularly evident on days when the temperature varies by more than 10 degrees. In winter, there will be significantly fewer such days, whereas in summer, there will be more of them almost everywhere around the Baltic Sea.
+The extent to which daily temperature fluctuations change in a warmer climate depends on the season. Average daily temperature fluctuations will decrease in most parts of the Baltic Sea region during the winter, whereas temperature fluctuations will become greater during the summer. This is particularly evident on days when the temperature varies by more than 10 degrees. In winter, there will be significantly fewer such days, whereas in summer, there will be more of them almost everywhere around the Baltic Sea.
 
 The annual number of zero-crossing days varies by region. Across most of Northern Europe, this number will decline; however, in the northernmost parts of the Nordic countries, it will increase. When focusing specifically on winter, the Baltic Sea creates a clear divide: in the north, the number of zero-crossing days will rise, whereas on the southern side, it will decrease.
 
